@@ -1,0 +1,50 @@
+---
+layout: page
+title: Documents List
+---
+<div class="container">
+
+  <div class="page-container">
+
+    <h2>Documents List</h2>
+
+    {% for doc in site.data.documents %}
+
+      {% if doc.hide != true %}
+  
+        <div>
+
+
+          <a href="{{ doc.source }}">
+            <i class="fa fa-file-pdf-o"></i>
+          </a>
+          <strong>{{ doc.collection }}</strong>
+          {{ doc.alt_names | array_to_sentence_string }}
+
+          <p>{{ doc.important }}</p> 
+          <p>{{ doc.description }}</p>
+ 
+ 
+          {% if doc.files.size > 0 %}
+            <ul>
+            {% for file in doc.files %}
+              <li>
+                <a href="{{ file.source }}">
+                  <i class="fa fa-file-pdf-o"></i>
+                </a>              
+                {{ file.doc_name }}
+              </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+
+        </div>
+
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+  
+</div>
+

@@ -1,0 +1,3148 @@
+[{
+		"id": "001",
+		"collection": "BCCI Hearings, Terrorism, Narcotics, International Operations Committee",
+		"alt_names": [],
+		"date": "1992",
+		"important": "",
+		"description": "",
+		"source": "https://example.org/details/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations",
+		"files": [{
+				"id": "001",
+				"doc_name": "Part 1",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Hearings%20before%20the%20Terrorism%2C%20Narcotics%2C%20and%20International%20Operations%20of%20the%20Committee%20on%20Foreign%20Relations%20Volume%201"
+			},
+			{
+				"id": "002",
+				"doc_name": "Part 2",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Hearings%20before%20the%20Terrorism%2C%20Narcotics%2C%20and%20International%20Operations%20of%20the%20Committee%20on%20Foreign%20Relations%20Volume%202"
+			},
+			{
+				"id": "003",
+				"doc_name": "Part 3",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Hearings%20before%20the%20Terrorism%2C%20Narcotics%2C%20and%20International%20Operations%20of%20the%20Committee%20on%20Foreign%20Relations%20Volume%203"
+			},
+			{
+				"id": "004",
+				"doc_name": "Part 4",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Hearings%20before%20the%20Terrorism%2C%20Narcotics%2C%20and%20International%20Operations%20of%20the%20Committee%20on%20Foreign%20Relations%20Volume%204"
+			},
+			{
+				"id": "005",
+				"doc_name": "Part 5",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Hearings%20before%20the%20Terrorism%2C%20Narcotics%2C%20and%20International%20Operations%20of%20the%20Committee%20on%20Foreign%20Relations%20Volume%205"
+			},
+			{
+				"id": "006",
+				"doc_name": "Part 6",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Hearings%20before%20the%20Terrorism%2C%20Narcotics%2C%20and%20International%20Operations%20of%20the%20Committee%20on%20Foreign%20Relations%20Volume%206"
+			},
+			{
+				"id": "007",
+				"doc_name": "Final Report",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Affair%20Report"
+			}
+		]
+	},
+	{
+		"id": "002",
+		"collection": "BCCI Hearings before the Committee on Banking, Finance, and Urban Affairs, US House of Representatives",
+		"alt_names": [],
+		"date": "1991",
+		"description": "",
+		"important": "",
+		"source": "https://example.org/details/BCCIHearingsBeforeTheCommitteeOnBankingFinanceAndUrbanAffairs",
+		"files": [{
+				"id": "001",
+				"doc_name": "Volume 1",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheCommitteeOnBankingFinanceAndUrbanAffairs/BCCI%20Hearings%20before%20the%20Committee%20on%20Banking%2C%20Finance%2C%20and%20Urban%20Affairs%20Volume%201"
+			},
+			{
+				"id": "002",
+				"doc_name": "Volume 2",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheCommitteeOnBankingFinanceAndUrbanAffairs/BCCI%20Hearings%20before%20the%20Committee%20on%20Banking%2C%20Finance%2C%20and%20Urban%20Affairs%20Volume%202"
+			},
+			{
+				"id": "003",
+				"doc_name": "Volume 3",
+				"source": "https://example.org/stream/BCCIHearingsBeforeTheCommitteeOnBankingFinanceAndUrbanAffairs/BCCI%20Hearings%20before%20the%20Committee%20on%20Banking%2C%20Finance%2C%20and%20Urban%20Affairs%20Volume%203"
+			}
+		]
+	},
+	{
+		"id": "003",
+		"collection": "Drugs, Law Enforcement and Foreign Policy: Subcommittee on Terrorism, Narcotics, International Operations Committee",
+		"alt_names": [
+			"Kerry Committee"
+		],
+		"date": "1988-04",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Hearings Part 1",
+				"source": "https://example.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%201"
+			},
+			{
+				"id": "002",
+				"doc_name": "Hearings Part 2: Panama",
+				"source": "https://example.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%202%20-%20Panama"
+			},
+			{
+				"id": "003",
+				"doc_name": "Hearings Part 3: The Cartel, Haiti, and Central America",
+				"source": "https://example.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%203%20-%20Cartel%2C%20Haiti%20and%20Central%20America"
+			},
+			{
+				"id": "004",
+				"doc_name": "Hearings Part 4: The Cartel, Haiti, and Central America",
+				"source": "https://example.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%204%20-%20Cartel%2C%20Haiti%20and%20Central%20America"
+			}
+		]
+	},
+	{
+		"id": "004",
+		"collection": "Iran-Contra and Drug Trafficking, National Security Archive Documents",
+		"alt_names": [],
+		"date": "1985",
+		"description": "",
+		"important": "",
+		"files": []
+	},
+	{
+		"id": "005",
+		"collection": "Iran-Contra Documents (Howard Baker)",
+		"alt_names": [],
+		"date": "1987",
+		"description": "",
+		"important": "",
+		"files": []
+	},
+	{
+		"id": "006",
+		"collection": "BCCI Report, United Kingdom",
+		"alt_names": [],
+		"date": "1991",
+		"description": "",
+		"important": "",
+		"files": []
+	},
+	{
+		"id": "007",
+		"collection": "Christic Institute Collection",
+		"alt_names": [],
+		"date": "1986",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Affidavit of Daniel P. Sheehan",
+				"source": "https://example.org/stream/AffidavitOfDanielPSheehan/Affidavit_of_Daniel_P_Sheehan"
+			},
+			{
+				"id": "002",
+				"doc_name": "Christic Institute Newsletter, Spring 1987",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1987-Spring"
+			},
+			{
+				"id": "003",
+				"doc_name": "Christic Institute Newsletter, Spring 1988",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1988-Spring"
+			},
+			{
+				"id": "004",
+				"doc_name": "Christic Institute Newsletter, Summer 1989",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1989-Summer"
+			},
+			{
+				"id": "005",
+				"doc_name": "Christic Institute Newsletter, Fall 1990",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1990-Fall"
+			},
+			{
+				"id": "006",
+				"doc_name": "Christic Institute Newsletter, Spring 1990",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1990-Spring"
+			},
+			{
+				"id": "007",
+				"doc_name": "Christic Institute Newsletter, Summer 1991",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1991-Summer"
+			},
+			{
+				"id": "008",
+				"doc_name": "Christic Institute Newsletter, Fall 1991",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1991-Fall"
+			},
+			{
+				"id": "009",
+				"doc_name": "Christic Institute Newsletter, Winter 1991",
+				"source": "https://example.org/stream/ChristicInstituteNewsletter1988Spring/Christic-Institute-Newsletter_1991-Winter"
+			}
+		]
+	},
+	{
+		"id": "008",
+		"collection": "Iran-Contra Special Counsel Investigation",
+		"alt_names": [
+			"Walsh Investigation"
+		],
+		"date": "1989",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Vol. 1: Investigations and Prosecutions",
+				"source": "https://example.org/stream/WalshReport/Walsh%20Report%20volume%201%20Investigations%20and%20Prosecutions"
+			},
+			{
+				"id": "002",
+				"doc_name": "Vol. 2: Indictments, Plea Agreements, Interim Reports to the Congress, and Administrative Matters",
+				"source": "https://example.org/stream/WalshReport/Walsh%20Report%20volume%202%20Indictments%2C%20Plea%20Agreements%2C%20Interim%20Reports%20to%20the%20Congress%2C%20and%20Administrative%20Matters"
+			},
+			{
+				"id": "003",
+				"doc_name": "Vol. 3: Comments and Materials Submitted by Individuals and Their Attorneys Responding to Volume 1 of the Final Report",
+				"source": "https://example.org/stream/WalshReport/Walsh%20Report%20volume%203%20Comments%20and%20Materials%20Submitted%20by%20Individuals%20and%20Their%20Attorneys%20Responding%20to%20Volume%20I%20of%20the%20Final%20Report"
+			},
+			{
+				"id": "004",
+				"doc_name": "Interview of Luis Posada Carriles",
+				"source": "https://example.org/stream/LuisPosadaCarrilesInterviewIranContra/Luis-Posada-Carriles-Interview-Iran-Contra"
+			}
+		]
+	},
+	{
+		"id": "009",
+		"collection": "FBI Iran-Contra Documents",
+		"alt_names": [],
+		"date": "1989",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "File 1 Section 1"
+			},
+			{
+				"id": "003",
+				"doc_name": "File 1 Section 3"
+			}
+		]
+	},
+	{
+		"id": "010",
+		"collection": "Iran-Contra Documents from the CIA CREST Archive",
+		"alt_names": [],
+		"date": "1988",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "CIARDP9000552R0002016500360"
+			},
+			{
+				"id": "002",
+				"doc_name": "CIARDP9000552R0002016500379"
+			},
+			{
+				"id": "003",
+				"doc_name": "CIARDP9000552R0002016500414"
+			},
+			{
+				"id": "004",
+				"doc_name": "CIARDP9000552R0003025600034"
+			},
+			{
+				"id": "005",
+				"doc_name": "CIARDP9000965R0001001100264"
+			},
+			{
+				"id": "006",
+				"doc_name": "CIARDP9000965R0004027900030"
+			},
+			{
+				"id": "007",
+				"doc_name": "CIARDP9000965R0005048500148"
+			},
+			{
+				"id": "008",
+				"doc_name": "CIARDP9000965R0006050400163"
+			},
+			{
+				"id": "009",
+				"doc_name": "CIARDP9100587R0001002500042"
+			},
+			{
+				"id": "010",
+				"doc_name": "CIARDP9100901R0006002900022"
+			}
+		]
+	},
+	{
+		"id": "011",
+		"collection": "Iran-Contra, Other Related Congressional Hearings",
+		"alt_names": [],
+		"date": "1988",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Were Relevant Documents WIthheld From the Congressional Committees Investigating the Iran-Contra Affair?",
+				"source": "https://example.org/details/WereRelevantDocumentsWIthheldFromTheCongressionalCommitteesInvestigatingTheIranContraAffair"
+			},
+			{
+				"id": "002",
+				"doc_name": "The Downing of a United States Plane in Nicaragua and United States Involvement in the Contra War",
+				"date": "1986-10-15",
+				"source": "https://example.org/details/WereRelevantDocumentsWIthheldFromTheCongressionalCommitteesInvestigatingTheIranContraAffair"
+			}
+		]
+	},
+	{
+		"id": "012",
+		"collection": "Iran-Contra, Miscellaneous Non-Government Sources",
+		"alt_names": [],
+		"date": "1990",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "9/11 As Sequel to Iran-Contra: Armitage, Carlucci, and Friends",
+				"source": "https://example.org/stream/120409Ryan911SequelIranContra/120409-Ryan-911-Sequel-Iran-Contra"
+			},
+			{
+				"id": "002",
+				"doc_name": "The Iran-Contra Connection - Secret Teams and Covert Operations in Reagan Era - Marshall, Scott, Hunter",
+				"source": "https://example.org/stream/MarshallEtAlTheIranContraConnectionSecretTeamsAndCovertOperationsInReaganEra1987/Marshall%20et%20al%20-%20The%20Iran-Contra%20Connection%20-%20Secret%20Teams%20and%20Covert%20Operations%20in%20Reagan%20Era%20%281987%29"
+			},
+			{
+				"id": "003",
+				"doc_name": "The Hidden Government Group Linking JFK, Watergate, Iran-Contra And 9-11 by Peter Dale Scott",
+				"source": "https://example.org/stream/pdfy-DIFyNBnaRkcHyt81/The%20Hidden%20Government%20Group%20Linking%20JFK%2C%20Watergate%2C%20Iran-Contra%20And%209-11"
+			}
+		]
+	},
+	{
+		"id": "013",
+		"collection": "Joint Hearings Before the Iran-Contra Committees",
+		"alt_names": [
+			"Iran-Contra Hearings"
+		],
+		"date": "1987",
+		"description": "",
+		"important": "",
+		"source": "https://example.org/details/Iran-ContraHearingsTestimonyTranscripts",
+		"files": [{
+				"id": "001",
+				"doc_name": "Richard V. Secord",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0001-Secord"
+			},
+			{
+				"id": "002",
+				"doc_name": "Robert C. McFarlane, Gaston J. Sigur, Jr., and Robert W. Owen",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0003-McFarlane-Sigur-Owen"
+			},
+			{
+				"id": "003",
+				"doc_name": "Castillo",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0002_Castillo"
+			},
+			{
+				"id": "004",
+				"doc_name": "North (1st Day)",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0004_North-1"
+			},
+			{
+				"id": "005",
+				"doc_name": "North (2nd Day), McFarlane",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0005_North-2-McFarlane"
+			},
+			{
+				"id": "006",
+				"doc_name": "Appendix to North/McFarlane Testimony",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0006_North-Appendix"
+			},
+			{
+				"id": "007",
+				"doc_name": "Poindexter",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0007_Poindexter"
+			},
+			{
+				"id": "008",
+				"doc_name": "Regan, Weinberger",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0008_Regan-Weinberger"
+			},
+			{
+				"id": "009",
+				"doc_name": "Calero, Singlaub, et al",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0009_Calero-Singlaub-et-al"
+			},
+			{
+				"id": "010",
+				"doc_name": "Abrams, Hakim, et al",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0010_Abrams-Hakim-et-al"
+			},
+			{
+				"id": "011",
+				"doc_name": "Meese, Shultz",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0011_Meese-Shultz"
+			},
+			{
+				"id": "012",
+				"doc_name": "Clarridge, CCATF, George",
+				"source": "https://example.org/stream/Iran-ContraHearingsTestimonyTranscripts/1987-irn-0012_Clarridge-CCATF-George"
+			}
+		]
+	},
+	{
+		"id": "014",
+		"collection": "Harold Weisberg Archive (Iran-Contra Documents)",
+		"alt_names": [],
+		"date": "1987",
+		"description": "These Iran-Contra, Iraqgate, and BCCI materials courtesy of The Weisberg Collection. Hood College, Frederick, MD, USA. URL: <a href='http://jfk.hood.edu/'>http://jfk.hood.edu</a>",
+		"important": "",
+		"files": []
+	},
+	{
+		"id": "015",
+		"collection": "Tower Commission",
+		"alt_names": [],
+		"date": "1986",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "President's Special Review Board"
+			},
+			{
+				"id": "002",
+				"doc_name": "Tower Board NSC Function Hearing"
+			}
+		]
+	},
+	{
+		"id": "016",
+		"collection": "Report of the Congressional Committees Investigating the Iran-Contra Affair",
+		"alt_names": [],
+		"date": "1987",
+		"description": "",
+		"important": "",
+		"source": "https://example.org/details/Iran-ContraReport",
+		"files": [{
+				"id": "001",
+				"doc_name": "Report",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair.pdf"
+			},
+			{
+				"id": "002",
+				"doc_name": "Appendix A, Volume 1 Source Documents",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20A%2C%20Volume%201-%20Source%20Documents.pdf"
+			},
+			{
+				"id": "003",
+				"doc_name": "Appendix A, Volume 2 Source Documents",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20A%2C%20Volume%202-%20Source%20Documents.pdf"
+			},
+			{
+				"id": "004",
+				"doc_name": "Appendix B, Volume 01  Depositions: Airline to Arcos",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%201_%20Depositions_%20Airline%20-%20Arcos.pdf"
+			},
+			{
+				"id": "005",
+				"doc_name": "Appendix B, Volume 02  Depositions: Armitage to Brown",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%202_%20Depositions_%20Armitage%20-%20Brown.pdf"
+			},
+			{
+				"id": "006",
+				"doc_name": "Appendix B, Volume 03  Depositions: Byrne to CATF",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%203_%20Depositions_%20Byrne%20-%20CATF.pdf"
+			},
+			{
+				"id": "007",
+				"doc_name": "Appendix B, Volume 04 Depositions: Channell to CIA Identity A",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%204%3B%20Depositions_%20Channell%20-%20CIA%20Identity%20A.pdf"
+			},
+			{
+				"id": "008",
+				"doc_name": "Appendix B, Volume 05 Depositions: CIA Officer to Cohen",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%205%3B%20Depositions_%20CIA%20Officer%20-%20Cohen.pdf"
+			},
+			{
+				"id": "009",
+				"doc_name": "Appendix B, Volume 06 Depositions: Collier to Conrad",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%206%3B%20Depositions_%20Collier%20-%20Conrad.pdf"
+			},
+			{
+				"id": "010",
+				"doc_name": "Appendix B, Volume 07 Depositions: Cooper to Crawford",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%207%3B%20Depositions_%20Cooper%20-%20Crawford.pdf"
+			},
+			{
+				"id": "011",
+				"doc_name": "Appendix B, Volume 08 Depositions: Crawford to Deputy Chief C",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%208%3B%20Depositions_%20Crawford%20-%20Deputy%20Chief%20C.pdf"
+			},
+			{
+				"id": "012",
+				"doc_name": "Appendix B, Volume 09 Depositions: Duemling to Earl",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%209%3B%20Depositions_%20Duemling%20-%20Earl.pdf"
+			},
+			{
+				"id": "013",
+				"doc_name": "Appendix B, Volume 10 Depositions: Farber to Fuller",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2010%3B%20Depositions_%20Farber%20-%20Fuller.pdf"
+			},
+			{
+				"id": "014",
+				"doc_name": "Appendix B, Volume 11 Depositions: Furmark to Glanz",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2011%3B%20Depositions_%20Furmark%20-%20Glanz.pdf"
+			},
+			{
+				"id": "015",
+				"doc_name": "Appendix B, Volume 12 Depositions: Claire to Guillen",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2012%3B%20Depositions_%20Claire%20-%20Guillen.pdf"
+			},
+			{
+				"id": "016",
+				"doc_name": "Appendix B, Volume 13 Depositions: Hakim",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2013%3B%20Depositions%20-%20Hakim.pdf"
+			},
+			{
+				"id": "017",
+				"doc_name": "Appendix B, Volume 14 Depositions: Hall to Kiszynski",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2014%3B%20Depositions_%20Hall%20-%20Kiszynski.pdf"
+			},
+			{
+				"id": "018",
+				"doc_name": "Appendix B, Volume 15 Depositions: Koch to Ledeen",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2015%3B%20Depositions_%20Koch%20-%20Ledeen.pdf"
+			},
+			{
+				"id": "019",
+				"doc_name": "Appendix B, Volume 16 Depositions: Leiwant to McLaughlin",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2016%3B%20Depositions_%20Leiwant%20-%20McLaughlin.pdf"
+			},
+			{
+				"id": "020",
+				"doc_name": "Appendix B, Volume 17 Depositions: McMahon to Mason",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2017%3B%20Depositions_%20McMahon%20-%20Mason.pdf"
+			},
+			{
+				"id": "022",
+				"doc_name": "Appendix B, Volume 18 Depositions: Meese to Miller",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2018%3B%20Depositions_%20Meese%20-%20Miller.pdf"
+			},
+			{
+				"id": "023",
+				"doc_name": "Appendix B, Volume 19 Depositions: Miller",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2019%3B%20Depositions_%20Miller.pdf"
+			},
+			{
+				"id": "024",
+				"doc_name": "Appendix B, Volume 20 Depositions: Motley to Poindexter",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2020%3B%20Depositions_%20Motley%20-%20Poindexter.pdf"
+			},
+			{
+				"id": "025",
+				"doc_name": "Appendix B, Volume 21 Depositions: Posey to Ransom",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2021%3B%20Depositions_%20Posey%20-%20Ransom.pdf"
+			},
+			{
+				"id": "026",
+				"doc_name": "Appendix B, Volume 22 Depositions: Raymond to Reynolds",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2022%3B%20Depositions_%20Raymond%20-%20Reynolds.pdf"
+			},
+			{
+				"id": "027",
+				"doc_name": "Appendix B, Volume 23 Depositions: Richard to Rudd",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2023%3B%20Depositions_%20Richard%20-%20Rudd.pdf"
+			},
+			{
+				"id": "028",
+				"doc_name": "Appendix B, Volume 24 Depositions: Rugg to Secord",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2024%3B%20Depositions_%20Rugg%20-%20Secord.pdf"
+			},
+			{
+				"id": "029",
+				"doc_name": "Appendix B, Volume 25 Depositions: Shackley to Singlaub",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2025%3B%20Depositions_%20Shackley%20-%20Singlaub.pdf"
+			},
+			{
+				"id": "030",
+				"doc_name": "Appendix B, Volume 26 Depositions: Slease to Tillman",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2026%3B%20Depositions_%20Slease%20-%20Tillman.pdf"
+			},
+			{
+				"id": "031",
+				"doc_name": "Appendix B, Volume 27 Depositions: Thurman to Wickham",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20B%2C%20Volume%2027%3B%20Depositions_%20Thurman%20-%20Wickham.pdf"
+			},
+			{
+				"id": "032",
+				"doc_name": "Appendix C  Chronology of Events",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20C_%20Chronology%20of%20Events.pdf"
+			},
+			{
+				"id": "033",
+				"doc_name": "Appendix D, Volume 01  Testimonial Chronology  Witness Accounts, Supplemented by Documents",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20D%2C%20Volume%201_%20Testimonial%20Chronology_%20Witness%20Accounts%2C%20Supplemented%20by%20Documents.pdf"
+			},
+			{
+				"id": "034",
+				"doc_name": "Appendix D, Volume 02  Testimonial Chronology  Witness Accounts, Supplemented by Documents",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20D%2C%20Volume%202_%20Testimonial%20Chronology_%20Witness%20Accounts%2C%20Supplemented%20by%20Documents.pdf"
+			},
+			{
+				"id": "035",
+				"doc_name": "Appendix D, Volume 03  Testimonial Chronology  Witness Accounts, Supplemented by Documents",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20D%2C%20Volume%203_%20Testimonial%20Chronology_%20Witness%20Accounts%2C%20Supplemented%20by%20Documents.pdf"
+			},
+			{
+				"id": "036",
+				"doc_name": "Appendix D, Volume 04  Testimonial Chronology  Witness Accounts, Supplemented by Documents",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20D%2C%20Volume%204_%20Testimonial%20Chronology_%20Witness%20Accounts%2C%20Supplemented%20by%20Documents.pdf"
+			},
+			{
+				"id": "037",
+				"doc_name": "Appendix D, Volume 05  Testimonial Chronology  Witness Accounts, Supplemented by Documents",
+				"source": "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20D%2C%20Volume%205_%20Testimonial%20Chronology_%20Witness%20Accounts%2C%20Supplemented%20by%20Documents.pdf"
+			}
+		]
+	},
+	{
+		"id": "017",
+		"collection": "Selected Senate Nomination Hearings",
+		"alt_names": [],
+		"date": "1978",
+		"description": "",
+		"important": "",
+		"type": "pdf",
+		"files": [{
+				"id": "001",
+				"doc_name": "Carluci, 1978",
+				"source": "https://example.org/download/CIADirectorsNominationHearings/1978-CARLUCCI.pdf"
+			},
+			{
+				"id": "002",
+				"doc_name": "Bobby Inman, Deputy Director of Central Intelligence, 1981",
+				"source": ""
+			},
+			{
+				"id": "003",
+				"doc_name": "William Casey, Director of Central Intelligence, 1981",
+				"source": "https://example.org/download/CIADirectorsNominationHearings/1981-CASEY.pdf"
+			},
+			{
+				"id": "004",
+				"doc_name": "McMahon, Deputy Director of Central Intelligence, 1982",
+				"source": ""
+			},
+			{
+				"id": "005",
+				"doc_name": "Robert Gates, 1986",
+				"source": "https://example.org/download/CIADirectorsNominationHearings/1986-GATES.pdf"
+			},
+			{
+				"id": "006",
+				"doc_name": "Robert Gates, 1987",
+				"source": ""
+			},
+			{
+				"id": "007",
+				"doc_name": "Webster, 1987",
+				"source": "https://example.org/download/CIADirectorsNominationHearings/1987-WEBSTER.pdf"
+			},
+			{
+				"id": "008",
+				"doc_name": "Kerr, 1989",
+				"source": ""
+			},
+			{
+				"id": "009",
+				"doc_name": "Hitz, Inspector General CIA, 1990",
+				"source": "https://example.org/download/CIADirectorsNominationHearings/1990-HITZ-FOR-IG.pdf"
+			},
+			{
+				"id": "010",
+				"doc_name": "Robert Gates, vol. 1 part 1, 1991",
+				"source": ""
+			},
+			{
+				"id": "011",
+				"doc_name": "Robert Gates, vol. 1 part 2, 1991",
+				"source": ""
+			},
+			{
+				"id": "012",
+				"doc_name": "Robert Gates, vol. 2, 1991",
+				"source": ""
+			},
+			{
+				"id": "013",
+				"doc_name": "Robert Gates, vol. 3, 1991",
+				"source": ""
+			},
+			{
+				"id": "014",
+				"doc_name": "Studeman, Deputy Director of Central Intelligence, 1992",
+				"source": ""
+			},
+			{
+				"id": "015",
+				"doc_name": "Woolsey, 1993",
+				"source": ""
+			},
+			{
+				"id": "016",
+				"doc_name": "Deutsch, 1995",
+				"source": ""
+			},
+			{
+				"id": "017",
+				"doc_name": "Tenent, 1995",
+				"source": "https://example.org/download/CIADirectorsNominationHearings/1995-TENENT.pdf"
+			},
+			{
+				"id": "018",
+				"doc_name": "Lake, 1997",
+				"source": ""
+			},
+			{
+				"id": "019",
+				"doc_name": "Gordon, Deputy Director of Central Intelligence, 1997",
+				"source": ""
+			},
+			{
+				"id": "020",
+				"doc_name": "Goss, 2004",
+				"source": ""
+			}
+		]
+	},
+	{
+		"id": "018",
+		"collection": "'The October Surprise' Congressional Investigation",
+		"alt_names": [],
+		"date": "1991",
+		"source": "https://example.org/details/OctoberSurpriseArchive",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Iran - The Financial Aspects of the Hostage Settlement Agreement",
+				"source": "https://example.org/stream/OctoberSurpriseArchive/Iran%20-%20the%20financial%20aspects%20of%20the%20hostage%20settlement%20agreement"
+			},
+			{
+				"id": "002",
+				"doc_name": "Iran Hostage Crisis: Chronology of Events January 1-25, 1981",
+				"source": "https://example.org/stream/OctoberSurpriseArchive/Iran%20Hostage%20Crisis%20Chronology%20of%20Events%20January%201-25%2C%201981"
+			},
+			{
+				"id": "003",
+				"doc_name": "Iran Hostage Crisis: Chronology of Daily Events",
+				"source": "https://example.org/stream/OctoberSurpriseArchive/Iran-Hostage%20Crisis%20Chronology%20of%20Daily%20Events"
+			},
+			{
+				"id": "004",
+				"doc_name": "Joint Report of the October Surprise Task Force",
+				"source": "https://example.org/stream/OctoberSurpriseArchive/Joint%20Report%20of%20the%20October%20Surprise%20Task%20Force"
+			},
+			{
+				"id": "005",
+				"doc_name": "Report of the Special Counsel on the October Surprise Allegations and the Circumstances Surrounding the Release of the American Hostages Held in Iran",
+				"source": "https://example.org/stream/OctoberSurpriseArchive/Report%20of%20the%20Special%20Counsel%20on%20the%20October%20Surprise%20Allegations%20and%20the%20Circumstances%20Surrounding%20the%20Release%20of%20the%20American%20Hostages%20Held%20in%20Iran"
+			},
+			{
+				"id": "006",
+				"doc_name": "Rules of the October Surprise Task Force",
+				"source": "https://example.org/stream/OctoberSurpriseArchive/Rules%20of%20the%20October%20Surprise%20Task%20Force"
+			},
+			{
+				"id": "007",
+				"doc_name": "The Situation in Iran",
+				"source": "https://example.org/stream/OctoberSurpriseArchive/The%20Situation%20in%20Iran"
+			}
+		]
+	},
+	{
+		"id": "019",
+		"collection": "Files of Danny Casolaro",
+		"alt_names": [],
+		"date": "1990",
+		"source": "",
+		"description": "",
+		"important": "Documents after 'North Carolina Hazardous Waste - Reports' have not been put into the the searchable database yet.",
+		"type": "pdf",
+		"files": [{
+				"id": "001",
+				"doc_name": "BCCI and Misc",
+				"source": "https://example.org/stream/casolaro-notebooks/BcciAndMisc"
+			},
+			{
+				"id": "002",
+				"doc_name": "Bickel All Source Air",
+				"source": "https://example.org/stream/casolaro-notebooks/BickelAllSourceAir"
+			},
+			{
+				"id": "003",
+				"doc_name": "Bickel Book Proposals",
+				"source": "https://example.org/stream/casolaro-notebooks/BickelBookProposalsPapersOtherAuthors"
+			},
+			{
+				"id": "004",
+				"doc_name": "Bickel Book Proposals Papers Other Authors",
+				"source": "https://example.org/stream/casolaro-notebooks/BickelBookProposals"
+			},
+			{
+				"id": "005",
+				"doc_name": "Bickel Correspondence",
+				"source": "https://example.org/stream/casolaro-notebooks/BickelReports2"
+			},
+			{
+				"id": "006",
+				"doc_name": "Bickel Document Registry Part 4",
+				"source": "https://example.org/stream/casolaro-notebooks/BobBickel-documentsRegistriesPart3"
+			},
+			{
+				"id": "007",
+				"doc_name": "Bickel Misc Docs",
+				"source": "https://example.org/download/casolaro-notebooks/BickelMiscDocs.pdf"
+			},
+			{
+				"id": "008",
+				"doc_name": "Bickel Reports",
+				"source": "https://example.org/download/casolaro-notebooks/BickelReports.pdf"
+			},
+			{
+				"id": "009",
+				"doc_name": "Bickel Reports 2",
+				"source": "https://example.org/download/casolaro-notebooks/BickelReports2.pdf"
+			},
+			{
+				"id": "010",
+				"doc_name": "Bob Bickel - Documents Registries",
+				"source": "https://example.org/download/casolaro-notebooks/BobBickel-documentsRegistries.pdf"
+			},
+			{
+				"id": "011",
+				"doc_name": "Bob Bickel - Documents Registries Part 3",
+				"source": "https://example.org/download/casolaro-notebooks/BobBickel-documentsRegistriesPart3.pdf"
+			},
+			{
+				"id": "012",
+				"doc_name": "Book Proposals - Papers - Other Authors",
+				"source": "https://example.org/download/casolaro-notebooks/BookProposals-Papers-OtherAuthors.pdf"
+			},
+			{
+				"id": "013",
+				"doc_name": "Book Proposals",
+				"source": "https://example.org/download/casolaro-notebooks/BookProposals.pdf"
+			},
+			{
+				"id": "014",
+				"doc_name": "Brenneke Papers",
+				"source": "https://example.org/download/casolaro-notebooks/BrennekePapers.pdf"
+			},
+			{
+				"id": "015",
+				"doc_name": "Burma I",
+				"source": "https://example.org/download/casolaro-notebooks/BurmaI.pdf"
+			},
+			{
+				"id": "016",
+				"doc_name": "Burma Opposition Committee For Restore",
+				"source": "https://example.org/download/casolaro-notebooks/BurmaOppositionCommitteeForRestore.pdf"
+			},
+			{
+				"id": "017",
+				"doc_name": "Burma Opposition DAB",
+				"source": "https://example.org/download/casolaro-notebooks/BurmaOppositionDab.pdf"
+			},
+			{
+				"id": "018",
+				"doc_name": "Burma Opposition Kochia Pr",
+				"source": "https://example.org/download/casolaro-notebooks/BurmaOppositionKochiaPr.pdf"
+			},
+			{
+				"id": "019",
+				"doc_name": "Burma Opposition NDF National Coalition",
+				"source": "https://example.org/download/casolaro-notebooks/BurmaOppositionNdfnationalCoalition.pdf"
+			},
+			{
+				"id": "020",
+				"doc_name": "Burma Reports",
+				"source": "https://example.org/download/casolaro-notebooks/BurmaReports.pdf"
+			},
+			{
+				"id": "021",
+				"doc_name": "Chapter X - Organized Crime and ADL",
+				"source": "https://example.org/download/casolaro-notebooks/ChapterX-OrganizedCrimeAndAdl.pdf"
+			},
+			{
+				"id": "022",
+				"doc_name": "CIA - Frank Terpil Renegades",
+				"source": "https://example.org/download/casolaro-notebooks/CiaFrankTerpilRenegades.pdf"
+			},
+			{
+				"id": "023",
+				"doc_name": "CIA - General",
+				"source": "https://example.org/download/casolaro-notebooks/CiaGeneral.pdf"
+			},
+			{
+				"id": "024",
+				"doc_name": "Congressional Hearing Transcripts",
+				"source": "https://example.org/download/casolaro-notebooks/CongressionalHearingTranscripts.pdf"
+			},
+			{
+				"id": "025",
+				"doc_name": "Correspondence",
+				"source": "https://example.org/download/casolaro-notebooks/Correspondence.pdf"
+			},
+			{
+				"id": "026",
+				"doc_name": "Correspondence for Gov",
+				"source": "https://example.org/download/casolaro-notebooks/CorrespondenceForGov.pdf"
+			},
+			{
+				"id": "027",
+				"doc_name": "Correspondence More",
+				"source": "https://example.org/download/casolaro-notebooks/CorrespondenceMore.pdf"
+			},
+			{
+				"id": "028",
+				"doc_name": "Covert Action Information Bulletin",
+				"source": "https://example.org/download/casolaro-notebooks/CovertAction.pdf"
+			},
+			{
+				"id": "029",
+				"doc_name": "Danny - Octopus: Proposals and Drafts",
+				"source": "https://example.org/download/casolaro-notebooks/Danny-Octopus-ProposalsAndDrafts.pdf"
+			},
+			{
+				"id": "030",
+				"doc_name": "Danny - Project Proposals Drafts",
+				"source": "https://example.org/download/casolaro-notebooks/Danny-ProjectProposalsDrafts.pdf"
+			},
+			{
+				"id": "031",
+				"doc_name": "Danny - Fiction",
+				"source": "https://example.org/download/casolaro-notebooks/DannyFiction.pdf"
+			},
+			{
+				"id": "032",
+				"doc_name": "Danny - Receipts",
+				"source": "https://example.org/download/casolaro-notebooks/DannyReceipts.pdf"
+			},
+			{
+				"id": "033",
+				"doc_name": "Danny - Resume",
+				"source": "https://example.org/download/casolaro-notebooks/DannyResume.pdf"
+			},
+			{
+				"id": "034",
+				"doc_name": "Danny - Resume Clippings",
+				"source": "https://example.org/download/casolaro-notebooks/DannyResumeClippings.pdf"
+			},
+			{
+				"id": "035",
+				"doc_name": "Danny - Robbins Office",
+				"source": "https://example.org/download/casolaro-notebooks/DannyRobbinsOffice.pdf"
+			},
+			{
+				"id": "036",
+				"doc_name": "Danny - Robert Fairbanks",
+				"source": "https://example.org/download/casolaro-notebooks/DannyRobertFairbanks.pdf"
+			},
+			{
+				"id": "037",
+				"doc_name": "Danny - Written Notes",
+				"source": "https://example.org/download/casolaro-notebooks/DannyScrawledNotes.pdf"
+			},
+			{
+				"id": "038",
+				"doc_name": "Danny - Written",
+				"source": "https://example.org/download/casolaro-notebooks/DannyWritten.pdf"
+			},
+			{
+				"id": "039",
+				"doc_name": "Drug Enforcement Agency - Drugs and Enforcement",
+				"source": "https://example.org/download/casolaro-notebooks/DeaDrugsAndEnforcement.pdf"
+			},
+			{
+				"id": "040",
+				"doc_name": "Deposition of Peter Videnieks",
+				"source": "https://example.org/download/casolaro-notebooks/DepositionPeterVidenieks.pdf"
+			},
+			{
+				"id": "041",
+				"doc_name": "Depositions I",
+				"source": "https://example.org/download/casolaro-notebooks/DepositionsI.pdf"
+			},
+			{
+				"id": "042",
+				"doc_name": "Depositions II",
+				"source": "https://example.org/download/casolaro-notebooks/DepositionsIi.pdf"
+			},
+			{
+				"id": "043",
+				"doc_name": "Depositions III",
+				"source": "https://example.org/download/casolaro-notebooks/DepositionsIii.pdf"
+			},
+			{
+				"id": "044",
+				"doc_name": "Department of Defense Publications 1",
+				"source": "https://example.org/download/casolaro-notebooks/DodPublications.pdf"
+			},
+			{
+				"id": "045",
+				"doc_name": "Department of Defense Publications 2",
+				"source": "https://example.org/download/casolaro-notebooks/DodPubs2.pdf"
+			},
+			{
+				"id": "046",
+				"doc_name": "Drugs - Far East",
+				"source": "https://example.org/download/casolaro-notebooks/Drugs-FarEast.pdf"
+			},
+			{
+				"id": "047",
+				"doc_name": "Folder 1 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%201%20Acc5516.pdf"
+			},
+			{
+				"id": "048",
+				"doc_name": "Folder 10 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%2010%20Acc5516.pdf"
+			},
+			{
+				"id": "049",
+				"doc_name": "Folder 11 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%2011%20Acc5516.pdf"
+			},
+			{
+				"id": "050",
+				"doc_name": "Folder 2 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%202%20Acc5516.pdf"
+			},
+			{
+				"id": "051",
+				"doc_name": "Folder 3 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%203%20Acc5516.pdf"
+			},
+			{
+				"id": "052",
+				"doc_name": "Folder 4 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%204%20Acc5516.pdf"
+			},
+			{
+				"id": "053",
+				"doc_name": "Folder 5 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%205%20Acc5516.pdf"
+			},
+			{
+				"id": "054",
+				"doc_name": "Folder 6 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%206%20Acc5516.pdf"
+			},
+			{
+				"id": "055",
+				"doc_name": "Folder 7 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%207%20Acc5516.pdf"
+			},
+			{
+				"id": "056",
+				"doc_name": "Folder 8 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%208%20Acc5516.pdf"
+			},
+			{
+				"id": "057",
+				"doc_name": "Folder 9 Acc5516",
+				"source": "https://example.org/download/casolaro-notebooks/Folder%209%20Acc5516.pdf"
+			},
+			{
+				"id": "058",
+				"doc_name": "Government Accountability Office Report - Justice Can Improve Its Contract Review Committees Contribution To Better Contracting, 1984",
+				"source": "https://example.org/download/casolaro-notebooks/GaoReport-JusticeCanImproveItsContractReviewCommitteesContributionToBetterContracting1984.pdf"
+			},
+			{
+				"id": "059",
+				"doc_name": "Government Accountability Office Reports",
+				"source": "https://example.org/download/casolaro-notebooks/GaoReports.pdf"
+			},
+			{
+				"id": "060",
+				"doc_name": "Gates",
+				"source": "https://example.org/download/casolaro-notebooks/Gates.pdf"
+			},
+			{
+				"id": "061",
+				"doc_name": "Golden Triangle - Drugs",
+				"source": "https://example.org/download/casolaro-notebooks/GoldenTriangle-Drugs.pdf"
+			},
+			{
+				"id": "062",
+				"doc_name": "INSLAW Declarations",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-Declarations.pdf"
+			},
+			{
+				"id": "063",
+				"doc_name": "INSLAW Findings of Fact",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-FindingsOfFact.pdf"
+			},
+			{
+				"id": "064",
+				"doc_name": "INSLAW Hamilton Affidavit",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-HamiltonAffidavit.pdf"
+			},
+			{
+				"id": "065",
+				"doc_name": "INSLAW Internal Reports",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-InternalReports.pdf"
+			},
+			{
+				"id": "066",
+				"doc_name": "INSLAW Misc. Business Docs",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-Misc.BusinessDocs.pdf"
+			},
+			{
+				"id": "067",
+				"doc_name": "INSLAW Press Releases",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-PressReleases.pdf"
+			},
+			{
+				"id": "068",
+				"doc_name": "INSLAW Promotional Material",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-PromotionalMaterial.pdf"
+			},
+			{
+				"id": "069",
+				"doc_name": "INSLAW Videniek's Deposition, 3-26-87",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-Videnieks-Deposition-3-26-87.pdf"
+			},
+			{
+				"id": "070",
+				"doc_name": "INSLAW Videniek's Declaration",
+				"source": "https://example.org/download/casolaro-notebooks/Inslaw-VidenieksDeclaration.pdf"
+			},
+			{
+				"id": "071",
+				"doc_name": "INSLAW Affair in Brief - Supporting Docs",
+				"source": "https://example.org/download/casolaro-notebooks/InslawAffairInBriefsupportingDocs.pdf"
+			},
+			{
+				"id": "072",
+				"doc_name": "INSLAW Depositions",
+				"source": "https://example.org/download/casolaro-notebooks/InslawDepositions.pdf"
+			},
+			{
+				"id": "073",
+				"doc_name": "INSLAW I",
+				"source": "https://example.org/download/casolaro-notebooks/InslawI.pdf"
+			},
+			{
+				"id": "074",
+				"doc_name": "INSLAW II",
+				"source": "https://example.org/download/casolaro-notebooks/InslawIi.pdf"
+			},
+			{
+				"id": "075",
+				"doc_name": "INSLAW Misc",
+				"source": "https://example.org/download/casolaro-notebooks/InslawMisc.pdf"
+			},
+			{
+				"id": "076",
+				"doc_name": "INSLAW Speeches and Presentations",
+				"source": "https://example.org/download/casolaro-notebooks/InslawSpeechesAndPresentations.pdf"
+			},
+			{
+				"id": "077",
+				"doc_name": "INSLAW Videniek's Depositions, 1987",
+				"source": "https://example.org/download/casolaro-notebooks/InslawVidenieksDepositions1987.pdf"
+			},
+			{
+				"id": "078",
+				"doc_name": "Intelligence Misc",
+				"source": "https://example.org/download/casolaro-notebooks/IntelligenceMisc.pdf"
+			},
+			{
+				"id": "079",
+				"doc_name": "Investigative Leads Journal",
+				"source": "https://example.org/download/casolaro-notebooks/InvestigativeLeadsjournal.pdf"
+			},
+			{
+				"id": "080",
+				"doc_name": "Laos",
+				"source": "https://example.org/download/casolaro-notebooks/Laos.pdf"
+			},
+			{
+				"id": "081",
+				"doc_name": "Maps",
+				"source": "https://example.org/download/casolaro-notebooks/Maps.pdf"
+			},
+			{
+				"id": "082",
+				"doc_name": "Meridian v. Gates",
+				"source": "https://example.org/download/casolaro-notebooks/MeridianV.Gates.pdf"
+			},
+			{
+				"id": "083",
+				"doc_name": "Misc. INSLAW Docs",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.-InslawDocs.pdf"
+			},
+			{
+				"id": "084",
+				"doc_name": "Misc. 1",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.1.pdf"
+			},
+			{
+				"id": "085",
+				"doc_name": "Misc. 2",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.2.pdf"
+			},
+			{
+				"id": "086",
+				"doc_name": "Misc. 3",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.3.pdf"
+			},
+			{
+				"id": "087",
+				"doc_name": "Misc. 4",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.4.pdf"
+			},
+			{
+				"id": "088",
+				"doc_name": "Misc. 5",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.5.pdf"
+			},
+			{
+				"id": "089",
+				"doc_name": "Misc. Docs",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.Docs.pdf"
+			},
+			{
+				"id": "090",
+				"doc_name": "Misc. Publications",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.Publications.pdf"
+			},
+			{
+				"id": "091",
+				"doc_name": "Misc. Titles",
+				"source": "https://example.org/download/casolaro-notebooks/Misc.Titles.pdf"
+			},
+			{
+				"id": "092",
+				"doc_name": "Newsweek",
+				"source": "https://example.org/download/casolaro-notebooks/Newsweek.pdf"
+			},
+			{
+				"id": "093",
+				"doc_name": "National Institutes of Health Program Advisory Documents",
+				"source": "https://example.org/download/casolaro-notebooks/NihProgramAdvisoryDocuments.pdf"
+			},
+			{
+				"id": "094",
+				"doc_name": "North Carolina Hazardous Waste - Reports",
+				"source": "https://example.org/download/casolaro-notebooks/NorthCarolinaHazardousWaste-Reports.pdf"
+			},
+			{
+				"id": "095",
+				"doc_name": "North Carolina Hazardous Waste Commission Docs",
+				"source": "https://example.org/download/casolaro-notebooks/NorthCarolineHazardousWasteCommissionDocs.pdf"
+			},
+			{
+				"id": "096",
+				"doc_name": "Octopus Promis Docs",
+				"source": "https://example.org/download/casolaro-notebooks/OctopuspromisDocs.pdf"
+			},
+			{
+				"id": "097",
+				"doc_name": "Other Authors: Book Proposals, Articles",
+				"source": "https://example.org/download/casolaro-notebooks/OtherAuthors-BookProposals-Articles.pdf"
+			},
+			{
+				"id": "098",
+				"doc_name": "People v. John P. Nichols",
+				"source": "https://example.org/download/casolaro-notebooks/PeopleV.JohnPNichols.pdf"
+			},
+			{
+				"id": "099",
+				"doc_name": "Phillips Publishing Company",
+				"source": "https://example.org/download/casolaro-notebooks/PhillipsPublishingCompany.pdf"
+			},
+			{
+				"id": "100",
+				"doc_name": "Press Time",
+				"source": "https://example.org/download/casolaro-notebooks/Press-Time.pdf"
+			},
+			{
+				"id": "101",
+				"doc_name": "Press Time 2",
+				"source": "https://example.org/download/casolaro-notebooks/Press-Time2.pdf"
+			},
+			{
+				"id": "102",
+				"doc_name": "Promis: Clippings Background",
+				"source": "https://example.org/download/casolaro-notebooks/Promis-ClippingsBackground.pdf"
+			},
+			{
+				"id": "103",
+				"doc_name": "Promis Background",
+				"source": "https://example.org/download/casolaro-notebooks/PromisBackground.pdf"
+			},
+			{
+				"id": "104",
+				"doc_name": "Promis Software: Background",
+				"source": "https://example.org/download/casolaro-notebooks/PromisSoftwareBackground.pdf"
+			},
+			{
+				"id": "105",
+				"doc_name": "Promis Software: Background 2",
+				"source": "https://example.org/download/casolaro-notebooks/PromisSoftwareBackground2.pdf"
+			},
+			{
+				"id": "106",
+				"doc_name": "Promotional Material",
+				"source": "https://example.org/download/casolaro-notebooks/PromotionalMaterial.pdf"
+			},
+			{
+				"id": "107",
+				"doc_name": "Publications",
+				"source": "https://example.org/download/casolaro-notebooks/Publications.pdf"
+			},
+			{
+				"id": "108",
+				"doc_name": "Pursuit",
+				"source": "https://example.org/download/casolaro-notebooks/Pursuit.pdf"
+			},
+			{
+				"id": "109",
+				"doc_name": "Reports: Misc. Topics - Cabazon Terrorism, etc",
+				"source": "https://example.org/download/casolaro-notebooks/Reports-Misc.Topics-CabazonTerrorismEtc.pdf"
+			},
+			{
+				"id": "110",
+				"doc_name": "Reports and Publications",
+				"source": "https://example.org/download/casolaro-notebooks/ReportsPublications.pdf"
+			},
+			{
+				"id": "111",
+				"doc_name": "The Robbins Office circa 1991",
+				"source": "https://example.org/download/casolaro-notebooks/TheRobibinsOfficeCirca1991.pdf"
+			},
+			{
+				"id": "112",
+				"doc_name": "Unlabelled",
+				"source": "https://example.org/download/casolaro-notebooks/Unlabelled.pdf"
+			},
+			{
+				"id": "113",
+				"doc_name": "USA v. Michael Riconosciuto",
+				"source": "https://example.org/download/casolaro-notebooks/UsaVMichaelRiconosciuto.pdf"
+			},
+			{
+				"id": "114",
+				"doc_name": "Wackenhut Annual Reports",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-AnnualReports.pdf"
+			},
+			{
+				"id": "115",
+				"doc_name": "Wackenhut Biographical",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-Biographical.pdf"
+			},
+			{
+				"id": "116",
+				"doc_name": "Wackenhut: Company Reports Annual Quarterly",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-CompanyReportsannualQuarterly.pdf"
+			},
+			{
+				"id": "117",
+				"doc_name": "Wackenhut Contracts",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-Contracts.pdf"
+			},
+			{
+				"id": "118",
+				"doc_name": "Wackenhut Correspondence",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-Correspondence.pdf"
+			},
+			{
+				"id": "119",
+				"doc_name": "Wackenhut Correspondence 2",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-Correspondence2.pdf"
+			},
+			{
+				"id": "120",
+				"doc_name": "Wackenhut Misc Docs From Related Companies",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-Misc.DocsFromRelatedCompanies.pdf"
+			},
+			{
+				"id": "121",
+				"doc_name": "Wackenhut Newsletters",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-Newsletters.pdf"
+			},
+			{
+				"id": "122",
+				"doc_name": "Wackenhut Profiles",
+				"source": "https://example.org/download/casolaro-notebooks/Wackenhut-Profiles.pdf"
+			}
+		]
+	},
+	{
+		"id": "020",
+		"collection": "Covert Action Information Bulletin / Covert Action Quarterly (Private Collection)",
+		"alt_names": [],
+		"date": "1979",
+		"source": "",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Issue #20",
+				"source": "https://example.org/stream/CovertActionInformationBulletinNo20Winter1984/Covert-Action-Information-Bulletin_No-20_Winter-1984"
+			},
+			{
+				"id": "002",
+				"doc_name": "Issue #24",
+				"source": "https://example.org/stream/CAIB024"
+			},
+			{
+				"id": "003",
+				"doc_name": "Issue #29",
+				"source": "https://example.org/stream/CovertActionInformationBulletin29/Covert%20Action%20Information%20Bulletin%20%2029"
+			},
+			{
+				"id": "004",
+				"doc_name": "Issue #30",
+				"source": "https://example.org/stream/CAIB30CovertActionInformationBulletin/CAIB%2030%20covert%20action%20information%20bulletin"
+			},
+			{
+				"id": "005",
+				"doc_name": "Issue #31",
+				"source": "https://example.org/stream/DomesticSurveillanceCovertActionInformationBulletinNo.31/CAIB%2031"
+			},
+			{
+				"id": "006",
+				"doc_name": "Issue #32",
+				"source": "https://example.org/stream/10thAnniversaryBestOfCAIB-CovertActionInformationBulletin32/CAIB%2032"
+			},
+			{
+				"id": "007",
+				"doc_name": "Issue #33",
+				"source": "https://example.org/stream/GeorgeBushTheCompanysMan-CovertActionInformationBulletinNo.33/CAIB%2033"
+			},
+			{
+				"id": "008",
+				"doc_name": "Issue #34",
+				"source": "https://example.org/stream/CovertActionInformationBulletinNo34Summer1990/Covert-Action-Information-Bulletin_No-34_Summer-1990"
+			},
+			{
+				"id": "009",
+				"doc_name": "Issue #35",
+				"source": "https://example.org/stream/CovertActionInformationBulletinNo35TheCIAInEasternEurope/CovertActionInformationBulletinNo35-The_CIA_in_Eastern_Europe"
+			},
+			{
+				"id": "010",
+				"doc_name": "Issue #36",
+				"source": "https://example.org/stream/RacismAndTheNationalSecurityStateCovertActionInformationBulletinNo36/Racism-and-the-National-Security-State_Covert-Action-Information-Bulletin_No-36"
+			},
+			{
+				"id": "011",
+				"doc_name": "Issue #37",
+				"source": "https://example.org/stream/CovertActionInformationBulletinNo37Summer1991/CovertActionInformationBulletin_No37_Summer1991"
+			},
+			{
+				"id": "012",
+				"doc_name": "Issue #39",
+				"source": "https://example.org/stream/TheCIAAndTheWebOfSupportingAgenciesCovertActionInformationBulletinNo39/The-CIA-and-the-Web-of-Supporting-Agencies_Covert-Action-Information-Bulletin-No-39"
+			},
+			{
+				"id": "013",
+				"doc_name": "Issue #40",
+				"source": "https://example.org/stream/TheEffectOfUSPolicyOnIndigenousPeopleCovertActionInformationBulletinNo40/The-Effect-of-US-Policy-on-Indigenous-People_Covert-Action-Information-Bulletin_No-40"
+			},
+			{
+				"id": "014",
+				"doc_name": "Issue #41",
+				"source": "https://example.org/stream/CovertActionInformationBulletinNo41Summer1992/CovertActionInformationBulletin-No41-Summer_1992"
+			},
+			{
+				"id": "015",
+				"doc_name": "Issue #42",
+				"source": "https://example.org/stream/CovertActionInformtionBulletinNo42Fall1992/CovertActionInformtionBulletin_No42_Fall1992"
+			},
+			{
+				"id": "016",
+				"doc_name": "Issue #43",
+				"source": "https://example.org/stream/PoisonWarToxicPolicies-CovertActionQuarterly43/CAIB%2043"
+			},
+			{
+				"id": "017",
+				"doc_name": "Issue #44",
+				"source": "https://example.org/stream/CovertActionQuarterly44/covert%20action%20quarterly%2044"
+			},
+			{
+				"id": "018",
+				"doc_name": "Issue #46",
+				"source": "https://example.org/stream/CAQ46/CAQ046"
+			},
+			{
+				"id": "019",
+				"doc_name": "Issue #47",
+				"source": "https://ia800401.us.example.org/4/items/CovertActionQuarterly47/Covert%20Action%20Quarterly%2047.pdf",
+				"type": "pdf"
+			},
+			{
+				"id": "020",
+				"doc_name": "Issue #48",
+				"source": "https://ia600401.us.example.org/4/items/CAQ48/Covert%20Action%20Quarterly%2048.pdf",
+				"type": "pdf"
+			},
+			{
+				"id": "021",
+				"doc_name": "Issue #58",
+				"source": "https://ia600403.us.example.org/8/items/CAQ58/CAQ058.pdf",
+				"type": "pdf"
+			},
+			{
+				"id": "022",
+				"doc_name": "Complete Back Issues List",
+				"source": "https://example.org/stream/FullListOfCovertActionInformationBulletinAndCovertActionQuarterlyIssues"
+			}
+		]
+	},
+	{
+		"id": "021",
+		"collection": "Covert Action Information Bulletin (CIA/CREST Collection)",
+		"alt_names": [],
+		"date": "1979",
+		"source": "https://example.org/details/Issue27CovertActionInformationBulletinIssue27ReligiousRight",
+		"description": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "July 1978, First Issue",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2001%20CovertAction%20Information%20Bulletin%20July%201978"
+			},
+			{
+				"id": "002",
+				"doc_name": "December 1979-January 1980, CIA and the Media",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2007%20CovertAction%20Information%20Bulletin%20December%201979-January%201980%20CIA%20and%20the%20Media"
+			},
+			{
+				"id": "003",
+				"doc_name": "August-September 1980, CIA Manual on Deep Cover",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2010%20CovertAction%20Information%20Bulletin%20August-September%201980%20CIA%20Manual%20on%20Deep%20Cover"
+			},
+			{
+				"id": "004",
+				"doc_name": "December 1980, NSA Interview",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2011%20CovertAction%20Information%20Bulletin%20December%201980%20NSA%20Interview"
+			},
+			{
+				"id": "005",
+				"doc_name": "April 1981, The New Right and U.S. Intelligence",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2012%20CoverAction%20Information%20Bulletin%20April%201981%20The%20New%20Right%20and%20U.S.%20Intelligence"
+			},
+			{
+				"id": "006",
+				"doc_name": "July-August 1981, The US and Africa",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2013%20CovertAction%20Information%20Bulletin%20July-August%201981%20The%20US%20and%20Africa"
+			},
+			{
+				"id": "007",
+				"doc_name": "October 1981, Complete CAIB Index",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2014-15%20CovertAction%20Information%20Bulletin%20October%201981%20Complete%20CAIB%20Index"
+			},
+			{
+				"id": "008",
+				"doc_name": "March 1982, Seychelles Invasion",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2016%20CovertAction%20Information%20Bulletin%20March%201982%20Seychelles%20Invasion"
+			},
+			{
+				"id": "009",
+				"doc_name": "Summer 1982, US Fakes Data in Chemical War",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2017%20CovertAction%20Information%20Bulletin%20Summer%201982%20US%20Fakes%20Data%20in%20Chemical%20War"
+			},
+			{
+				"id": "010",
+				"doc_name": "Winter 1983, CIA and Religion",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2018%20CovertAction%20Information%20Bulletin%20Winter%201983%20CIA%20and%20Religion"
+			},
+			{
+				"id": "011",
+				"doc_name": "Nazis, Vatican and CIA",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2025%20CovertAction%20Information%20Bulletin%20Nazis%2C%20Vatican%20and%20CIA"
+			},
+			{
+				"id": "012",
+				"doc_name": "Chomsky on the Libya Attack and CAIB Index",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2026%20CovertAction%20Information%20Bulletin%20Chomsky%20on%20the%20Libya%20Attack%20and%20CAIB%20Index"
+			},
+			{
+				"id": "013",
+				"doc_name": "Issue 27, The Religious Right",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2027%20CovertAction%20Information%20Bulletin%20Issue%2027%20Religious%20Right"
+			},
+			{
+				"id": "014",
+				"doc_name": "The CIA and Drugs",
+				"source": "https://example.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2028%20CovertAction%20Information%20Bulletin%20CIA%20and%20Drugs"
+			}
+		]
+	},
+	{
+		"id": "022",
+		"collection": "JFK 2017 Releases, 2017-07-24 and 2017-10-26",
+		"alt_names": [],
+		"date": "1960-1979",
+		"important": "~90% Complete",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"description": "",
+		"type": "nara",
+		"files": []
+	},
+	{
+		"id": "023",
+		"collection": "Watergate Collection",
+		"alt_names": [],
+		"date": "1973",
+		"source": "",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Debate on Articles of Impeachment",
+				"source": ""
+			},
+			{
+				"id": "002",
+				"doc_name": "Presidential Campaign Activities of 1972, Appendix Part 1",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Appendix%2C%20Part%20I%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Legal%20Documents%20Relating%20to%20the%20Select%20Committee%20Hearings"
+			},
+			{
+				"id": "003",
+				"doc_name": "Presidential Campaign Activities of 1972, Appendix Part 2",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Appendix%2C%20Part%20II%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Legal%20Documents%20Relating%20to%20the%20Select%20Committee%20Hearings"
+			},
+			{
+				"id": "004",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 1",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%201%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "005",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 10",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2010%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20II%20-%20Campaign%20Practices"
+			},
+			{
+				"id": "006",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 11",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2011%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Releated%20Activities%2C%20Phase%20II%20-%20Campaign%20Practices"
+			},
+			{
+				"id": "007",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 12",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2012%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20II%20-%20Campaign%20Practices"
+			},
+			{
+				"id": "008",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 13",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2013%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20III%20-%20Campaign%20Financing"
+			},
+			{
+				"id": "009",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 14",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2014%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Milk%20Fund%20Investigation"
+			},
+			{
+				"id": "010",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 15",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2015%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Milk%20Fund%20Investigation"
+			},
+			{
+				"id": "011",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 16",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2016%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Milk%20Fund%20Investigation"
+			},
+			{
+				"id": "012",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 17",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2017%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Milk%20Fund%20Investigation"
+			},
+			{
+				"id": "013",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 18",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2018%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Use%20of%20Incumbency-Responsiveness%20Program"
+			},
+			{
+				"id": "014",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 19",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2019%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Use%20of%20Incumbency-Responsiveness%20Program%20%28Additional%20Documents%29"
+			},
+			{
+				"id": "015",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 2",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%202%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "016",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 20",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2020%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20The%20Hughes-Rebozo%20Investigation%2C%20and%20Related%20Matters"
+			},
+			{
+				"id": "017",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 21",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2021%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20The%20Hughes-Rebozo%20Investigation%2C%20and%20Related%20Matters"
+			},
+			{
+				"id": "018",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 22",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2022%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20The%20Hughes-Rebozo%20Investigation%20and%20Related%20Matters"
+			},
+			{
+				"id": "019",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 23",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2023%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20The%20Hughes-Rebozo%20Investigation%2C%20and%20Related%20Matters"
+			},
+			{
+				"id": "020",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 24",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2024%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20The%20Hughes-Rebozo%20Investigation%20and%20Related%20Matters"
+			},
+			{
+				"id": "021",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 25",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%2025%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Supplemental%20Material%20on%20Campaign%20Practices%20and%20Finances"
+			},
+			{
+				"id": "022",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 3",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%203%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "023",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 4",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%204%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "024",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 5",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%205%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "025",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 6",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%206%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "026",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 7",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%207%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "027",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 8",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%208%20of%20Presidential%20Campaign%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%20-%20Watergate%20Investigation"
+			},
+			{
+				"id": "028",
+				"doc_name": "Presidential Campaign Activities of 1972, Book 9",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Book%209%20of%20Presidential%20Campaign%20Activities%20of%201972%2C%20Watergate%20and%20Related%20Activities%2C%20Phase%20I%3A%20Watergate%20Investigation"
+			},
+			{
+				"id": "029",
+				"doc_name": "Final Report of the Senate Select Committee on Presidential Campaign Activities",
+				"source": "https://example.org/stream/SenateSelectCommitteeOnPresidentialCampaignActivitiesReport/Final%20Report%20of%20the%20Senate%20Select%20Committee%20on%20Presidential%20Campaign%20Activities"
+			}
+		]
+	},
+	{
+		"id": "024",
+		"collection": "International Court of Justice: Military and Paramilitary Activities in and against Nicaragua (Nicaragua v. United States of America)",
+		"alt_names": [],
+		"date": "1984",
+		"source": "http://www.icj-cij.org/en/case/70/judgments",
+		"description": "",
+		"important": "",
+		"type": "pdf",
+		"files": []
+	},
+	{
+		"id": "025",
+		"collection": "Select Committee to Study Governmental Operations with Respect to Intelligence Activities",
+		"alt_names": [
+			"The Church Committee"
+		],
+		"date": "1975",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Book 1 - Foreign and Military Intelligence",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Book%20I%20-%20Foreign%20and%20Military%20Intelligence"
+			},
+			{
+				"id": "002",
+				"doc_name": "Book 2 - Intelligence Activities and the Rights of Americans",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Book%20II%20-%20Intelligence%20Activities%20and%20the%20Rights%20of%20Americans"
+			},
+			{
+				"id": "003",
+				"doc_name": "Book 3 - Supplementary Detailed Staff Reports on Intelligence Activities and the Rights of Americans",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Book%20III%20-%20Supplementary%20Detailed%20Staff%20Reports%20on%20Intelligence%20Activities%20and%20the%20Rights%20of%20Americans"
+			},
+			{
+				"id": "004",
+				"doc_name": "Book 4 - Supplementary Detailed Staff Reports on Foreign and Military Intelligence",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Book%20IV%20-%20Supplementary%20Detailed%20Staff%20Reports%20on%20Foreign%20and%20Military%20Intelligence"
+			},
+			{
+				"id": "005",
+				"doc_name": "Book 5 - The Investigation of the Assassination of President John F. Kennedy: Performance of the Intelligence Agencies",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Book%20V%20-%20The%20Investigation%20of%20the%20Assassination%20of%20President%20John%20F.%20Kennedy%20-%20Performance%20of%20the%20Intelligence%20Agencies"
+			},
+			{
+				"id": "006",
+				"doc_name": "Book 6 - Supplementary Reports on Intelligence Activities",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Book%20VI%20-%20Supplementary%20Reports%20on%20Intelligence%20Activities"
+			},
+			{
+				"id": "007",
+				"doc_name": "Interim Report - Alleged Assassination Plots Involving Foreign Leaders",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Interim%20Report%20-%20Alleged%20Assassination%20Plots%20Involving%20Foreign%20Leaders"
+			},
+			{
+				"id": "008",
+				"doc_name": "Staff Report - Covert Action in Chile",
+				"source": "https://example.org/stream/Covert-Action-In-Chile-1963-1973/94chile"
+			},
+			{
+				"id": "009",
+				"doc_name": "Hearings Vol. 1 - Unauthorized Storage of Toxic Agents",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Volume%201%20-%20Hearings%20on%20Unauthorized%20Storage%20of%20Toxic%20Agents"
+			},
+			{
+				"id": "010",
+				"doc_name": "Hearings Vol. 2 - Huston Plan",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Volume%202%20-%20Hearings%20on%20the%20Huston%20Plan"
+			},
+			{
+				"id": "011",
+				"doc_name": "Hearings Vol. 3 - Internal Revenue Service",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Volume%203%20-%20Hearings%20on%20the%20Internal%20Revenue%20Service"
+			},
+			{
+				"id": "012",
+				"doc_name": "Hearings Vol. 4 - Mail Opening",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Volume%204%20-%20Hearings%20on%20Mail%20Opening"
+			},
+			{
+				"id": "013",
+				"doc_name": "Hearings Vol. 5 - National Security Agency and Fourth Amendment Rights",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Volume%205%20-%20Hearings%20on%20the%20National%20Security%20Agency%20and%20Fourth%20Amendment%20Rights"
+			},
+			{
+				"id": "014",
+				"doc_name": "Hearings Vol. 6 - The Federal Bureau of Investigations",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Volume%206%20-%20Hearings%20on%20the%20Federal%20Bureau%20of%20Investigation"
+			},
+			{
+				"id": "015",
+				"doc_name": "Hearings Vol. 7 - Covert Action",
+				"source": "https://example.org/stream/ChurchCommittee/Church%20Committee%20Volume%207%20-%20Hearings%20on%20Covert%20Action"
+			},
+			{
+				"id": "016",
+				"doc_name": "Rules of Procedure",
+				"source": ""
+			}
+		]
+	},
+	{
+		"id": "026",
+		"collection": "House Select Committee on Assassinations",
+		"alt_names": [],
+		"date": "1978",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Final Report",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/House%20Select%20Committee%20on%20Assassinations%20Final%20Report"
+			},
+			{
+				"id": "002",
+				"doc_name": "MLK: Hearings, Volume 1",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume1"
+			},
+			{
+				"id": "003",
+				"doc_name": "MLK: Hearings, Volume 2",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume2"
+			},
+			{
+				"id": "004",
+				"doc_name": "MLK: Hearings, Volume 3",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume3"
+			},
+			{
+				"id": "005",
+				"doc_name": "MLK: Hearings, Volume 4",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume4"
+			},
+			{
+				"id": "006",
+				"doc_name": "MLK: Hearings, Volume 5",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume5"
+			},
+			{
+				"id": "007",
+				"doc_name": "MLK: Hearings, Volume 6",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume6"
+			},
+			{
+				"id": "008",
+				"doc_name": "MLK: Hearings, Volume 7",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume7"
+			},
+			{
+				"id": "009",
+				"doc_name": "MLK: Hearings, Volume 8",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume8"
+			},
+			{
+				"id": "010",
+				"doc_name": "MLK: Appendix to Hearings, Volume 9",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume9"
+			},
+			{
+				"id": "011",
+				"doc_name": "MLK: Appendix to Hearings, Volume 10",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume10"
+			},
+			{
+				"id": "012",
+				"doc_name": "MLK: Appendix to Hearings, Volume 11",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume11"
+			},
+			{
+				"id": "013",
+				"doc_name": "MLK: Appendix to Hearings, Volume 12",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume12"
+			},
+			{
+				"id": "014",
+				"doc_name": "MLK: Appendix to Hearings, Volume 13",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/HscaMlkReportVolume13"
+			},
+			{
+				"id": "015",
+				"doc_name": "JFK: Oswald, the CIA, and Mexico City (The Lopez Report)",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Lopez%20Report"
+			},
+			{
+				"id": "016",
+				"doc_name": "JFK: Hearings, Volume 1",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%201"
+			},
+			{
+				"id": "017",
+				"doc_name": "JFK: Hearings, Volume 2",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%202"
+			},
+			{
+				"id": "018",
+				"doc_name": "JFK: Hearings, Volume 3",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%203"
+			},
+			{
+				"id": "019",
+				"doc_name": "JFK: Hearings, Volume 4",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%204"
+			},
+			{
+				"id": "020",
+				"doc_name": "JFK: Hearings, Volume 5",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%205"
+			},
+			{
+				"id": "021",
+				"doc_name": "JFK: Appendix to Hearings, Volume 6",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%206"
+			},
+			{
+				"id": "022",
+				"doc_name": "JFK: Appendix to Hearings, Volume 7",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%207"
+			},
+			{
+				"id": "023",
+				"doc_name": "JFK: Appendix to Hearings, Volume 8",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%208"
+			},
+			{
+				"id": "024",
+				"doc_name": "JFK: Appendix to Hearings, Volume 9",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%209"
+			},
+			{
+				"id": "025",
+				"doc_name": "JFK: Appendix to Hearings, Volume 10",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%2010"
+			},
+			{
+				"id": "026",
+				"doc_name": "JFK: Appendix to Hearings, Volume 11",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%2011"
+			},
+			{
+				"id": "027",
+				"doc_name": "JFK: Appendix to Hearings, Volume 12",
+				"source": "https://example.org/stream/HouseSelectCommitteeOnAssassinations/Volume%2012"
+			}
+		]
+	},
+	{
+		"id": "027",
+		"collection": "Michael Ruppert - From the Wilderness Newsletters",
+		"alt_names": [],
+		"date": "2002",
+		"description": "",
+		"important": "",
+		"source": "https://example.org/details/FromTheWildernessNewsletters",
+		"files": [{
+				"id": "001",
+				"doc_name": "2002, March",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20020301"
+			},
+			{
+				"id": "002",
+				"doc_name": "2002, April",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20020401"
+			},
+			{
+				"id": "003",
+				"doc_name": "2002, May",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20020506"
+			},
+			{
+				"id": "004",
+				"doc_name": "2002, June",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20020601"
+			},
+			{
+				"id": "005",
+				"doc_name": "2002, July",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20020701"
+			},
+			{
+				"id": "006",
+				"doc_name": "2002, August",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20020801"
+			},
+			{
+				"id": "007",
+				"doc_name": "2002, October",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20021001"
+			},
+			{
+				"id": "008",
+				"doc_name": "2002, November",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20021104"
+			},
+			{
+				"id": "009",
+				"doc_name": "2002, December",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20021231"
+			},
+			{
+				"id": "010",
+				"doc_name": "2003, January",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030101"
+			},
+			{
+				"id": "011",
+				"doc_name": "2003, February",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030201"
+			},
+			{
+				"id": "012",
+				"doc_name": "2003, March",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030301"
+			},
+			{
+				"id": "013",
+				"doc_name": "2003, April",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030401"
+			},
+			{
+				"id": "014",
+				"doc_name": "2003, May",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030501"
+			},
+			{
+				"id": "015",
+				"doc_name": "2003, June",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030601"
+			},
+			{
+				"id": "016",
+				"doc_name": "2003, July",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030701"
+			},
+			{
+				"id": "017",
+				"doc_name": "2003, August",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030801"
+			},
+			{
+				"id": "018",
+				"doc_name": "2003, September",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20030901"
+			},
+			{
+				"id": "019",
+				"doc_name": "2003, October",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20031001"
+			},
+			{
+				"id": "020",
+				"doc_name": "2003, December",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20031201"
+			},
+			{
+				"id": "021",
+				"doc_name": "2004, January",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040101"
+			},
+			{
+				"id": "022",
+				"doc_name": "2004, February",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040201"
+			},
+			{
+				"id": "023",
+				"doc_name": "2004, March",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040301"
+			},
+			{
+				"id": "024",
+				"doc_name": "2004, April",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040401"
+			},
+			{
+				"id": "025",
+				"doc_name": "2004, May",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040501"
+			},
+			{
+				"id": "026",
+				"doc_name": "2004, June 1st",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040601"
+			},
+			{
+				"id": "027",
+				"doc_name": "2004, June 10th",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040610"
+			},
+			{
+				"id": "028",
+				"doc_name": "2004, July",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040701"
+			},
+			{
+				"id": "029",
+				"doc_name": "2004, August",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20040801"
+			},
+			{
+				"id": "030",
+				"doc_name": "2004, November",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20041107"
+			},
+			{
+				"id": "031",
+				"doc_name": "2004, December",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20041207"
+			},
+			{
+				"id": "032",
+				"doc_name": "2005, January",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050110"
+			},
+			{
+				"id": "033",
+				"doc_name": "2005, February",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050204"
+			},
+			{
+				"id": "034",
+				"doc_name": "2005, March",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050308"
+			},
+			{
+				"id": "035",
+				"doc_name": "2005, April",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050410"
+			},
+			{
+				"id": "036",
+				"doc_name": "2005, May",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050512"
+			},
+			{
+				"id": "037",
+				"doc_name": "2005, June",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050611"
+			},
+			{
+				"id": "038",
+				"doc_name": "2005, July 12th",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050712"
+			},
+			{
+				"id": "039",
+				"doc_name": "2005, July 31st",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050731"
+			},
+			{
+				"id": "040",
+				"doc_name": "2005, August",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050831"
+			},
+			{
+				"id": "041",
+				"doc_name": "2005, September",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20050930"
+			},
+			{
+				"id": "042",
+				"doc_name": "2005, November",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20051103"
+			},
+			{
+				"id": "043",
+				"doc_name": "2005, December",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20051231"
+			},
+			{
+				"id": "044",
+				"doc_name": "2006, January",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20060130"
+			},
+			{
+				"id": "045",
+				"doc_name": "2006, March",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20060313"
+			},
+			{
+				"id": "046",
+				"doc_name": "2006, April",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20060430"
+			},
+			{
+				"id": "047",
+				"doc_name": "2006, May",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20060531"
+			},
+			{
+				"id": "048",
+				"doc_name": "2006, June",
+				"source": "https://example.org/stream/FromTheWildernessNewsletters/FTW-20060630"
+			}
+		]
+	},
+	{
+		"id": "028",
+		"collection": "Select Committee on Intelligence, US House of Representatives",
+		"alt_names": [
+			"The Pike Committee"
+		],
+		"date": "1975",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Final Report, as leaked to Daniel Schoor (with foreword by Philip Agee)",
+				"source": "https://example.org/stream/PikeCommitteeReportFull/Pike-Committee-Report-Full-ourhiddenhistory_dot_org"
+			},
+			{
+				"id": "002",
+				"doc_name": "Part 1: Hearings on Costs and Procedures",
+				"source": "https://example.org/stream/PikeCommitteeIntelligenceHearings/pike-cmte-1-costs-and-procedures"
+			},
+			{
+				"id": "003",
+				"doc_name": "Part 2: Hearings on Intelligence Performance",
+				"source": "https://example.org/stream/PikeCommitteeIntelligenceHearings/pike-cmte-2-performance"
+			},
+			{
+				"id": "004",
+				"doc_name": "Part 3: Hearings on Domestic Activities",
+				"source": "https://example.org/stream/PikeCommitteeIntelligenceHearings/pike-cmte-3-domestic-activites"
+			},
+			{
+				"id": "005",
+				"doc_name": "Part 4: Committee Proceedings I",
+				"source": "https://example.org/stream/PikeCommitteeIntelligenceHearings/pike-cmte-4-procedings-I"
+			},
+			{
+				"id": "006",
+				"doc_name": "Part 5: Hearings on Foreign Intelligence",
+				"source": "https://example.org/stream/PikeCommitteeIntelligenceHearings/pike-cmte-5-foreign-intel"
+			},
+			{
+				"id": "007",
+				"doc_name": "Part 6: Committee Proceedings II",
+				"source": "https://example.org/stream/PikeCommitteeIntelligenceHearings/pike-cmte-6-procedings-2"
+			}
+		]
+	},
+	{
+		"id": "029",
+		"collection": "Commission on CIA Activities Within the United States",
+		"alt_names": [
+			"The Rockefeller Commission"
+		],
+		"date": "1975",
+		"description": "",
+		"important": "",
+		"source": "https://example.org/stream/Rockefeller-commission-report-to-the-president-by-the-commission-on-cia-activiti/report-to-the-president-by-the-commission-on-cia-activities-within-the-united-states-1975#page/n5/mode/2up",
+		"files": [{
+			"id": "001",
+			"doc_name": "Report to the President by the Commission on CIA Activities within the United States",
+			"source": "https://example.org/stream/Rockefeller-commission-report-to-the-president-by-the-commission-on-cia-activiti/report-to-the-president-by-the-commission-on-cia-activities-within-the-united-states-1975"
+		}]
+	},
+	{
+		"id": "030",
+		"collection": "The Warren Commission Report and Exhibits",
+		"alt_names": [],
+		"date": "1964",
+		"description": "",
+		"important": "",
+		"source": "https://example.org/details/WARREN_COMMISSION_VOLUMES",
+		"files": [{
+				"id": "001",
+				"doc_name": "Final Report",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%20REPORT"
+			},
+			{
+				"id": "002",
+				"doc_name": "Volume 1",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%201"
+			},
+			{
+				"id": "003",
+				"doc_name": "Volume 2",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%202"
+			},
+			{
+				"id": "004",
+				"doc_name": "Volume 3",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%203"
+			},
+			{
+				"id": "005",
+				"doc_name": "Volume 4",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%204"
+			},
+			{
+				"id": "006",
+				"doc_name": "Volume 5",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%205"
+			},
+			{
+				"id": "007",
+				"doc_name": "Volume 6",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%206"
+			},
+			{
+				"id": "008",
+				"doc_name": "Volume 7",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%207"
+			},
+			{
+				"id": "009",
+				"doc_name": "Volume 8",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%208"
+			},
+			{
+				"id": "010",
+				"doc_name": "Volume 9",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%209"
+			},
+			{
+				"id": "011",
+				"doc_name": "Volume 10",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2010"
+			},
+			{
+				"id": "012",
+				"doc_name": "Volume 11",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2011"
+			},
+			{
+				"id": "013",
+				"doc_name": "Volume 12",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2012"
+			},
+			{
+				"id": "014",
+				"doc_name": "Volume 13",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2013"
+			},
+			{
+				"id": "015",
+				"doc_name": "Volume 14",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2014"
+			},
+			{
+				"id": "016",
+				"doc_name": "Volume 15",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2015"
+			},
+			{
+				"id": "017",
+				"doc_name": "Volume 16",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2016"
+			},
+			{
+				"id": "018",
+				"doc_name": "Volume 17",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2017"
+			},
+			{
+				"id": "019",
+				"doc_name": "Volume 18",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2018"
+			},
+			{
+				"id": "020",
+				"doc_name": "Volume 19",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2019"
+			},
+			{
+				"id": "021",
+				"doc_name": "Volume 20",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2020"
+			},
+			{
+				"id": "022",
+				"doc_name": "Volume 21",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2021"
+			},
+			{
+				"id": "023",
+				"doc_name": "Volume 22",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2022"
+			},
+			{
+				"id": "024",
+				"doc_name": "Volume 23",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2023"
+			},
+			{
+				"id": "025",
+				"doc_name": "Volume 24",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2024"
+			},
+			{
+				"id": "026",
+				"doc_name": "Volume 25",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2025"
+			},
+			{
+				"id": "027",
+				"doc_name": "Volume 26",
+				"source": "https://example.org/stream/WARREN_COMMISSION_VOLUMES/WARREN%20COMMISSION%2026"
+			}
+		]
+	},
+	{
+		"id": "031",
+		"collection": "Torture, Medical Experiments on Humans (Various Government Documents)",
+		"alt_names": [],
+		"date": "1975",
+		"source": "https://example.org/details/US-Government-Medical-Experimentation-On-Humans",
+		"description": "",
+		"important": "",
+		"files": [{
+				"id": "001",
+				"doc_name": "Committee Study ofthe Central Intelligence Agency's Detention and Interrogation Program, Senate Select Committee on Intelligence",
+				"date": "2012",
+				"source": "https://example.org/stream/141210UssenateCiatorturereport/141210-ussenate-ciatorturereport"
+			},
+			{
+				"id": "002",
+				"doc_name": "Biomedical and Behavioral Research, 1975, Senate Judiciary Committee",
+				"date": "1975",
+				"source": "https://example.org/stream/US-Government-Medical-Experimentation-On-Humans/behavioral-and-medical-research"
+			},
+			{
+				"id": "003",
+				"doc_name": "CIA Papers Detail Secret Experiments on Behavior Control",
+				"date": "1977",
+				"source": "https://example.org/stream/US-Government-Medical-Experimentation-On-Humans/cia-papers-mkultra"
+			},
+			{
+				"id": "004",
+				"doc_name": "Cold War Era Human Subject Experimentation, House Government Operations Committee",
+				"date": "1994",
+				"source": "https://example.org/stream/US-Government-Medical-Experimentation-On-Humans/cold-war-era-human-expirimentation"
+			},
+			{
+				"id": "005",
+				"doc_name": "Human Drug Testing by the CIA, 1977, Senate Human Resources Committee",
+				"date": "1977",
+				"source": "https://example.org/stream/US-Government-Medical-Experimentation-On-Humans/human-drug-testing"
+			},
+			{
+				"id": "006",
+				"doc_name": "Government-Sponsored Testing on Humans, House Judiciary Committee",
+				"date": "1994-02-03",
+				"source": "https://example.org/stream/US-Government-Medical-Experimentation-On-Humans/testing-on-human"
+			}
+		]
+	},
+	{
+		"id": "032",
+		"collection": "Martin Luther King, Jr. Assassination Trial",
+		"alt_names": [],
+		"date": "1999",
+		"description": "1999 civil trial held in Memphis, Tennessee. For more information visit: <a href='http://www.thekingcenter.org/assassination-conspiracy-trial'>www.thekingcenter.org</a>",
+		"important": "",
+		"files": [{
+			"id": "001",
+			"doc_name": "Complete Transcript of Martin Luther King, Jr. Assassination Conspiracy Trial",
+			"source": "https://example.org/stream/MartinLutherKingJrWrongfulDeathTrialTranscript/Martin-Luther-King-Jr-Wrongful-Death-Trial-Transcript"
+		}]
+	},
+	{
+		"id": "033",
+		"collection": "CIA and the Media",
+		"date": "1977",
+		"alt_names": [],
+		"description": "",
+		"important": "",
+		"source": "https://example.org/details/cia-and-the-media",
+		"files": [{
+			"id": "001",
+			"doc_name": "The CIA and the Media, House Select Committee on Intelligence",
+			"date": "1977-12-27",
+			"source": "https://example.org/stream/cia-and-the-media"
+		}]
+	},
+	{
+		"id": "034",
+		"collection": "JFK 2017 Releases, 2017-11-03",
+		"alt_names": [],
+		"date": "1960-1979",
+		"description": "",
+		"important": "",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"type": "nara",
+		"files": []
+	},
+	{
+		"id": "035",
+		"collection": "JFK 2017 Releases, 2017-12-15 C",
+		"alt_names": [],
+		"date": "1960-1979",
+		"description": "",
+		"important": "",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"type": "nara",
+		"files": []
+	},
+	{
+		"id": "036",
+		"collection": "JFK 2017 Releases, 2017-12-15 B",
+		"alt_names": [],
+		"date": "1960-1979",
+		"description": "",
+		"important": "",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"type": "nara",
+		"files": []
+	},
+	{
+		"id": "037",
+		"collection": "JFK 2017 Releases, 2017-12-15 A",
+		"alt_names": [],
+		"date": "1960-1979",
+		"description": "",
+		"important": "",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"type": "nara",
+		"files": []
+	},
+	{
+		"id": "038",
+		"collection": "JFK Assassination: Independent Research",
+		"alt_names": [],
+		"date": "1967",
+		"description": "",
+		"important": "",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"type": "archive",
+		"files": [{
+				"id": "001",
+				"doc_name": "Accessories After the Fact by Sylvia Meagher",
+				"source": "https://example.org/stream/AccessoriesAfterTheFact/Accessories_After_The_Fact"
+			},
+			{
+				"id": "002",
+				"doc_name": "Cover Up by Gary Shaw",
+				"source": "https://example.org/stream/CoverUp_201510/Cover_Up"
+			},
+			{
+				"id": "003",
+				"doc_name": "Forgive My Grief, Part 1 by Penn Jones",
+				"source": "https://example.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_01"
+			},
+			{
+				"id": "004",
+				"doc_name": "Forgive My Grief, Part 2 by Penn Jones",
+				"source": "https://example.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_02"
+			},
+			{
+				"id": "005",
+				"doc_name": "Forgive My Grief, Part 3 by Penn Jones",
+				"source": "https://example.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_03"
+			},
+			{
+				"id": "006",
+				"doc_name": "Forgive My Grief, Part 4 by Penn Jones",
+				"source": "https://example.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_04"
+			},
+			{
+				"id": "007",
+				"doc_name": "Six Seconds in Dallas by Josiah Thompson",
+				"source": "https://example.org/stream/SixSecondsInDallas/Six_Seconds_In_Dallas"
+			}
+		]
+	},
+	{
+		"id": "039",
+		"hide": true,
+		"collection": "",
+		"alt_names": [],
+		"date": "",
+		"description": "",
+		"important": "",
+		"source": "",
+		"type": "",
+		"files": []
+	},
+	{
+		"id": "040",
+		"collection": "The Militant Newspaper (Socialist Workers Party)",
+		"alt_names": [],
+		"date": "1958-1971",
+		"description": "Via <a href='https://www.marxists.org/'>marxists.org</a>.",
+		"important": "In Progress",
+		"source": "https://www.marxists.org/history/etol/newspape/themilitant/index.htm",
+		"type": "pdf",
+		"files": []
+	},
+	{
+		"id": "041",
+		"collection": "JFK 2017 Releases, 2017-11-09",
+		"alt_names": [],
+		"date": "1960-1979",
+		"description": "",
+		"important": "In Progress",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"type": "nara",
+		"files": []
+	},
+	{
+		"id": "042",
+		"collection": "I.F. Stone's Weekly",
+		"alt_names": [],
+		"date": "1953-1971",
+		"description": "Courtesy <a href='https://IFstone.org/'>IFstone.org</a>.",
+		"source": "https://www.archives.gov/research/jfk/2017-release",
+		"type": "nara",
+		"files": []
+	},
+	{
+		"id": "043",
+		"collection": "The Pentagon Papers",
+		"alt_names": [],
+		"date": "1968",
+		"description": "",
+		"source": "https://www.archives.gov/research/pentagon-papers",
+		"type": "nara",
+		"files": [{
+				"id": "001",
+				"doc_name": "Index",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Index.pdf"
+			},
+			{
+				"id": "002",
+				"doc_name": "Part I",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-I.pdf"
+			},
+			{
+				"id": "003",
+				"doc_name": "Part II",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-II.pdf"
+			},
+			{
+				"id": "004",
+				"doc_name": "Part III",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-III.pdf"
+			},
+			{
+				"id": "005",
+				"doc_name": "Part IV A 1",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-A-1.pdf"
+			},
+			{
+				"id": "006",
+				"doc_name": "Part IV A 2",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-A-2.pdf"
+			},
+			{
+				"id": "007",
+				"doc_name": "Part IV A 3",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-A-3.pdf"
+			},
+			{
+				"id": "008",
+				"doc_name": "Part IV A 4",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-A-4.pdf"
+			},
+			{
+				"id": "009",
+				"doc_name": "Part IV A 5",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-A-5.pdf"
+			},
+			{
+				"id": "010",
+				"doc_name": "Part IV B 1",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-B-1.pdf"
+			},
+			{
+				"id": "011",
+				"doc_name": "Part IV B 2",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-B-2.pdf"
+			},
+			{
+				"id": "012",
+				"doc_name": "Part IV B 3",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-B-3.pdf"
+			},
+			{
+				"id": "013",
+				"doc_name": "Part IV B 4",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-B-4.pdf"
+			},
+			{
+				"id": "014",
+				"doc_name": "Part IV B 5",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-B-5.pdf"
+			},
+			{
+				"id": "015",
+				"doc_name": "Part IV C 1",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-1.pdf"
+			},
+			{
+				"id": "016",
+				"doc_name": "Part IV C 2a",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-2a.pdf"
+			},
+			{
+				"id": "017",
+				"doc_name": "Part IV C 2b",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-2b.pdf"
+			},
+			{
+				"id": "018",
+				"doc_name": "Part IV C 2c",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-2c.pdf"
+			},
+			{
+				"id": "019",
+				"doc_name": "Part IV C 3",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-3.pdf"
+			},
+			{
+				"id": "020",
+				"doc_name": "Part IV C 4",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-4.pdf"
+			},
+			{
+				"id": "021",
+				"doc_name": "Part IV C 5",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-5.pdf"
+			},
+			{
+				"id": "022",
+				"doc_name": "Part IV C 6a",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-a.pdf"
+			},
+			{
+				"id": "023",
+				"doc_name": "Part IV C 6b",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-b.pdf"
+			},
+			{
+				"id": "024",
+				"doc_name": "Part IV C 6c",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-c.pdf"
+			},
+			{
+				"id": "025",
+				"doc_name": "Part IV C 7a",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-7-a.pdf"
+			},
+			{
+				"id": "026",
+				"doc_name": "Part IV C 7b",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-7-b.pdf"
+			},
+			{
+				"id": "027",
+				"doc_name": "Part IV C 8",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-8.pdf"
+			},
+			{
+				"id": "028",
+				"doc_name": "Part IV C 9a",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-9a.pdf"
+			},
+			{
+				"id": "029",
+				"doc_name": "Part IV C 9b",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-9b.pdf"
+			},
+			{
+				"id": "030",
+				"doc_name": "Part IV C 10",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-IV-C-10.pdf"
+			},
+			{
+				"id": "031",
+				"doc_name": "Part-V-A-Vol-IA",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IA.pdf"
+			},
+			{
+				"id": "032",
+				"doc_name": "Part-V-A-Vol-IB",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IB.pdf"
+			},
+			{
+				"id": "033",
+				"doc_name": "Part-V-A-Vol-IC",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IC.pdf"
+			},
+			{
+				"id": "034",
+				"doc_name": "Part-V-A-Vol-IID",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IID.pdf"
+			},
+			{
+				"id": "035",
+				"doc_name": "Part-V-B1",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B1.pdf"
+			},
+			{
+				"id": "036",
+				"doc_name": "Part-V-B-2a",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-2a.pdf"
+			},
+			{
+				"id": "037",
+				"doc_name": "Part-V-B-2b.",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-2b.pdf"
+			},
+			{
+				"id": "038",
+				"doc_name": "Part-V-B-3a",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3a.pdf"
+			},
+			{
+				"id": "039",
+				"doc_name": "Part-V-B-3b",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3b.pdf"
+			},
+			{
+				"id": "040",
+				"doc_name": "Part-V-B-3c",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3c.pdf"
+			},
+			{
+				"id": "041",
+				"doc_name": "Part-V-B-3d",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3d.pdf"
+			},
+			{
+				"id": "042",
+				"doc_name": "Part-V-B-4-Book-I",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf"
+			},
+			{
+				"id": "043",
+				"doc_name": "Part-V-B-4-Book-II",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-II.pdf"
+			},
+			{
+				"id": "044",
+				"doc_name": "Pentagon-Papers-Part-VI-A",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-A.pdf"
+			},
+			{
+				"id": "045",
+				"doc_name": "Part-VI-B",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-B.pdf"
+			},
+			{
+				"id": "046",
+				"doc_name": "Part-VI-C-1",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-1.pdf"
+			},
+			{
+				"id": "047",
+				"doc_name": "Part-VI-C-2",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-2.pdf"
+			},
+			{
+				"id": "048",
+				"doc_name": "Part-VI-C-3",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-3.pdf"
+			},
+			{
+				"id": "049",
+				"doc_name": "Part-VI-C-4",
+				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-4.pdf"
+			}
+		]
+	},
+	{
+		"id": "044",
+		"collection": "German and Japanese War Crimes",
+		"alt_names": [],
+		"date": "1946",
+		"important": "",
+		"description": "Includes Nuremberg Trials and other related investigations. Library of Congress Collection",
+		"source": "https://www.loc.gov/rr/frd/Military_Law/Nuremberg_trials.html",
+		"type": "pdf",
+		"files": []
+	},
+	{
+		"id": "045",
+		"collection": "Philip Agee Collection",
+		"alt_names": [],
+		"date": "1974",
+		"description": "A portion of this content courtesy of The Weisberg Collection. Hood College, Frederick, MD, USA. URL: <a href='http://jfk.hood.edu/'>http://jfk.hood.edu</a>",
+		"source": "https://example.org/details/nsia-AgeePhilip",
+		"type": "archive",
+		"files": [{
+				"id": "001",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2001"
+			},
+			{
+				"id": "002",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2002"
+			},
+			{
+				"id": "003",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2003"
+			},
+			{
+				"id": "004",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2004"
+			},
+			{
+				"id": "005",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2005"
+			},
+			{
+				"id": "006",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2006"
+			},
+			{
+				"id": "007",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2007"
+			},
+			{
+				"id": "008",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2008"
+			},
+			{
+				"id": "009",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2009"
+			},
+			{
+				"id": "010",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2010"
+			},
+			{
+				"id": "011",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2011"
+			},
+			{
+				"id": "012",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2012"
+			},
+			{
+				"id": "013",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2013"
+			},
+			{
+				"id": "014",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2014"
+			},
+			{
+				"id": "015",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2015"
+			},
+			{
+				"id": "016",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2016"
+			},
+			{
+				"id": "017",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2017"
+			},
+			{
+				"id": "018",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2018"
+			},
+			{
+				"id": "019",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2019"
+			},
+			{
+				"id": "020",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2020"
+			},
+			{
+				"id": "021",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2021"
+			},
+			{
+				"id": "022",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2022"
+			},
+			{
+				"id": "023",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2023"
+			},
+			{
+				"id": "024",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2024"
+			},
+			{
+				"id": "025",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2025"
+			},
+			{
+				"id": "026",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2026"
+			},
+			{
+				"id": "027",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2027"
+			},
+			{
+				"id": "028",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2028"
+			},
+			{
+				"id": "029",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2029"
+			},
+			{
+				"id": "030",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2030"
+			},
+			{
+				"id": "031",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2031"
+			},
+			{
+				"id": "032",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2032"
+			},
+			{
+				"id": "033",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2033"
+			},
+			{
+				"id": "034",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2034"
+			},
+			{
+				"id": "035",
+				"doc_name": "Harold Weisberg Archive",
+				"source": "https://example.org/stream/nsia-AgeePhilip/nsia-AgeePhilip/Agee%20P%2035"
+			},
+			{
+				"id": "036",
+				"doc_name": "Philip Agee on the CIA, 9/11, and US Terror",
+				"source": "https://example.org/details/PHILIPAGEEONTHECIA911ANDU.S.TERROR"
+			},
+			{
+				"id": "037",
+				"doc_name": "Cuba Says CIA Tried Oswald Frame-Up",
+				"source": "https://example.org/details/CubaSayCIATriedOswaldFrame-Up"
+			},
+			{
+				"id": "038",
+				"doc_name": "Dirty Work 2: The CIA in Africa",
+				"source": "https://example.org/details/CIAInAfrica"
+			},
+			{
+				"id": "039",
+				"doc_name": "Inside The Company: CIA Diary",
+				"source": "https://example.org/details/InsideTheCompanyCIADiary"
+			},
+			{
+				"id": "040",
+				"doc_name": "Dirty Work: The CIA in Western Europe",
+				"source": "https://example.org/details/pdfy-9MwmH_nnJ4eOmL66"
+			},
+			{
+				"id": "041",
+				"doc_name": "The CIA Against Latin America: Special Case Ecuador",
+				"source": "https://example.org/details/TheCIAAgainstLatinAmericaSpecialCaseEcuador"
+			}
+		]
+	}
+]
