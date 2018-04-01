@@ -7,6 +7,7 @@ title: Documents List
   <div class="page-container">
 
     <h2>Documents List</h2>
+    <p>Unless indicated with 'In Progress', the following documents are indexed and available to be searched. All pdfs are linked below.</p>
 
     <div id="#accordion">
       {% assign sorted_cols = site.data.documents | sort:"date" %}
