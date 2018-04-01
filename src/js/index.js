@@ -48,6 +48,8 @@ function alphabetical_sort_object_of_objects(data, attr) {
     return result;
 }
 
+const filterValue = (obj, key, value)=> obj.find(v => v[key] === value);
+
 /**
  * Modules
  */
@@ -65,9 +67,6 @@ function hasOwnProperty(obj, prop) {
 class Listing {
 
   constructor(hit, doclist) {
-
-    console.log('LISTING');
-
     this.file = hit._source.file.filename;
     this.id = this.file.replace('.txt', '');
     this.searched = [];
@@ -105,49 +104,41 @@ class Listing {
 
   getSourceType(doclist) {
     let type = false;
-    let colKey = this.getGroupId(); // collection key
-    let docKey = this.getDocId(); // document key
-    if(hasOwnProperty(doclist, colKey) &&
-       hasOwnProperty(doclist[colKey], 'collection')){
-        if(hasOwnProperty(doclist[colKey], 'type')){
-          type = doclist[colKey].type;
-        }
-        if(hasOwnProperty(doclist[colKey], 'files') &&
-           hasOwnProperty(doclist[colKey].files, docKey) &&
-           hasOwnProperty(doclist[colKey].files[docKey], 'type')){
-          type = doclist[colKey].files[docKey].type;
-        }
+    let file = {};
+    let collection = filterValue(doclist, 'id', this.groupId);
+    if(collection && collection.files){
+      file = filterValue(collection.files, 'id', this.docId);
+      if(file && file.type){
+        type = file.type;
+      }
     }
     return type;
   }
 
   getSourceUrl(doclist) {
     let source = false;
-    let colKey = this.getGroupId(); // collection key
-    let docKey = this.getDocId(); // document key
-    if(hasOwnProperty(doclist, colKey) &&
-       hasOwnProperty(doclist[colKey], 'collection')){
-        if(hasOwnProperty(doclist[colKey], 'files') &&
-           hasOwnProperty(doclist[colKey].files, docKey) &&
-           hasOwnProperty(doclist[colKey].files[docKey], 'source') &&
-           doclist[colKey].files[docKey].source != ''){
-          source = doclist[colKey].files[docKey].source;
-        }
+    let file = {};
+    let collection = filterValue(doclist, 'id', this.groupId);
+    if(collection && collection.files){
+      file = filterValue(collection.files, 'id', this.docId);
+      if(file && file.source){
+        source = file.source;
+      }
     }
-
+    if(source === false) return;
     switch(this.getSourceType(doclist)) {
       case 'archive':
-        source = source+'#page/n'+this.getPage();
+        source = source+'#page/n'+this.page;
         break;
       case 'pdf':
+        source = source+'#page='+this.page;
         break;
       case 'nara':
-        source = 'https://www.archives.gov/files/research/jfk/releases/'+this.getDocId()+'.pdf#page='+this.getPage();
+        source = 'https://www.archives.gov/files/research/jfk/releases/'+this.docId+'.pdf#page='+this.page;
         break;
       default:
         source = source+'#page/n'+this.getPage();
     }
-
     return source;
   }
 
@@ -156,29 +147,29 @@ class Listing {
   }
 
   getImgPath() {
-    let groupId = this.getGroupId();
-    let docId = this.getDocId();
-    let page = this.getPage().padStart(4, 0);
-    let src = 'https://doc-search.nyc3.digitaloceanspaces.com/docs_images/'+groupId+'/'+groupId+'-'+docId+'_'+page+'.png';
-    console.log(src);
-    return src;
+    let page = this.page.padStart(4, 0);
+    let host = 'https://doc-search.nyc3.digitaloceanspaces.com/docs_images/';
+    let src = this.groupId+'/'+this.groupId+'-'+this.docId+'_'+page+'.png';
+    return host+src;
   }
 
   getDocName(doclist){
     let docname = [];
-    let colKey = this.getGroupId(); // collection key
-    let docKey = this.getDocId(); // document key
-    if(hasOwnProperty(doclist, colKey) &&
-       hasOwnProperty(doclist[colKey], 'collection')){
-        docname.push(doclist[colKey].collection);
-        if(hasOwnProperty(doclist[colKey], 'files') &&
-           hasOwnProperty(doclist[colKey].files, docKey) &&
-           hasOwnProperty(doclist[colKey].files[docKey], 'doc_name')){
-          docname.push(doclist[colKey].files[docKey].doc_name);
+    console.log('groupId: '+this.groupId);
+    let collection = filterValue(doclist, 'id', this.groupId);
+    if(collection && collection.collection){
+      docname.push(collection.collection);
+      if(collection.files){
+        let file = filterValue(collection.files, 'id', this.docId);
+        if(file && file.doc_name){
+          docname.push(file.doc_name);
         }
+      }
     }
-    if(!docKey.match(/^[0-9]{3}$/))
-      docname.push(this.getDocId());
+    if(!this.docId.match(/^[0-9]{3}$/))
+      docname.push(this.docId);
+    console.log(collection);
+    console.log(docname);
     return docname.join(' / ');
   }
 
@@ -245,8 +236,6 @@ function changePage(direction) {
 }
 
 function getPage(page, lastPageContent){
-    //page = '003-003_307.txt';
-    console.log(page);
     $.get(
       'https://api.ourhiddenhistory.org/_search?q=file.filename:'+page+'&size=1&pretty',
       function (response) {
@@ -318,7 +307,6 @@ $(document).keypress(function(e) {
   }
 });
 
-
 $('.results-container').on('click', '.open-entry-js', function(e){
   entryIndex = $(this).data('entry');
   if(listings.length == 0) return;
@@ -334,7 +322,6 @@ function displayListingInEntryPanel(listing) {
     let img = $('<img class="display-img" />');
     img.attr('src', listing.img);
     $('.entry-panel__content').html(img[0].outerHTML);
-    console.log($('.entry-panel__content--entry img'));
     $('.entry-panel__content--entry img')
       .wrap('<span style="display:inline-block"></span>')
       .css('display', 'block')
@@ -372,7 +359,6 @@ $("#search_btn").on('click', function(e){
   $(".results-container").html('Loading...');
 
   search = $("#search").val().replace(/['"]+/g, '');
-  console.log('searching: '+search);
   if(!search.length){
     $(".result").html('');
     return;
@@ -410,9 +396,8 @@ function getResults(search, size, page, callback){
 }
 
 function displayResults(response){
-  let listings = [];
+  listings = [];
   let container = [];
-  console.log(response);
   response.hits.hits.map((el, i) => {
     let file = el._source.file.filename;
     let entry = el._source.content;
@@ -421,8 +406,7 @@ function displayResults(response){
     container.push(listing);
   });
   listings = container;
-  console.log(listings)
-
+  console.log(listings);
   if(!listings.length){
     $(".results-container").html('No Results');
     return;
@@ -448,7 +432,6 @@ function displayResults(response){
   });
   var instance = new Mark(resultsDiv[0]);
   let searchTrimmed = search.replace(/['"]+/g, '');
-  console.log(searchTrimmed);
   instance.mark(searchTrimmed);
   $(".results-container").append(resultsDiv[0].outerHTML);
 }

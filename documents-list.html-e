@@ -8,43 +8,51 @@ title: Documents List
 
     <h2>Documents List</h2>
 
-    {% for doc in site.data.documents %}
+    <div id="#accordion">
+      {% assign sorted_docs = site.data.documents | sort:"date" %}
+      {% for doc in sorted_docs %}
 
-      {% if doc.hide != true %}
-  
-        <div>
+        {% if doc.hide != true %}
 
+          <div class="card">
+            <div class="card-header" id="heading{{forloop.index}}">
+              <h5 class="mb-0">
+                <a href="{{doc.source}}" target="_blank">
+                  <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                </a>
+                <a class="doclist__reveal" data-toggle="collapse" data-target="#collapse{{forloop.index}}" aria-expanded="true" aria-controls="collapse{{forloop.index}}">
+                   <strong>{{doc.collection}}</strong> {{doc.alt_names}} <em>{{doc.date}}</em>
+                </a>
+              </h5>
+            </div>
+            <div id="collapse{{forloop.index}}" class="collapse" aria-labelledby="heading{{forloop.index}}" data-parent="#accordion">
+              <div class="card-body">
+                <div class="doclist__important">{{doc.important}}</div>
+                <div class="doclist__description">{{doc.description}}</div>
+                <hr />
+                <div class="doclist__fileslist">
+                  {% if doc.files.size > 0 %}
+                    <ul>
+                    {% for file in doc.files %}
+                      <li>
+                        <a href="{{file.source}}" target="_blank">
+                          <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                        </a>
+                        {{ file.doc_name }}
+                      </li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <a href="{{ doc.source }}">
-            <i class="fa fa-file-pdf-o"></i>
-          </a>
-          <strong>{{ doc.collection }}</strong>
-          {{ doc.alt_names | array_to_sentence_string }}
+        {% endif %}
 
-          <p>{{ doc.important }}</p> 
-          <p>{{ doc.description }}</p>
- 
- 
-          {% if doc.files.size > 0 %}
-            <ul>
-            {% for file in doc.files %}
-              <li>
-                <a href="{{ file.source }}">
-                  <i class="fa fa-file-pdf-o"></i>
-                </a>              
-                {{ file.doc_name }}
-              </li>
-            {% endfor %}
-            </ul>
-          {% endif %}
-
-        </div>
-
-      {% endif %}
-
-    {% endfor %}
+      {% endfor %}
+    </div>
 
   </div>
-  
-</div>
 
+</div>

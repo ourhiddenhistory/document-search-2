@@ -42,8 +42,8 @@ gulp.task('jekyll', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch(scssFiles, ['css']);
-  gulp.watch(jsFiles, ['js']);
+  gulp.watch(scssFiles, ['css', 'jekyll']);
+  gulp.watch(jsFiles, ['js', 'jekyll']);
 });
 
 gulp.task('default', ['css', 'js', 'jekyll', 'watch']);

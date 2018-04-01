@@ -6,7 +6,8 @@
 		"important": "",
 		"description": "",
 		"source": "https://example.org/details/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations",
-		"files": [{
+		"files": [
+			{
 				"id": "001",
 				"doc_name": "Part 1",
 				"source": "https://example.org/stream/BCCIHearingsBeforeTheTerrorismNarcoticsAndInternationalOperationsOfTheCommitteeOnForeignRelations/BCCI%20Hearings%20before%20the%20Terrorism%2C%20Narcotics%2C%20and%20International%20Operations%20of%20the%20Committee%20on%20Foreign%20Relations%20Volume%201"
@@ -96,6 +97,11 @@
 				"id": "004",
 				"doc_name": "Hearings Part 4: The Cartel, Haiti, and Central America",
 				"source": "https://example.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%204%20-%20Cartel%2C%20Haiti%20and%20Central%20America"
+			},
+			{
+				"id": "005",
+				"doc_name": "Final Report: Drugs, Law Enforcement and Foreign Policy",
+				"source": "https://example.org/stream/KerryCommitteeReport/Kerry%20Committee%20Report"
 			}
 		]
 	},
@@ -318,6 +324,11 @@
 				"id": "003",
 				"doc_name": "The Hidden Government Group Linking JFK, Watergate, Iran-Contra And 9-11 by Peter Dale Scott",
 				"source": "https://example.org/stream/pdfy-DIFyNBnaRkcHyt81/The%20Hidden%20Government%20Group%20Linking%20JFK%2C%20Watergate%2C%20Iran-Contra%20And%209-11"
+			},
+			{
+				"id": "004",
+				"doc_name": "The Crimes of Patriots: A True Tale of Dope, Dirty Money, and the CIA by Jonathan Kwitny",
+				"source": "https://example.org/stream/KwitnyTheCrimesOfPatriotsATrueTaleOfDopeDirtyMoneyAndTheCIAIranContraScandal1987_201605/Kwitny%20-%20The%20Crimes%20of%20Patriots%20-%20A%20True%20Tale%20of%20Dope%2C%20Dirty%20Money%20and%20the%20CIA%20%28Iran-contra%20scandal%29%281987%29"
 			}
 		]
 	},
@@ -2499,6 +2510,18 @@
 				"doc_name": "Government-Sponsored Testing on Humans, House Judiciary Committee",
 				"date": "1994-02-03",
 				"source": "https://example.org/stream/US-Government-Medical-Experimentation-On-Humans/testing-on-human"
+			},
+			{
+				"id": "007",
+				"doc_name": "Search for the Manchurian Candidate by John Marks",
+				"date": "1977",
+				"source": "https://example.org/stream/pdfy-JSKQIeR_oYTgzSjl/John%20Marks%20-%20The%20Search%20for%20the%20Manchurian%20Candidate%20-%20The%20CIA%20and%20Mind%20Control"
+			},
+			{
+				"id": "008",
+				"doc_name": "MKULTRA Briefing Book - List of MKULTRA Subprojects",
+				"date": "01-01-1976",
+				"source": "https://example.org/stream/MKULTRABriefingBookListOfSubprojectsWithBriefDescriptionsJanuary1976/MKULTRA%20Briefing%20Book%20-%20List%20of%20subprojects%20with%20brief%20descriptions%20-%20January%201976"
 			}
 		]
 	},
@@ -3142,6 +3165,104 @@
 				"id": "041",
 				"doc_name": "The CIA Against Latin America: Special Case Ecuador",
 				"source": "https://example.org/details/TheCIAAgainstLatinAmericaSpecialCaseEcuador"
+			}
+		]
+	},
+	{
+		"id": "046",
+		"collection": "The Korean War",
+		"alt_names": [],
+		"date": "1951",
+		"important": "",
+		"description": "",
+		"source": "",
+		"type": "",
+		"files": [
+			{
+				"id": "001",
+				"doc_name": "Report of the ISC on Bacterial Warfare in Korea and China",
+				"source": ""
+			},
+			{
+				"id": "002",
+				"doc_name": "Hidden History of the Korean War by I.F. Stone",
+				"source": ""
+			}
+		]
+	},
+	{
+		"id": "047",
+		"collection": "Cuba",
+		"alt_names": [],
+		"date": "1959",
+		"important": "",
+		"description": "",
+		"source": "",
+		"type": "archive",
+		"files": [
+			{
+				"id": "001",
+				"doc_name": "Fabian Escalante Secret War Cuba CIA",
+				"source": "https://example.org/stream/FabianEscalanteSecretWarCubaCIA/Fabian%20Escalante%20Secret%20War%20Cuba%20CIA"
+			},
+			{
+				"id": "002",
+				"doc_name": "Hearings on the Fair Play for Cuba Committee, Vols. 1 &amp; 2",
+				"source": "https://example.org/stream/fairplayforcubac0102unit"
+			},
+			{
+				"id": "003",
+				"doc_name": "Hearings on the Fair Play for Cuba Committee, Vols. 3 &amp; 4",
+				"source": "https://example.org/stream/fairplayforcubac0304unit"
+			},
+			{
+				"id": "004",
+				"doc_name": "Communist and Trotskyist Activity Within the Greater Los Angeles Chapter of the Fair Play for Cuba Committee",
+				"source": "https://example.org/stream/communisttrotsky00unit"
+			}
+		]
+	},
+	{
+		"id": "048",
+		"collection": "CIA Vietnam Histories",
+		"alt_names": [],
+		"date": "1959",
+		"important": "",
+		"description": "",
+		"source": "",
+		"type": "archive",
+		"files": [
+			{
+				"id": "001",
+				"doc_name": "Fabian Escalante Secret War Cuba CIA",
+				"source": "https://example.org/stream/FabianEscalanteSecretWarCubaCIA/Fabian%20Escalante%20Secret%20War%20Cuba%20CIA"
+			},
+			{
+				"id": "002",
+				"doc_name": "Hearings on the Fair Play for Cuba Committee, Vols. 1 &amp; 2",
+				"source": ""
+			},
+			{
+				"id": "003",
+				"doc_name": "Hearings on the Fair Play for Cuba Committee, Vols. 3 &amp; 4",
+				"source": ""
+			}
+		]
+	},
+	{
+		"id": "049",
+		"collection": "CIA - Non-government Sources",
+		"alt_names": [],
+		"date": "1959",
+		"important": "",
+		"description": "",
+		"source": "",
+		"type": "archive",
+		"files": [
+			{
+				"id": "001",
+				"doc_name": "CIA &amp; The Cult of Intelligence by Victor Marchetti &amp; John Marks",
+				"source": "https://example.org/stream/FabianEscalanteSecretWarCubaCIA/Fabian%20Escalante%20Secret%20War%20Cuba%20CIA"
 			}
 		]
 	}
