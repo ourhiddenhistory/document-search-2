@@ -2847,97 +2847,97 @@
 			},
 			{
 				"id": "031",
-				"doc_name": "Part-V-A-Vol-IA",
+				"doc_name": "Part V A Vol IA",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IA.pdf"
 			},
 			{
 				"id": "032",
-				"doc_name": "Part-V-A-Vol-IB",
+				"doc_name": "Part V A Vol IB",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IB.pdf"
 			},
 			{
 				"id": "033",
-				"doc_name": "Part-V-A-Vol-IC",
+				"doc_name": "Part V A Vol IC",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IC.pdf"
 			},
 			{
 				"id": "034",
-				"doc_name": "Part-V-A-Vol-IID",
+				"doc_name": "Part V A Vol IID",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-A-Vol-IID.pdf"
 			},
 			{
 				"id": "035",
-				"doc_name": "Part-V-B1",
+				"doc_name": "Part V B1",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B1.pdf"
 			},
 			{
 				"id": "036",
-				"doc_name": "Part-V-B-2a",
+				"doc_name": "Part V B 2a",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-2a.pdf"
 			},
 			{
 				"id": "037",
-				"doc_name": "Part-V-B-2b.",
+				"doc_name": "Part V B 2b.",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-2b.pdf"
 			},
 			{
 				"id": "038",
-				"doc_name": "Part-V-B-3a",
+				"doc_name": "Part V B 3a",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3a.pdf"
 			},
 			{
 				"id": "039",
-				"doc_name": "Part-V-B-3b",
+				"doc_name": "Part V B 3b",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3b.pdf"
 			},
 			{
 				"id": "040",
-				"doc_name": "Part-V-B-3c",
+				"doc_name": "Part V B 3c",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3c.pdf"
 			},
 			{
 				"id": "041",
-				"doc_name": "Part-V-B-3d",
+				"doc_name": "Part V B 3d",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-3d.pdf"
 			},
 			{
 				"id": "042",
-				"doc_name": "Part-V-B-4-Book-I",
+				"doc_name": "Part V B 4 Book I",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf"
 			},
 			{
 				"id": "043",
-				"doc_name": "Part-V-B-4-Book-II",
+				"doc_name": "Part V B 4 Book II",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-II.pdf"
 			},
 			{
 				"id": "044",
-				"doc_name": "Pentagon-Papers-Part-VI-A",
+				"doc_name": "Part VI A",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-A.pdf"
 			},
 			{
 				"id": "045",
-				"doc_name": "Part-VI-B",
+				"doc_name": "Part VI B",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-B.pdf"
 			},
 			{
 				"id": "046",
-				"doc_name": "Part-VI-C-1",
+				"doc_name": "Part VI C 1",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-1.pdf"
 			},
 			{
 				"id": "047",
-				"doc_name": "Part-VI-C-2",
+				"doc_name": "Part VI C 2",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-2.pdf"
 			},
 			{
 				"id": "048",
-				"doc_name": "Part-VI-C-3",
+				"doc_name": "Part VI C 3",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-3.pdf"
 			},
 			{
 				"id": "049",
-				"doc_name": "Part-VI-C-4",
+				"doc_name": "Part VI C 4",
 				"source": "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-4.pdf"
 			}
 		]
@@ -3173,20 +3173,20 @@
 		"collection": "The Korean War",
 		"alt_names": [],
 		"date": "1951",
-		"important": "",
+		"important": "In progress.",
 		"description": "",
 		"source": "",
-		"type": "",
+		"type": "pdf",
 		"files": [
 			{
 				"id": "001",
 				"doc_name": "Report of the ISC on Bacterial Warfare in Korea and China",
-				"source": ""
+				"source": "https://assets.documentcloud.org/documents/4334133/ISC-Full-Report-Pub-Copy.pdf"
 			},
 			{
 				"id": "002",
 				"doc_name": "Hidden History of the Korean War by I.F. Stone",
-				"source": ""
+				"source": "http://sttpml.org/wp-content/uploads/2015/08/The-hidden-history-of-the-Korean-War-1950-1951-A-Nonconformist-history-of-our-times-I.-F-Stone.pdf"
 			}
 		]
 	},
@@ -3195,14 +3195,14 @@
 		"collection": "Cuba",
 		"alt_names": [],
 		"date": "1959",
-		"important": "",
+		"important": "In progress.",
 		"description": "",
 		"source": "",
 		"type": "archive",
 		"files": [
 			{
 				"id": "001",
-				"doc_name": "Fabian Escalante Secret War Cuba CIA",
+				"doc_name": "The Secret War: CIA Covert Operations Against Cuba by Fabian Escalante",
 				"source": "https://example.org/stream/FabianEscalanteSecretWarCubaCIA/Fabian%20Escalante%20Secret%20War%20Cuba%20CIA"
 			},
 			{
@@ -3226,35 +3226,21 @@
 		"id": "048",
 		"collection": "CIA Vietnam Histories",
 		"alt_names": [],
-		"date": "1959",
-		"important": "",
+		"date": "1968",
+		"important": "In progress.",
 		"description": "",
-		"source": "",
+		"source": "http://www.cryptocomb.org/Phoenix%20Program%20Document%20Library.html",
 		"type": "archive",
 		"files": [
-			{
-				"id": "001",
-				"doc_name": "Fabian Escalante Secret War Cuba CIA",
-				"source": "https://example.org/stream/FabianEscalanteSecretWarCubaCIA/Fabian%20Escalante%20Secret%20War%20Cuba%20CIA"
-			},
-			{
-				"id": "002",
-				"doc_name": "Hearings on the Fair Play for Cuba Committee, Vols. 1 &amp; 2",
-				"source": ""
-			},
-			{
-				"id": "003",
-				"doc_name": "Hearings on the Fair Play for Cuba Committee, Vols. 3 &amp; 4",
-				"source": ""
-			}
+
 		]
 	},
 	{
 		"id": "049",
 		"collection": "CIA - Non-government Sources",
 		"alt_names": [],
-		"date": "1959",
-		"important": "",
+		"date": "1974",
+		"important": "In progress.",
 		"description": "",
 		"source": "",
 		"type": "archive",
