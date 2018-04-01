@@ -9,31 +9,32 @@ title: Documents List
     <h2>Documents List</h2>
 
     <div id="#accordion">
-      {% assign sorted_docs = site.data.documents | sort:"date" %}
-      {% for doc in sorted_docs %}
+      {% assign sorted_cols = site.data.documents | sort:"date" %}
+      {% for col in sorted_cols %}
 
-        {% if doc.hide != true %}
+        {% if col.hide != true %}
 
           <div class="card">
             <div class="card-header" id="heading{{forloop.index}}">
               <h5 class="mb-0">
-                <a href="{{doc.source}}" target="_blank">
+                <a href="{{col.source}}" target="_blank">
                   <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                 </a>
                 <a class="doclist__reveal" data-toggle="collapse" data-target="#collapse{{forloop.index}}" aria-expanded="true" aria-controls="collapse{{forloop.index}}">
-                   <strong>{{doc.collection}}</strong> {{doc.alt_names}} <em>{{doc.date}}</em>
+                   <strong>{{col.collection}}</strong> {{col.alt_names}} <em>{{col.date}}</em>
                 </a>
               </h5>
             </div>
             <div id="collapse{{forloop.index}}" class="collapse" aria-labelledby="heading{{forloop.index}}" data-parent="#accordion">
               <div class="card-body">
-                <div class="doclist__important">{{doc.important}}</div>
-                <div class="doclist__description">{{doc.description}}</div>
+                <div class="doclist__important">{{col.important}}</div>
+                <div class="doclist__description">{{col.description}}</div>
                 <hr />
                 <div class="doclist__fileslist">
-                  {% if doc.files.size > 0 %}
+                  {% if col.files.size > 0 %}
                     <ul>
-                    {% for file in doc.files %}
+                    {% assign sorted_docs = col.files | sort:"doc_name" %}
+                    {% for file in sorted_docs %}
                       <li>
                         <a href="{{file.source}}" target="_blank">
                           <i class="fa fa-file-pdf-o" aria-hidden="true"></i>

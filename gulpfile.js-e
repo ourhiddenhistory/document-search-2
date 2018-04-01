@@ -7,6 +7,7 @@ const gutil = require('gulp-util');
 
 const scssFiles = 'src/sass/**/*.scss';
 const jsFiles = 'src/js/**/*.js';
+const dataFiles = '_data/**/*.json';
 
 gulp.task('css', () => {
   gulp.src(scssFiles)
@@ -25,7 +26,7 @@ gulp.task('js', () =>
 );
 
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['serve',
+  const jekyll = child.spawn('jekyll', ['build', 'serve',
     '--watch',
     '--incremental',
     '--drafts'
@@ -42,8 +43,9 @@ gulp.task('jekyll', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch(scssFiles, ['css', 'jekyll']);
-  gulp.watch(jsFiles, ['js', 'jekyll']);
+  gulp.watch(scssFiles, ['css', 'jekyll', 'watch']);
+  gulp.watch(jsFiles, ['js', 'jekyll', 'watch']);
+  gulp.watch(dataFiles, ['jekyll', 'watch']);
 });
 
 gulp.task('default', ['css', 'js', 'jekyll', 'watch']);
