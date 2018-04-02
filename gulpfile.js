@@ -49,3 +49,4 @@ gulp.task('watch', () => {
 });
 
 gulp.task('default', ['css', 'js', 'jekyll', 'watch']);
+gulp.task('build', ['css', 'js']);
