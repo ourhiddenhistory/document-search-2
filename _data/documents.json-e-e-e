@@ -2683,8 +2683,8 @@
 		"alt_names": [],
 		"date": "1953-1971",
 		"description": "Courtesy <a href='https://IFstone.org/'>IFstone.org</a>.",
-		"source": "https://www.archives.gov/research/jfk/2017-release",
-		"type": "nara",
+		"source": "http://www.ifstone.org/weekly_searchable.php",
+		"type": "pdf",
 		"files": []
 	},
 	{
@@ -3248,7 +3248,13 @@
 			{
 				"id": "001",
 				"doc_name": "CIA &amp; The Cult of Intelligence by Victor Marchetti &amp; John Marks",
-				"source": "https://example.org/stream/FabianEscalanteSecretWarCubaCIA/Fabian%20Escalante%20Secret%20War%20Cuba%20CIA"
+				"source": "pdf",
+				"source": "http://visionary-knowledge.com/CIA/The%20CIA%20and%20the%20cult%20of%20%20Intellience.pdf"
+			},
+			{
+				"id": "002",
+				"doc_name": "The Invisible Government by David Wise &amp; Thomas B. Ross",
+				"source": "https://example.org/stream/HourOfTheTime11012013TheInvisibleGovernmentDavidWise/Hour_Of_The_Time_11012013-The_Invisible-Government-David_Wise"
 			}
 		]
 	}
