@@ -1,7 +1,11 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
+const cssnano = require('gulp-cssnano');
 const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
+const pump = require('pump');
 const child = require('child_process');
 const gutil = require('gulp-util');
 
@@ -13,6 +17,11 @@ gulp.task('css', () => {
   gulp.src(scssFiles)
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('style.css'))
+    .pipe(autoprefixer({
+        browsers: ['last 8 versions'],
+        cascade: false
+    }))
+    .pipe(cssnano())
     .pipe(gulp.dest('dist'))
 });
 
@@ -22,11 +31,14 @@ gulp.task('js', () =>
     .pipe(babel({
       presets: ['env']
     }))
+    .pipe(uglify())
     .pipe(gulp.dest('dist'))
 );
 
 gulp.task('jekyll', () => {
   const jekyll = child.spawn('jekyll', ['serve',
+    '--config',
+    '_config.dev.yml',
     '--watch',
     '--incremental',
     '--drafts'
