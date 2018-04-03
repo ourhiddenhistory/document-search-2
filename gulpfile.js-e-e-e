@@ -26,7 +26,7 @@ gulp.task('js', () =>
 );
 
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build', 'serve',
+  const jekyll = child.spawn('jekyll', ['serve',
     '--watch',
     '--incremental',
     '--drafts'
@@ -43,9 +43,9 @@ gulp.task('jekyll', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch(scssFiles, ['css', 'jekyll', 'watch']);
-  gulp.watch(jsFiles, ['js', 'jekyll', 'watch']);
-  gulp.watch(dataFiles, ['jekyll', 'watch']);
+  gulp.watch(scssFiles, ['css', 'jekyll']);
+  gulp.watch(jsFiles, ['js', 'jekyll']);
+  gulp.watch(dataFiles, ['jekyll']);
 });
 
 gulp.task('default', ['css', 'js', 'jekyll', 'watch']);
