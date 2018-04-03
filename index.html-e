@@ -11,7 +11,7 @@ app: search-doc-app
         <div class="input-group mb-3">
           <input id="search" type="text" class="form-control" placeholder="Search term..." aria-label="Search term" aria-describedby="basic-addon2">
           <div class="input-group-append">
-            <button id="search_btn" class="btn btn-outline-secondary" type="button">SEARCH</button>
+            <button id="search_btn" class="btn btn-info" type="button">SEARCH</button>
           </div>
         </div>
 

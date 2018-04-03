@@ -219,8 +219,44 @@ class ExtractSentences {
 }
 
 /**
+ * changeUrlWithNewSearch
+ * @param string full url to adjust
+ * @param string search term
+ */
+var changeUrlWithNewSearch = function(url, searchterm) {
+  let currentPath = url.split('?')[0];
+  let newUrl = currentPath + '?search='+searchterm;
+  return newUrl;
+}
+
+/**
+ * changeUrlWithNewDocument
+ * @param string full url to adjust
+ * @param array path parts
+ */
+var changeUrlWithNewDocument = function(url, document) {
+  let currentParams = url.split('?')[1] || '';
+  let newUrl = '/doc-search/' + document.join('/') + '?' + currentParams;
+  return newUrl;
+}
+
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+/**
  * UI Components
  */
+
+let ajaxSearch = null;
+let ajaxPage = null;
+
 let currentListing = null;
 function changePage(direction) {
   let newPage = 0;
@@ -235,19 +271,37 @@ function changePage(direction) {
   $('.entry-panel__content').html('LOADING...');
 }
 
+
 function getPage(page, lastPageContent){
-    $.get(
-      'https://api.ourhiddenhistory.org/_search?q=file.filename:'+page+'&size=1&pretty',
-      function (response) {
-        if(response.hits.hits.length == 0){
-          $('.entry-panel__content').html(lastPageContent);
-          alert('no more pages in this document. This is page '+currentListing.page+'.');
-          return;
-        }
-        let listing = new Listing(response.hits.hits[0], docList);
-        displayListingInEntryPanel(listing);
+
+  if(ajaxPage != null) ajaxPage.abort();
+
+  ajaxPage = $.get(
+    'https://api.ourhiddenhistory.org/_search?q=file.filename:'+page+'&size=1&pretty',
+    function (response) {
+
+      ajaxPage = null;
+
+      if(response.hits.hits.length == 0){
+        $('.entry-panel__content').html(lastPageContent);
+        alert('no more pages in this document. This is page '+currentListing.page+'.');
+        return;
       }
-    );
+      let listing = new Listing(response.hits.hits[0], docList);
+      // set search param in url
+      let newUrl = changeUrlWithNewDocument(window.location.pathname + window.location.search, [listing.id]);
+      history.pushState({}, null, newUrl);
+
+      displayListingInEntryPanel(listing);
+    }
+  );
+}
+
+let path = window.location.pathname;
+if(path != 'index.html' && path != ''){
+  let pathParts = path.split('/');
+  let page = pathParts[2]+'.txt'
+  getPage(page, null);
 }
 
 /**
@@ -299,8 +353,6 @@ function setPdfLink(href){
   }
 }
 
-
-
 $(document).keypress(function(e) {
   if(e.which == 13) {
     $("#search_btn").trigger('click');
@@ -335,6 +387,9 @@ function displayListingInEntryPanel(listing) {
   setPdfLink(listing.sourceHref);
   entryImg = listing.img;
   currentListing = listing;
+  // set search param in url
+  let newUrl = changeUrlWithNewDocument(window.location.pathname + window.location.search, [listing.id]);
+  history.pushState({}, null, newUrl);
 }
 
 function parseResponse(response, container) {
@@ -354,20 +409,29 @@ let totalPages = 0;
 let currentPage = 0;
 let search = '';
 const size = 100;
+
 $("#search_btn").on('click', function(e){
 
   $(".results-container").html('Loading...');
 
   search = $("#search").val().replace(/['"]+/g, '');
-  if(!search.length){
+  if(search.length <= 3){
+    alert('search must be at least 3 characters long');
     $(".result").html('');
     return;
   }
 
   currentPage = 1;
-  $.get(
+  if(ajaxSearch != null) ajaxSearch.abort();
+  ajaxSearch = $.get(
     'https://api.ourhiddenhistory.org/_search?q=content:'+search+'&size='+size+'&from=0&default_operator=AND&pretty',
     function(response){
+      ajaxSearch = null;
+
+      // set search param in url
+      let newUrl = changeUrlWithNewSearch(window.location.pathname, search);
+      history.pushState({}, null, newUrl);
+
       if(response.hits.total == 0){
         displayResults(response);
         return;
@@ -385,6 +449,14 @@ $("#search_btn").on('click', function(e){
     }
   );
 });
+
+// automatically trigger for search param
+search = getParameterByName('search');
+if(search){
+  $("#search").val(search);
+  $("#search_btn").trigger('click');
+}
+
 
 function getResults(search, size, page, callback){
   currentPage = page;

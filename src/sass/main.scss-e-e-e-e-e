@@ -34,7 +34,7 @@ img.display-img {
   width: 100%;
 }
 
-ul {
+.doclist__fileslist ul {
   list-style-type: none;
 }
 

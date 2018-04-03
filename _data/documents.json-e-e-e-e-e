@@ -1,6 +1,6 @@
 [{
 		"id": "001",
-		"collection": "BCCI Hearings, Terrorism, Narcotics, International Operations Committee",
+		"collection": "Bank of Credit and Commerce International (BCCI) Hearings, Terrorism, Narcotics, International Operations Committee",
 		"alt_names": [],
 		"date": "1992",
 		"important": "",
@@ -46,7 +46,7 @@
 	},
 	{
 		"id": "002",
-		"collection": "BCCI Hearings before the Committee on Banking, Finance, and Urban Affairs, US House of Representatives",
+		"collection": "Bank of Credit and Commerce International (BCCI) Hearings before the Committee on Banking, Finance, and Urban Affairs, US House of Representatives",
 		"alt_names": [],
 		"date": "1991",
 		"description": "",
@@ -292,7 +292,7 @@
 		"important": "",
 		"files": [{
 				"id": "001",
-				"doc_name": "Were Relevant Documents WIthheld From the Congressional Committees Investigating the Iran-Contra Affair?",
+				"doc_name": "Were Relevant Documents Withheld From the Congressional Committees Investigating the Iran-Contra Affair?",
 				"source": "https://example.org/details/WereRelevantDocumentsWIthheldFromTheCongressionalCommitteesInvestigatingTheIranContraAffair"
 			},
 			{
