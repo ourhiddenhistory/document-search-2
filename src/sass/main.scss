@@ -99,17 +99,27 @@ img.display-img {
   margin-bottom: 6px;
 }
 
-.text-found {
-  font-size: 14px;
-}
-.open-entry-js {
-  color: #008ED1;
-}
+/**
+ * .entry-link
+ */
 .entry-link {
+  color: #008ED1;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 4px;
+}
+
+.entry-link__collection {
+  color: #999;
+}
+
+.entry-link__document {
+  font-size: 14px;
+}
+
+.entry-link__text-found {
+  font-size: 16px;
 }
 
 /**

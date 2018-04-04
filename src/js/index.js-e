@@ -64,8 +64,12 @@ function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 };
 
+/** Class representing a single elasticsearch entry. */
 class Listing {
-
+  /**
+   * @param {Object} hit - single elasticsearch hit
+   * @param {Object} doclist - document list
+   */
   constructor(hit, doclist) {
     this.file = hit._source.file.filename;
     this.id = this.file.replace('.txt', '');
@@ -167,10 +171,8 @@ class Listing {
       }
     }
     if(!this.docId.match(/^[0-9]{3}$/))
-      docname.push(this.docId);
-    console.log(collection);
-    console.log(docname);
-    return docname.join(' / ');
+    docname.push(this.docId);
+    return docname;
   }
 
   extractSearch(search){
@@ -467,9 +469,12 @@ function getResults(search, size, page, callback){
   );
 }
 
-function displayResults(response){
+/**
+ * @return {void}
+ */
+function displayResults(response) {
   listings = [];
-  let container = [];
+  const container = [];
   response.hits.hits.map((el, i) => {
     let file = el._source.file.filename;
     let entry = el._source.content;
@@ -478,7 +483,7 @@ function displayResults(response){
     container.push(listing);
   });
   listings = container;
-  console.log(listings);
+
   if(!listings.length){
     $(".results-container").html('No Results');
     return;
@@ -487,19 +492,21 @@ function displayResults(response){
   $(".results-container").empty();
   let resultsDiv = $('<div></div>');
   resultsDiv.addClass('results');
-  listings.map((el, i, arr) => {
-    let mainDiv = $('<div></div>');
-    mainDiv.addClass('listing');
-    let li = el.searched.map(e => {
-      return '<li>'+e+'</li>';
+  listings.map((el, i) => {
+    const lis = [];
+    el.searched.forEach((e) => {
+      lis.push(`<li>${e}</li>`);
     });
-    let strUl = $('<ul>'+li.join('')+'</ul>');
-    strUl.addClass('text-found');
-    let fileDiv = $('<div>'+el.docname+', page: '+el.page+'</div>');
-    fileDiv.addClass('entry-link');
-    fileDiv.addClass('open-entry-js');
-    fileDiv.attr('data-entry', i);
-    mainDiv.html(fileDiv[0].outerHTML+strUl[0].outerHTML);
+    const mainDiv = `
+    <div class="listing">
+      <div class="entry-link open-entry-js" data-entry="${i}">
+        <div class="entry-link__collection">${el.docname[0]}</div>
+        <div class="entry-link__document">${el.docname[1]}, page: ${el.page}</div>
+      </div>
+      <ul class="entry-link__text-found">
+        ${lis.join('\n')}
+      </ul>
+    </div>`;
     resultsDiv.append(mainDiv);
   });
   var instance = new Mark(resultsDiv[0]);
