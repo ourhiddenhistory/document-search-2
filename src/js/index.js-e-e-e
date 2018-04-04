@@ -1,20 +1,4 @@
-/**
- * For block of text, extract sentences containing any part
- * of the search phrase and highlight it
- *
- * Sentence Splitter:
- * https://stackoverflow.com/a/34784856/399696
- * - Added allowance for Mr., Mrs., Dr. etc... ([A-Z][a-z]{1,2}\.)
- *
- * RegEx Escape Str:
- * https://stackoverflow.com/a/6969486/399696
- *
- * Highligher:
- * https://markjs.io/
- *
- * Text files:
- * http://www.textfiles.com/etext/AUTHORS/SHAKESPEARE/
- */
+
 
 function alphabetical_sort_object_of_objects(data, attr) {
     var arr = [];
@@ -175,48 +159,61 @@ class Listing {
     return docname;
   }
 
-  extractSearch(search){
-    this.searched = new ExtractSentences(this.entry, search, 1);
+  extractSearch(search) {
+    this.searched = ExtractSentences.extract(this.entry, search);
   }
 }
 
+/**
+ * For block of text, extract sentences containing any part
+ * of the search phrase and highlight it
+ *
+ * Sentence Splitter:
+ * https://stackoverflow.com/a/34784856/399696
+ * - Added allowance for Mr., Mrs., Dr. etc... ([A-Z][a-z]{1,2}\.)
+ *
+ * RegEx Escape Str:
+ * https://stackoverflow.com/a/6969486/399696
+ *
+ * Highligher:
+ * https://markjs.io/
+ *
+ * Text files:
+ * http://www.textfiles.com/etext/AUTHORS/SHAKESPEARE/
+ */
 class ExtractSentences {
-
-  constructor(text, search, additional){
-    this.text = text;
-    this.search = search;
-    return this.extract();
-  }
-
-  extract(){
-    let SE = this;
-    let abbrRegex = /\b(\w\.\w\.|[A-Z][a-z]{1,2}\.)|([.?!]|\n+)\s+(?=[A-Za-z])/g;
-    let result = SE.text.replace(abbrRegex, function(m, g1, g2){
-      return g1 ? g1 : g2+"\r";
-    });
-
-    let textSplit = result.replace(/\n/g, " ")
-      .split("\r")
-      .map(function(str){
-      return str.trim();
-    });
-
-    SE.search = SE.search.replace(/(\s+)/, '|');
-    let find = new RegExp(SE.escapeRegExp(SE.search), "i");
-    let textFiltered = textSplit.map(function(el, i, arr){
-      //let pre = (typeof arr[i-1] !== "undefined" ? arr[i-1] : null);
-      //let post = (typeof arr[i+1] !== "undefined" ? arr[i+1] : null);
-      let pre = null, post = null;
-      let string = [pre, el, post].filter(x => x).join(' ');
+  /**
+   * @param {String} text - block of text
+   * @param {String} search - extract sentences containing this text
+   * @return {Array} array of extracted sentences
+   */
+  static extract(text, search) {
+    const abbrRegex = /\b(\w\.\w\.|[A-Z][a-z]{1,2}\.)|([.?!]|\n+)\s+(?=[A-Za-z])/g;
+    const result = text.replace(abbrRegex, (m, g1, g2) => g1 || `${g2}\r`);
+    const textSplit = result.replace(/\n/g, ' ')
+      .split('\r')
+      .map(str => str.trim());
+    const searchFormatted = search.replace(/(\s+)/, '|');
+    const find = new RegExp(ExtractSentences.escapeRegExp(searchFormatted), 'i');
+    const textFiltered = textSplit.map((el) => {
+      // can use the following to add preceeding and following lines
+      // let pre = (typeof arr[i-1] !== "undefined" ? arr[i-1] : null);
+      // let post = (typeof arr[i+1] !== "undefined" ? arr[i+1] : null);
+      const pre = null;
+      const post = null;
+      const string = [pre, el, post].filter(x => x).join(' ');
       return (find.test(string) ? string : null);
-    }).filter(textFiltered => textFiltered);
+    }).filter(e => e);
 
     return textFiltered;
   }
-
-  escapeRegExp(str) {
+  /**
+   * @param {String} str search string to use as regex
+   * @return {String} str escaped for regex
+   */
+  static escapeRegExp(str) {
     // /[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g with pipe
-    return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$]/g, "\\$&");
+    return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$]/g, '\\$&'); // eslint-disable-line no-useless-escape
   }
 }
 
@@ -286,7 +283,7 @@ function getPage(page, lastPageContent){
 
       if(response.hits.hits.length == 0){
         $('.entry-panel__content').html(lastPageContent);
-        alert('no more pages in this document. This is page '+currentListing.page+'.');
+        alert(`no more pages in this document. This is page ${currentListing.page}.`);
         return;
       }
       let listing = new Listing(response.hits.hits[0], docList);
@@ -299,10 +296,11 @@ function getPage(page, lastPageContent){
   );
 }
 
-let path = window.location.pathname;
-if(path != 'index.html' && path != ''){
-  let pathParts = path.split('/');
-  let page = pathParts[2]+'.txt'
+const path = window.location.pathname;
+console.log(path);
+if (['', '/', 'index.html'].indexOf() !== -1) {
+  const pathParts = path.split('/');
+  const page = `${pathParts[2]}.txt`;
   getPage(page, null);
 }
 
@@ -399,7 +397,7 @@ function parseResponse(response, container) {
   response.hits.hits.map((el, i) => {
     let file = el._source.file.filename;
     let entry = el._source.content;
-    let string = new ExtractSentences(entry, search, 1);
+    let string = new ExtractSentences.extract(entry, search);
     let listing = new Listing(string, entry, file, docList);
     container.push(listing);
   });
@@ -475,10 +473,8 @@ function getResults(search, size, page, callback){
 function displayResults(response) {
   listings = [];
   const container = [];
-  response.hits.hits.map((el, i) => {
-    let file = el._source.file.filename;
-    let entry = el._source.content;
-    let listing = new Listing(el, docList);
+  response.hits.hits.forEach((el) => {
+    const listing = new Listing(el, docList);
     listing.extractSearch(search);
     container.push(listing);
   });
@@ -492,7 +488,7 @@ function displayResults(response) {
   $(".results-container").empty();
   let resultsDiv = $('<div></div>');
   resultsDiv.addClass('results');
-  listings.map((el, i) => {
+  listings.forEach((el, i) => {
     const lis = [];
     el.searched.forEach((e) => {
       lis.push(`<li>${e}</li>`);
