@@ -1,4 +1,15 @@
 
+const client = new $.es.Client({
+  hosts: 'https://api.ourhiddenhistory.org',
+});
+
+client.ping({
+  requestTimeout: 30000,
+}, (error) => {
+  if (error) {
+    alert('elasticsearch cluster is down!');
+  }
+});
 
 function alphabetical_sort_object_of_objects(data, attr) {
     var arr = [];
@@ -143,7 +154,6 @@ class Listing {
 
   getDocName(doclist){
     let docname = [];
-    console.log('groupId: '+this.groupId);
     let collection = filterValue(doclist, 'id', this.groupId);
     if(collection && collection.collection){
       docname.push(collection.collection);
@@ -163,6 +173,8 @@ class Listing {
     this.searched = ExtractSentences.extract(this.entry, search);
   }
 }
+
+
 
 /**
  * For block of text, extract sentences containing any part
@@ -270,34 +282,40 @@ function changePage(direction) {
   $('.entry-panel__content').html('LOADING...');
 }
 
+/**
+ * @param {String} page - page id to retrieve
+ * @param {String} lastPageContent - original page content in case of failure
+ * @returns {void}
+ */
+function getPage(page, lastPageContent) {
 
-function getPage(page, lastPageContent){
+  if (ajaxPage != null) ajaxPage.abort();
 
-  if(ajaxPage != null) ajaxPage.abort();
+  ajaxPage = client.search({
+    size: 1,
+    pretty: null,
+    q: `file.filename:${page}`,
+  }).then((response) => {
+    ajaxPage = null;
 
-  ajaxPage = $.get(
-    'https://api.ourhiddenhistory.org/_search?q=file.filename:'+page+'&size=1&pretty',
-    function (response) {
-
-      ajaxPage = null;
-
-      if(response.hits.hits.length == 0){
-        $('.entry-panel__content').html(lastPageContent);
-        alert(`no more pages in this document. This is page ${currentListing.page}.`);
-        return;
-      }
-      let listing = new Listing(response.hits.hits[0], docList);
-      // set search param in url
-      let newUrl = changeUrlWithNewDocument(window.location.pathname + window.location.search, [listing.id]);
-      history.pushState({}, null, newUrl);
-
-      displayListingInEntryPanel(listing);
+    if(response.hits.hits.length == 0) {
+      $('.entry-panel__content').html(lastPageContent);
+      alert(`no more pages in this document. This is page ${currentListing.page}.`);
+      return;
     }
-  );
+    const listing = new Listing(response.hits.hits[0], docList);
+    // set search param in url
+    const curPath = window.location.pathname + window.location.search;
+    const newUrl = changeUrlWithNewDocument(curPath, [listing.id]);
+    history.pushState({}, null, newUrl);
+
+    displayListingInEntryPanel(listing);
+  }, (err) => {
+      console.trace(err.message);
+  });
 }
 
 const path = window.location.pathname;
-console.log(path);
 if (['', '/', 'index.html'].indexOf() !== -1) {
   const pathParts = path.split('/');
   const page = `${pathParts[2]}.txt`;
@@ -423,31 +441,37 @@ $("#search_btn").on('click', function(e){
 
   currentPage = 1;
   if(ajaxSearch != null) ajaxSearch.abort();
-  ajaxSearch = $.get(
-    'https://api.ourhiddenhistory.org/_search?q=content:'+search+'&size='+size+'&from=0&default_operator=AND&pretty',
-    function(response){
-      ajaxSearch = null;
 
-      // set search param in url
-      let newUrl = changeUrlWithNewSearch(window.location.pathname, search);
-      history.pushState({}, null, newUrl);
+  ajaxSearch = client.search({
+    size: size,
+    from: 0,
+    default_operator: 'AND',
+    pretty: null,
+    q: `content:${search}`,
+  }).then((response) => {
+    ajaxSearch = null;
 
-      if(response.hits.total == 0){
-        displayResults(response);
-        return;
-      }
-      totalPages = Math.ceil(response.hits.total / 100);
-      $pagination.twbsPagination('destroy');
-      $pagination.twbsPagination($.extend({}, {}, {
-        startPage: currentPage,
-        totalPages: totalPages,
-        onPageClick: function (event, page) {
-          getResults(search, size, page, displayResults);
-          $('.search-panel').closest('.scrolling-pane').scrollTop(0);
-        }
-      }));
+    // set search param in url
+    let newUrl = changeUrlWithNewSearch(window.location.pathname, search);
+    history.pushState({}, null, newUrl);
+
+    if(response.hits.total == 0){
+      displayResults(response);
+      return;
     }
-  );
+    totalPages = Math.ceil(response.hits.total / 100);
+    $pagination.twbsPagination('destroy');
+    $pagination.twbsPagination($.extend({}, {}, {
+      startPage: currentPage,
+      totalPages: totalPages,
+      onPageClick: function (event, page) {
+        getResults(search, size, page, displayResults);
+        $('.search-panel').closest('.scrolling-pane').scrollTop(0);
+      }
+    }));
+  }, (err) => {
+      console.trace(err.message);
+  });
 });
 
 // automatically trigger for search param
@@ -457,14 +481,29 @@ if(search){
   $("#search_btn").trigger('click');
 }
 
-
-function getResults(search, size, page, callback){
+/**
+ * @param {String} searchParam - search parameter
+ * @param {Int} recordCount - record count to return
+ * @param {Int} page - page of records to retrieve
+ * @param {Func} callback - function to run on completion
+ * @returns {void}
+ */
+function getResults(searchParam, recordCount, page, callback) {
   currentPage = page;
-  let from = (size * (page - 1));
-  $.get(
-    'https://api.ourhiddenhistory.org/_search?q=content:'+search+'&size='+size+'&from='+from+'&default_operator=AND&pretty',
-    callback
-  );
+  const from = (recordCount * (page - 1));
+
+  if (ajaxSearch != null) ajaxSearch.abort();
+
+  ajaxSearch = client.search({
+    size: recordCount,
+    from,
+    default_operator: 'AND',
+    pretty: null,
+    q: `content:${search}`,
+  }).then((response) => {
+    ajaxSearch = null;
+    callback(response.hits.hits);
+  });
 }
 
 /**
@@ -473,7 +512,7 @@ function getResults(search, size, page, callback){
 function displayResults(response) {
   listings = [];
   const container = [];
-  response.hits.hits.forEach((el) => {
+  response.forEach((el) => {
     const listing = new Listing(el, docList);
     listing.extractSearch(search);
     container.push(listing);
