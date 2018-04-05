@@ -8,9 +8,12 @@
 		"go": "gulp; bundle exec jekyll serve"
 	},
 	"dependencies": {
+		"elasticsearch": "^14.2.2",
+		"elasticsearch-browser": "^14.2.2",
 		"gulp-rename": "^1.2.2",
 		"npm": "^5.8.0",
 		"pump": "^3.0.0",
+		"requirejs": "^2.3.5",
 		"string.prototype.padstart": "^3.0.0"
 	},
 	"devDependencies": {

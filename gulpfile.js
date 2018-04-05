@@ -5,7 +5,6 @@ const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
 const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
-const pump = require('pump');
 const child = require('child_process');
 const gutil = require('gulp-util');
 
@@ -18,22 +17,25 @@ gulp.task('css', () => {
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('style.css'))
     .pipe(autoprefixer({
-        browsers: ['last 8 versions'],
-        cascade: false
+      browsers: ['last 8 versions'],
+      cascade: false,
     }))
     .pipe(cssnano())
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('js', () =>
   gulp.src(jsFiles)
     .pipe(concat('index.js'))
     .pipe(babel({
-      presets: ['env']
+      presets: ['env'],
     }))
     .pipe(uglify())
-    .pipe(gulp.dest('dist'))
-);
+    .pipe(gulp.dest('dist')));
+
+gulp.task('copy', () =>
+  gulp.src(['node_modules/requirejs/require.js', 'node_modules/elasticsearch-browser/elasticsearch.jquery.js'])
+    .pipe(gulp.dest('dist')));
 
 gulp.task('jekyll', () => {
   const jekyll = child.spawn('jekyll', ['build', 'serve',
@@ -41,13 +43,13 @@ gulp.task('jekyll', () => {
     '_config.dev.yml',
     '--watch',
     '--incremental',
-    '--drafts'
+    '--drafts',
   ]);
 
   const jekyllLogger = (buffer) => {
     buffer.toString()
       .split(/\n/)
-      .forEach((message) => gutil.log('Jekyll: ' + message));
+      .forEach(message => gutil.log(`Jekyll: ${message}`));
   };
 
   jekyll.stdout.on('data', jekyllLogger);
@@ -60,5 +62,5 @@ gulp.task('watch', () => {
   gulp.watch(dataFiles, ['jekyll']);
 });
 
-gulp.task('default', ['css', 'js', 'jekyll', 'watch']);
-gulp.task('build', ['css', 'js']);
+gulp.task('default', ['copy', 'css', 'js', 'jekyll', 'watch']);
+gulp.task('build', ['copy', 'css', 'js']);
