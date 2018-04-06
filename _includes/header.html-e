@@ -14,6 +14,17 @@
   <link rel='stylesheet prefetch'
         href='{{site.baseurl}}/dist/style.css'>
 
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@ourhiddenhistry">
+  <meta property="og:title" content="Our Hidden History: Database of Historical Cold War Documents" />
+  <meta property="og:type"   content="website" />
+  <meta property="og:url" content="https://ourhiddenhistory.org/" />
+  <meta property="og:image" content="https://ourhiddenhistory.org/doc-search/dist/img/ourhiddenhistory-twitter.png" />
+  <meta property="og:description"
+    content="A Database of Cold War History" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Our Hidden History" />
+
 </head>
 
 <body translate="no">

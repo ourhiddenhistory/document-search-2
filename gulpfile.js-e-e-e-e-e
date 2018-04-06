@@ -37,6 +37,10 @@ gulp.task('copy', () =>
   gulp.src(['node_modules/requirejs/require.js', 'node_modules/elasticsearch-browser/elasticsearch.jquery.js'])
     .pipe(gulp.dest('dist')));
 
+gulp.task('copyImgs', () =>
+  gulp.src(['src/img/**/*'])
+    .pipe(gulp.dest('dist/img')));
+
 gulp.task('jekyll', () => {
   const jekyll = child.spawn('jekyll', ['build', 'serve',
     '--config',
@@ -62,5 +66,5 @@ gulp.task('watch', () => {
   gulp.watch(dataFiles, ['jekyll']);
 });
 
-gulp.task('default', ['copy', 'css', 'js', 'jekyll', 'watch']);
+gulp.task('default', ['copy', 'copyImgs', 'css', 'js', 'jekyll', 'watch']);
 gulp.task('build', ['copy', 'css', 'js']);
