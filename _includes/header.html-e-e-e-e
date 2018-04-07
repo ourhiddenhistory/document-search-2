@@ -4,6 +4,12 @@
 
 <head>
 
+  <!-- cache busting -->
+  {% assign min = 65 %}
+  {% assign max = 80 %}
+  {% assign diff = max | minus: min %}
+  {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+
   <meta charset="UTF-8">
 
   <title>Our Hidden History - Document Search</title>
@@ -12,7 +18,7 @@
   <link rel='stylesheet prefetch'
         href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
   <link rel='stylesheet prefetch'
-        href='{{site.baseurl}}/dist/style.css'>
+        href='{{site.baseurl}}/dist/style.css?{{randomNumber}}'>
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@ourhiddenhistry">
