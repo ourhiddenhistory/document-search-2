@@ -9,7 +9,13 @@ app: search-doc-app
       <div class="search-panel">
         <h4>Search</h4>
         <div class="input-group mb-3">
-          <input id="search" type="text" class="form-control" placeholder="Search term..." aria-label="Search term" aria-describedby="basic-addon2">
+          <input
+            id="search"
+            type="text"
+            class="form-control"
+            placeholder="Search term..."
+            aria-label="Search term"
+            aria-describedby="basic-addon2">
           <div class="input-group-append">
             <button id="search_btn" class="btn btn-info" type="button">SEARCH</button>
           </div>

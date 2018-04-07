@@ -27,7 +27,7 @@ function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 };
 
-/** Class representing a single elasticsearch entry. */
+/** Class representing a single elasticsearch hit. */
 class Listing {
   /**
    * @param {Object} hit - single elasticsearch hit
@@ -142,7 +142,47 @@ class Listing {
   }
 }
 
-
+/** class to assist in building elastic search queries */
+class GenerateEsQuery {
+  /**
+   * Create a point.
+   * @param {String} stringInput - user search string.
+   * @returns {Object} json representation of search
+   */
+  static generate(stringInput) {
+    const esQuery = {
+      query: {
+        bool: {
+          must: [],
+        },
+      },
+    };
+    const stringParts = stringInput.match(/("[^"]+"|[^"\s]+)/g);
+    stringParts.forEach((str) => {
+      const searchObj = {};
+      const cleanStr = str.replace(/^"([^"]+)"$/, '$1').replace(/\s+/, ' ');
+      if (GenerateEsQuery.isPhrase(cleanStr)) {
+        searchObj.match_phrase = {
+          content: cleanStr,
+        };
+      } else {
+        searchObj.match = {
+          content: cleanStr,
+        };
+      }
+      esQuery.query.bool.must.push(searchObj);
+    });
+    return esQuery;
+  }
+  /**
+   * Check if string is a phrase by looking for a space
+   * @param {String} str - string to check.
+   * @returns {Boolean} is phrase?
+   */
+  static isPhrase(str) {
+    return (str.indexOf(' ') >= 0);
+  }
+}
 
 /**
  * For block of text, extract sentences containing any part
@@ -173,7 +213,10 @@ class ExtractSentences {
     const textSplit = result.replace(/\n/g, ' ')
       .split('\r')
       .map(str => str.trim());
-    const searchFormatted = search.replace(/(\s+)/, '|');
+
+    const searchParts = search.match(/("[^"]+"|[^"\s]+)/g);
+    const cleanedParts = searchParts.map(x => x.replace(/^"([^"]+)"$/, '$1').replace(/\s+/, ' '));
+    const searchFormatted = cleanedParts.join('|');
     const find = new RegExp(ExtractSentences.escapeRegExp(searchFormatted), 'i');
     const textFiltered = textSplit.map((el) => {
       // can use the following to add preceeding and following lines
@@ -378,18 +421,6 @@ function displayListingInEntryPanel(listing) {
   history.pushState({}, null, newUrl);
 }
 
-function parseResponse(response, container) {
-  container = [];
-  response.hits.hits.map((el, i) => {
-    let file = el._source.file.filename;
-    let entry = el._source.content;
-    let string = new ExtractSentences.extract(entry, search);
-    let listing = new Listing(string, entry, file, docList);
-    container.push(listing);
-  });
-  return container;
-}
-
 let TEXT = '';
 let totalPages = 0;
 let currentPage = 0;
@@ -400,7 +431,7 @@ $("#search_btn").on('click', function(e){
 
   $(".results-container").html('Loading...');
 
-  search = $("#search").val().replace(/['"]+/g, '');
+  search = $("#search").val();
   if(search.length <= 2){
     alert('search must be at least 2 characters long');
     $(".result").html('');
@@ -413,9 +444,8 @@ $("#search_btn").on('click', function(e){
   ajaxSearch = client.search({
     size: size,
     from: 0,
-    default_operator: 'AND',
     pretty: null,
-    q: `content:${search}`,
+    body: GenerateEsQuery.generate(search),
   }).then((response) => {
     ajaxSearch = null;
 
@@ -465,9 +495,8 @@ function getResults(searchParam, recordCount, page, callback) {
   ajaxSearch = client.search({
     size: recordCount,
     from,
-    default_operator: 'AND',
     pretty: null,
-    q: `content:${search}`,
+    body: GenerateEsQuery.generate(searchParam),
   }).then((response) => {
     ajaxSearch = null;
     callback(response.hits.hits);
