@@ -3043,9 +3043,9 @@
   {
     "id": "031",
     "collection":
-      "Torture, Medical Experiments on Humans (Various Government Documents)",
+      "Torture, Medical Experimentation on Humans (Various Government and Non-Government Documents)",
     "alt_names": [],
-    "date": "1975",
+    "date": "1975 - 2012",
     "source":
       "https://example.org/details/US-Government-Medical-Experimentation-On-Humans",
     "description": "",
@@ -4692,7 +4692,7 @@
   },
   {
     "id": "054",
-    "collection": "Post-War Fascism (Spitfire List Collection)",
+    "collection": "Non-Government Sources on Fascism (Spitfire List Collection)",
     "alt_names": [],
     "date": "1954",
     "important":
@@ -4700,7 +4700,103 @@
     "description": "",
     "source": "http://spitfirelist.com/category/books/",
     "type": "pdf",
-    "files": []
+    "files": [
+      {
+        "id": "001",
+        "doc_name": "ambruster_pt1",
+        "source": "http://spitfirelist.com/books/ambruster_pt1.pdf"
+      },
+      {
+        "id": "002",
+        "doc_name": "ambruster_pt2",
+        "source": "http://spitfirelist.com/books/ambruster_pt2.pdf"
+      },
+      {
+        "id": "003",
+        "doc_name": "borkin_pt1",
+        "source": "http://spitfirelist.com/books/borkin_pt1.pdf"
+      },
+      {
+        "id": "004",
+        "doc_name": "borkin_pt2",
+        "source": "http://spitfirelist.com/books/borkin_pt2.pdf"
+      },
+      {
+        "id": "005",
+        "doc_name": "carlson01",
+        "source": "http://spitfirelist.com/books/carlson01.pdf"
+      },
+      {
+        "id": "006",
+        "doc_name": "carlson02",
+        "source": "http://spitfirelist.com/books/carlson02.pdf"
+      },
+      {
+        "id": "007",
+        "doc_name": "chase1a",
+        "source": "http://spitfirelist.com/books/chase1a.pdf"
+      },
+      {
+        "id": "008",
+        "doc_name": "chase2a",
+        "source": "http://spitfirelist.com/books/chase2a.pdf"
+      },
+      {
+        "id": "009",
+        "doc_name": "gollomb",
+        "source": "http://spitfirelist.com/books/gollomb.pdf"
+      },
+      {
+        "id": "010",
+        "doc_name": "honorable01",
+        "source": "http://spitfirelist.com/books/honorable01.pdf"
+      },
+      {
+        "id": "011",
+        "doc_name": "honorable02",
+        "source": "http://spitfirelist.com/books/honorable02.pdf"
+      },
+      {
+        "id": "012",
+        "doc_name": "tetens_pt1",
+        "source": "http://spitfirelist.com/books/tetens_pt1.pdf"
+      },
+      {
+        "id": "013",
+        "doc_name": "tetens_pt2",
+        "source": "http://spitfirelist.com/books/tetens_pt2.pdf"
+      },
+      {
+        "id": "014",
+        "doc_name": "under_cover1b",
+        "source": "http://spitfirelist.com/books/under_cover1b.pdf"
+      },
+      {
+        "id": "015",
+        "doc_name": "under_cover2b",
+        "source": "http://spitfirelist.com/books/under_cover2b.pdf"
+      },
+      {
+        "id": "016",
+        "doc_name": "undergrnd",
+        "source": "http://spitfirelist.com/books/undergrnd.pdf"
+      },
+      {
+        "id": "017",
+        "doc_name": "winkler1a",
+        "source": "http://spitfirelist.com/books/winkler1a.pdf"
+      },
+      {
+        "id": "018",
+        "doc_name": "winkler1b",
+        "source": "http://spitfirelist.com/books/winkler1b.pdf"
+      },
+      {
+        "id": "019",
+        "doc_name": "manning",
+        "source": "http://spitfirelist.com/manningpdf/manning.pdf"
+      }
+    ]
   },
   {
     "id": "055",
