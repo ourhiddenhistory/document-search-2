@@ -8,6 +8,7 @@
 		"go": "gulp; bundle exec jekyll serve"
 	},
 	"dependencies": {
+		"autolinker": "^1.6.2",
 		"elasticsearch": "^14.2.2",
 		"elasticsearch-browser": "^14.2.2",
 		"glob-fs": "^0.1.7",
