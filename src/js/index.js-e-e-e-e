@@ -11,39 +11,7 @@ client.ping({
   }
 });
 
-function alphabetical_sort_object_of_objects(data, attr) {
-    var arr = [];
-    for (var prop in data) {
-        if (data.hasOwnProperty(prop)) {
-            var obj = {};
-            obj[prop] = data[prop];
-            obj.tempSortName = data[prop][attr].toLowerCase();
-            arr.push(obj);
-        }
-    }
-
-    arr.sort(function(a, b) {
-        var at = a.tempSortName,
-            bt = b.tempSortName;
-        return at > bt ? 1 : ( at < bt ? -1 : 0 );
-    });
-
-    var result = [];
-    for (var i=0, l=arr.length; i<l; i++) {
-        var obj = arr[i];
-        delete obj.tempSortName;
-        for (var prop in obj) {
-            if (obj.hasOwnProperty(prop)) {
-                var id = prop;
-            }
-        }
-        var item = obj[id];
-        result.push(item);
-    }
-    return result;
-}
-
-const filterValue = (obj, key, value)=> obj.find(v => v[key] === value);
+const filterValue = (obj, key, value) => obj.find(v => v[key] === value);
 
 /**
  * Modules
@@ -433,8 +401,8 @@ $("#search_btn").on('click', function(e){
   $(".results-container").html('Loading...');
 
   search = $("#search").val().replace(/['"]+/g, '');
-  if(search.length <= 3){
-    alert('search must be at least 3 characters long');
+  if(search.length <= 2){
+    alert('search must be at least 2 characters long');
     $(".result").html('');
     return;
   }
