@@ -2088,7 +2088,7 @@
       {
         "id": "032",
         "doc_name":
-          "Judiciary Committee Hearings - Impeachment of Richard M Nixon, President of the United States",
+          "Judiciary Committee Hearings - Impeachment of Richard M. Nixon, President of the United States",
         "source":
           "https://example.org/stream/WatergateHearingsBeforeTheHouseCommitteeOnTheJudiciary/Judiciary%20Committee%20Hearings-%20Impeachment%20of%20Richard%20M%20Nixon%2C%20President%20of%20the%20United%20States"
       },
@@ -2165,28 +2165,28 @@
       {
         "id": "043",
         "doc_name":
-          "Judiciary Committee Hearings - Statement of Information, Book VII%2C Part 1- White House Surveillance Activities and Campaign Activities",
+          "Judiciary Committee Hearings - Statement of Information, Book VII Part 1- White House Surveillance Activities and Campaign Activities",
         "source":
           "https://example.org/stream/WatergateHearingsBeforeTheHouseCommitteeOnTheJudiciary/Judiciary%20Committee%20Hearings-%20Statement%20of%20Information%2C%20Book%20VII%2C%20Part%201-%20White%20House%20Surveillance%20Activities%20and%20Campaign%20Activities"
       },
       {
         "id": "044",
         "doc_name":
-          "Judiciary Committee Hearings - Testimony of Witnesses, Book I- Alexander Butterfield%2C Paul O'Brien%2C and Fred C. LaRue",
+          "Judiciary Committee Hearings - Testimony of Witnesses, Book I- Alexander Butterfield Paul O'Brien and Fred C. LaRue",
         "source":
           "https://example.org/stream/WatergateHearingsBeforeTheHouseCommitteeOnTheJudiciary/Judiciary%20Committee%20Hearings-%20Testimony%20of%20Witnesses%2C%20Book%20I-%20Alexander%20Butterfield%2C%20Paul%20O%27Brien%2C%20and%20Fred%20C.%20LaRue"
       },
       {
         "id": "045",
         "doc_name":
-          "Judiciary Committee Hearings - Testimony of Witnesses, Book II- William O. Bittman%2C John N. Mitchell%2C and John W. Dean III",
+          "Judiciary Committee Hearings - Testimony of Witnesses, Book II- William O. Bittman John N. Mitchell and John W. Dean III",
         "source":
           "https://example.org/stream/WatergateHearingsBeforeTheHouseCommitteeOnTheJudiciary/Judiciary%20Committee%20Hearings-%20Testimony%20of%20Witnesses%2C%20Book%20II-%20William%20O.%20Bittman%2C%20John%20N.%20Mitchell%2C%20and%20John%20W.%20Dean%20III"
       },
       {
         "id": "046",
         "doc_name":
-          "Judiciary Committee Hearings - Testimony of Witnesses, Book III- Henry E. Petersen%2C Charles W. Colson%2C and Herbert W. Kalmbach",
+          "Judiciary Committee Hearings - Testimony of Witnesses, Book III- Henry E. Petersen Charles W. Colson and Herbert W. Kalmbach",
         "source":
           "https://example.org/stream/WatergateHearingsBeforeTheHouseCommitteeOnTheJudiciary/Judiciary%20Committee%20Hearings-%20Testimony%20of%20Witnesses%2C%20Book%20III-%20Henry%20E.%20Petersen%2C%20Charles%20W.%20Colson%2C%20and%20Herbert%20W.%20Kalmbach"
       },
@@ -2856,7 +2856,7 @@
     "description": "",
     "important": "",
     "source":
-      "https://example.org/stream/Rockefeller-commission-report-to-the-president-by-the-commission-on-cia-activiti/report-to-the-president-by-the-commission-on-cia-activities-within-the-united-states-1975#page/n5/mode/2up",
+      "https://example.org/stream/Rockefeller-commission-report-to-the-president-by-the-commission-on-cia-activiti/report-to-the-president-by-the-commission-on-cia-activities-within-the-united-states-1975#page/n7/mode/2up",
     "files": [
       {
         "id": "001",
@@ -3134,7 +3134,7 @@
   },
   {
     "id": "033",
-    "collection": "CIA and the Media",
+    "collection": "The CIA And The Media, House Permanent Select Comm. on Intelligence (1977-78)",
     "date": "1977",
     "alt_names": [],
     "description": "",
@@ -4270,8 +4270,8 @@
     "alt_names": [],
     "date": "1973",
     "important":
-      "Incomplete collection, but contains important hearings on ITT, Chile, Lockheed, and more.",
-    "description": "",
+      "In Progress.",
+    "description": "Incomplete collection, but contains important hearings on ITT, Chile, Lockheed, and more.",
     "source":
       "https://example.org/details/MultinationalCorporationsAndUSForeignPolicyUSSenateHearings",
     "type": "archive",
@@ -4309,7 +4309,7 @@
     "collection": "Early Government Studies on Intelligence and the CIA",
     "alt_names": [],
     "date": "1947",
-    "important": "",
+    "important": "In Progress.",
     "description": "",
     "source":
       "https://example.org/details/MultinationalCorporationsAndUSForeignPolicyUSSenateHearings",
@@ -4458,7 +4458,7 @@
     "collection": "George Seldes Books and In Fact Magazines",
     "alt_names": [],
     "date": "1940",
-    "important": "",
+    "important": "In Progress.",
     "description": "",
     "source":
       "https://example.org/search.php?query=george%20seldes&and[]=mediatype%3A%22texts%22",
@@ -4469,11 +4469,10 @@
     "id": "053",
     "collection": "The JFK Assassination in Ramparts Magazine",
     "alt_names": [],
-    "date": "1947",
-    "important":
-      "Courtesy Harold Weisberg Archive <a href='http://jfk.hood.edu'>jfk.hood.edu</a>.",
+    "date": "1968",
+    "important": "In Progress.",
     "description":
-      "These are part of a larger 'Richard Helms Collection' which were uploaded to example.org.",
+      "Courtesy Harold Weisberg Archive <a href='http://jfk.hood.edu'>jfk.hood.edu</a>.",
     "source":
       "https://example.org/details/TheCentralIntelligenceAgency_RichardHelmsDocuments",
     "type": "archive",
@@ -4695,9 +4694,8 @@
     "collection": "Non-Government Sources on Fascism (Spitfire List Collection)",
     "alt_names": [],
     "date": "1954",
-    "important":
-      "Courtesy <a href='http://spitfirelist.com/'>spitfilelist.com</a>",
-    "description": "",
+    "important": "In Progress.",
+    "description": "Courtesy <a href='http://spitfirelist.com/'>spitfilelist.com</a>.",
     "source": "http://spitfirelist.com/category/books/",
     "type": "pdf",
     "files": [
@@ -4804,7 +4802,7 @@
     "alt_names": [],
     "date": "1973",
     "important":
-      "The provenance of these is unknown. They were downloaded in a large torrent file along with other CIA documents. They should be reviewed before citing.",
+      "In Progress. The provenance of these is unknown. They were downloaded in a large torrent file along with other CIA documents. They should be reviewed before citing.",
     "description": "",
     "source":
       "https://example.org/details/TheCentralIntelligenceAgency_RichardHelmsDocuments",
