@@ -16,7 +16,7 @@ const DIR_CSV = process.argv[2];
 const DIRS = DIR_CSV.split(',');
 const PROCEED = process.argv[3] || false;
 
-const BASEPATH = '/Users/ourhiddenhistory/Desktop/BCCI/es';
+const BASEPATH = '/Users/ourhiddenhistory/Desktop/BCCI/_es';
 
 /**
  * @param {String} file - full filepath
@@ -43,6 +43,7 @@ function fileIsFromOnePageDoc(current, prev, next) {
 
 DIRS.forEach((dir) => {
   const absDir = `${BASEPATH}/${dir}/`;
+  glob.files = [];
   const files = glob.readdirSync(`${absDir}*.txt`, { cwd: '/' });
   files.forEach((file, i) => {
     const currentFilepath = `/${file}`;
@@ -55,12 +56,12 @@ DIRS.forEach((dir) => {
     const isOnePage = fileIsFromOnePageDoc(currentFileparts, prevFileparts, nextFileparts);
     // console.log(`${currentFileparts} | ${isOnePage}`);
     if (isOnePage && currentFileparts[1] === '2') {
-      //console.log(`${currentFileparts} | ${isOnePage}`);
+      // console.log(`${currentFileparts} | ${isOnePage}`);
       const newFilepath = `${absDir}${currentFileparts[0]}_1.txt`;
       if (!PROCEED){
         console.log(`${currentFilepath} will be renamed to ${newFilepath}`);
       }else{
-        fs.rename(currentFilepath, newFilepath, (err) => {
+        fs.rename(c urrentFilepath, newFilepath, (err) => {
           if (err) {
             console.log(err); return;
           }
