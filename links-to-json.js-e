@@ -35,7 +35,8 @@ const storeArr = [];
 lines.forEach((el, i) => {
   const obj = {
     id: String(i + START_CNT).padStart(3, '0'),
-    doc_name: decodeURI(path.basename(el.trim(), '.pdf')),
+    // id: decodeURI(path.basename(el.trim(), '.pdf')), For Nuremburg Trials
+    doc_name: decodeURI(path.basename(el.trim(), '.pdf')).replace(/_/g, ' ').replace(/-/g, ' '),
     source: el.trim(),
   };
   if (NAMES_INPUT) {
