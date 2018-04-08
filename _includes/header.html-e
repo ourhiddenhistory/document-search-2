@@ -10,8 +10,6 @@
   {% assign diff = max | minus: min %}
   {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
 
-  <meta charset="UTF-8">
-
   <title>Our Hidden History - Document Search</title>
   <link rel='stylesheet prefetch'
         href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
@@ -20,6 +18,8 @@
   <link rel='stylesheet prefetch'
         href='{{site.baseurl}}/dist/style.css?{{randomNumber}}'>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@ourhiddenhistry">
   <meta property="og:title" content="Our Hidden History: Database of Historical Cold War Documents" />
@@ -54,16 +54,19 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="/">OurHiddenHistory.org</a>
+            <a class="nav-link btn btn-md btn-info" href="{{ site.baseurl }}/documents-list.html">Documents List</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/index.php">Search</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/documents-list.html">Documents List</a>
+            <a class="nav-link" href="{{ site.baseurl }}/index.php"><i class="fa fa-search" aria-hidden="true"></i> Search</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/links.html">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">OurHiddenHistory.org</a>
           </li>
           <!--
           <li class="nav-item">
