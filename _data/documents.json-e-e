@@ -335,7 +335,7 @@
         "doc_name":
           "Were Relevant Documents Withheld From the Congressional Committees Investigating the Iran-Contra Affair?",
         "source":
-          "https://example.org/details/WereRelevantDocumentsWIthheldFromTheCongressionalCommitteesInvestigatingTheIranContraAffair"
+          "https://example.org/stream/WereRelevantDocumentsWIthheldFromTheCongressionalCommitteesInvestigatingTheIranContraAffair/Were%20Relevant%20Documents%20WIthheld%20From%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%3F"
       },
       {
         "id": "002",
@@ -343,7 +343,15 @@
           "The Downing of a United States Plane in Nicaragua and United States Involvement in the Contra War",
         "date": "1986-10-15",
         "source":
-          "https://example.org/details/WereRelevantDocumentsWIthheldFromTheCongressionalCommitteesInvestigatingTheIranContraAffair"
+          "https://example.org/stream/1986Foa0064HasenfusShootdown/1986-foa-0064_Hasenfus-Shootdown"
+      },
+      {
+        "id": "003",
+        "doc_name":
+          "Preliminary Inquiry Into the Sale of Arms to Iran and Possible Diversion of Funds to the Nicaraguan Resistance",
+        "date": "1987-02-02",
+        "source":
+          "https://example.org/download/PreliminaryInquiryIntoTheSaleOfArmsToIranAndPossibleDiversionOfFundsToTheNicaraguanResistance_201804/Preliminary%20Inquiry%20Into%20the%20Sale%20of%20Arms%20to%20Iran%20and%20Possible%20Diversion%20of%20Funds%20to%20the%20Nicaraguan%20Resistance.pdf"
       }
     ]
   },
@@ -504,7 +512,7 @@
       "Report of the Congressional Committees Investigating the Iran-Contra Affair",
     "alt_names": [],
     "date": "1987",
-    "description": "",
+    "description": "<a href='https://www.consortiumnews.com/2008/062908.html'>'Lost Chapter'</a> via <a href='https://www.consortiumnews.com'>consortiumnews.com</a>.",
     "important": "",
     "source": "https://example.org/details/Iran-ContraReport",
     "files": [
@@ -728,6 +736,13 @@
         "id": "037",
         "doc_name":
           "Appendix D, Volume 05  Testimonial Chronology  Witness Accounts, Supplemented by Documents",
+        "source":
+          "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20D%2C%20Volume%205_%20Testimonial%20Chronology_%20Witness%20Accounts%2C%20Supplemented%20by%20Documents.pdf"
+      },
+      {
+        "id": "lostchapter",
+        "doc_name":
+          "Draft Chapter on 'Perception Management' during the Reagan Administration (via <a href='http://consortiumnews.com'>consortiumnews.com</a>)",
         "source":
           "https://example.org/download/Iran-ContraReport/Report%20of%20the%20Congressional%20Committees%20Investigating%20the%20Iran-Contra%20Affair%2C%20Appendix%20D%2C%20Volume%205_%20Testimonial%20Chronology_%20Witness%20Accounts%2C%20Supplemented%20by%20Documents.pdf"
       }
@@ -3135,7 +3150,7 @@
   {
     "id": "033",
     "collection":
-      "The CIA And The Media, House Permanent Select Comm. on Intelligence (1977-78)",
+      "The CIA and the Media, House Permanent Select Comm. on Intelligence (1977-78)",
     "date": "1977",
     "alt_names": [],
     "description": "",
@@ -11735,5 +11750,16 @@
           "https://example.org/stream/TheCentralIntelligenceAgency_RichardHelmsDocuments/CIA%20Richard%20Helms%20Collection/In%20His%20Own%20Words/We%20Believe%20in%20our%20work%20-%20Speech%20given%2024%20May%201983%20we_belv_wrk"
       }
     ]
-  }
+  },
+  {
+    "id": "066",
+    "collection": "Jim Garrison Investigation of the JFK Assassination: National Archives Collection",
+    "alt_names": [],
+    "date": "1967",
+    "important": "",
+    "source": "https://catalog.archives.gov/search?q=Jim%20Garrison",
+    "description": "",
+    "type": "pdf",
+    "files": []
+  },
 ]
