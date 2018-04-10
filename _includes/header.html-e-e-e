@@ -5,8 +5,8 @@
 <head>
 
   <!-- cache busting -->
-  {% assign min = 65 %}
-  {% assign max = 80 %}
+  {% assign min = 00 %}
+  {% assign max = 100 %}
   {% assign diff = max | minus: min %}
   {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
 
@@ -22,12 +22,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@ourhiddenhistry">
-  <meta property="og:title" content="Our Hidden History: Database of Historical Cold War Documents" />
+  <meta property="fb:admins" content=""/>
+  <meta property="og:title" content="Our Hidden History Documents Database" />
   <meta property="og:type"   content="website" />
-  <meta property="og:url" content="https://ourhiddenhistory.org/" />
+  <meta property="og:url" content="https://ourhiddenhistory.org{{site.baseurl}}{{page.url}}" />
   <meta property="og:image" content="https://ourhiddenhistory.org/doc-search/dist/img/ourhiddenhistory-twitter.png" />
   <meta property="og:description"
-    content="A Database of Cold War History" />
+    content="A Database of Cold War and Post-Cold War History" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="Our Hidden History" />
 
@@ -61,6 +62,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/code.html">Code</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ site.baseurl }}/links.html">Links</a>
