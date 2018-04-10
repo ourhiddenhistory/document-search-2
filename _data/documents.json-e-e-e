@@ -512,7 +512,8 @@
       "Report of the Congressional Committees Investigating the Iran-Contra Affair",
     "alt_names": [],
     "date": "1987",
-    "description": "<a href='https://www.consortiumnews.com/2008/062908.html'>'Lost Chapter'</a> via <a href='https://www.consortiumnews.com'>consortiumnews.com</a>.",
+    "description":
+      "<a href='https://www.consortiumnews.com/2008/062908.html'>'Lost Chapter'</a> via <a href='https://www.consortiumnews.com'>consortiumnews.com</a>.",
     "important": "",
     "source": "https://example.org/details/Iran-ContraReport",
     "files": [
@@ -2211,6 +2212,13 @@
           "Judiciary Committee Hearings - Transcripts of Eight Recorded Presidential Conversations",
         "source":
           "https://example.org/stream/WatergateHearingsBeforeTheHouseCommitteeOnTheJudiciary/Judiciary%20Committee%20Hearings-%20Transcripts%20of%20Eight%20Recorded%20Presidential%20Conversations"
+      },
+      {
+        "id": "048",
+        "doc_name":
+          "Inquiry into the Alleged Involvement of CIA in the Watergate and Ellsberg Matters",
+        "source":
+          "https://example.org/stream/InquiryIntoTheAllegedInvolvementOfCIAInTheWatergateAndEllsbergMatters/Inquiry%20into%20the%20Alleged%20Involvement%20of%20CIA%20in%20the%20Watergate%20and%20Ellsberg%20Matters"
       }
     ]
   },
@@ -7071,7 +7079,8 @@
   },
   {
     "id": "043",
-    "collection": "The Pentagon Papers",
+    "collection":
+      "The Pentagon Papers, Ellsberg, and other Vietnam Related Materials",
     "alt_names": [],
     "date": "1968",
     "description": "",
@@ -7371,6 +7380,24 @@
         "doc_name": "Part VI C 4",
         "source":
           "https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-VI-C-4.pdf"
+      },
+      {
+        "id": "050",
+        "doc_name": "Background on My Lai Hearings and Report",
+        "source": "https://www.loc.gov/rr/frd/Military_Law/pdf/MyLai_bckgr.pdf"
+      },
+      {
+        "id": "051",
+        "doc_name":
+          "Hearings: Investigation of the My Lai Incident - House Armed Services Committee",
+        "source":
+          "https://www.loc.gov/rr/frd/Military_Law/pdf/MyLaiHearings.pdf"
+      },
+      {
+        "id": "052",
+        "doc_name":
+          "Report: Investigation of the My Lai Incident - House Armed Services Committee",
+        "source": "https://www.loc.gov/rr/frd/Military_Law/pdf/MyLaiReport.pdf"
       }
     ]
   },
@@ -11753,13 +11780,368 @@
   },
   {
     "id": "066",
-    "collection": "Jim Garrison Investigation of the JFK Assassination: National Archives Collection",
+    "collection":
+      "Jim Garrison Investigation of the JFK Assassination: National Archives Collection",
     "alt_names": [],
     "date": "1967",
-    "important": "",
+    "important": "50% complete.",
     "source": "https://catalog.archives.gov/search?q=Jim%20Garrison",
     "description": "",
-    "type": "pdf",
+    "type": "nara-jg",
+    "files": [
+      {
+        "id": "jfk-garrison-005",
+        "doc_name": "jfk garrison 005",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-005/jfk-garrison-005.pdf"
+      },
+      {
+        "id": "jfk-garrison-013",
+        "doc_name": "jfk garrison 013",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-013/jfk-garrison-013.pdf"
+      },
+      {
+        "id": "jfk-garrison-015",
+        "doc_name": "jfk garrison 015",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-015/jfk-garrison-015.pdf"
+      },
+      {
+        "id": "jfk-garrison-041",
+        "doc_name": "jfk garrison 041",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-041/jfk-garrison-041.pdf"
+      },
+      {
+        "id": "jfk-garrison-042",
+        "doc_name": "jfk garrison 042",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-042/jfk-garrison-042.pdf"
+      },
+      {
+        "id": "jfk-garrison-043",
+        "doc_name": "jfk garrison 043",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-043/jfk-garrison-043.pdf"
+      },
+      {
+        "id": "jfk-garrison-044",
+        "doc_name": "jfk garrison 044",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-044/jfk-garrison-044.pdf"
+      },
+      {
+        "id": "jfk-garrison-052",
+        "doc_name": "jfk garrison 052",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-052/jfk-garrison-052.pdf"
+      },
+      {
+        "id": "jfk-garrison-053",
+        "doc_name": "jfk garrison 053",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-053/jfk-garrison-053.pdf"
+      },
+      {
+        "id": "jfk-garrison-056",
+        "doc_name": "jfk garrison 056",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-056/jfk-garrison-056.pdf"
+      },
+      {
+        "id": "jfk-garrison-057",
+        "doc_name": "jfk garrison 057",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-057/jfk-garrison-057.pdf"
+      },
+      {
+        "id": "jfk-garrison-058",
+        "doc_name": "jfk garrison 058",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-058/jfk-garrison-058.pdf"
+      },
+      {
+        "id": "jfk-garrison-063",
+        "doc_name": "jfk garrison 063",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-063/jfk-garrison-063.pdf"
+      },
+      {
+        "id": "jfk-garrison-070",
+        "doc_name": "jfk garrison 070",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-070/jfk-garrison-070.pdf"
+      },
+      {
+        "id": "jfk-garrison-076",
+        "doc_name": "jfk garrison 076",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-076/jfk-garrison-076.pdf"
+      },
+      {
+        "id": "jfk-garrison-080",
+        "doc_name": "jfk garrison 080",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-080/jfk-garrison-080.pdf"
+      },
+      {
+        "id": "jfk-garrison-082",
+        "doc_name": "jfk garrison 082",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-082/jfk-garrison-082.pdf"
+      },
+      {
+        "id": "jfk-garrison-088",
+        "doc_name": "jfk garrison 088",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-088/jfk-garrison-088.pdf"
+      },
+      {
+        "id": "jfk-garrison-089",
+        "doc_name": "jfk garrison 089",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-089/jfk-garrison-089.pdf"
+      },
+      {
+        "id": "jfk-garrison-090",
+        "doc_name": "jfk garrison 090",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-090/jfk-garrison-090.pdf"
+      },
+      {
+        "id": "jfk-garrison-094",
+        "doc_name": "jfk garrison 094",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-094/jfk-garrison-094.pdf"
+      },
+      {
+        "id": "jfk-garrison-095",
+        "doc_name": "jfk garrison 095",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-095/jfk-garrison-095.pdf"
+      },
+      {
+        "id": "jfk-garrison-096",
+        "doc_name": "jfk garrison 096",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-096/jfk-garrison-096.pdf"
+      },
+      {
+        "id": "jfk-garrison-098",
+        "doc_name": "jfk garrison 098",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-098/jfk-garrison-098.pdf"
+      },
+      {
+        "id": "jfk-garrison-101",
+        "doc_name": "jfk garrison 101",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-101/jfk-garrison-101.pdf"
+      },
+      {
+        "id": "jfk-garrison-105",
+        "doc_name": "jfk garrison 105",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-105/jfk-garrison-105.pdf"
+      },
+      {
+        "id": "jfk-garrison-107",
+        "doc_name": "jfk garrison 107",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-107/jfk-garrison-107.pdf"
+      },
+      {
+        "id": "jfk-garrison-109",
+        "doc_name": "jfk garrison 109",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-109/jfk-garrison-109.pdf"
+      },
+      {
+        "id": "jfk-garrison-111",
+        "doc_name": "jfk garrison 111",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-111/jfk-garrison-111.pdf"
+      },
+      {
+        "id": "jfk-garrison-112",
+        "doc_name": "jfk garrison 112",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-112/jfk-garrison-112.pdf"
+      },
+      {
+        "id": "jfk-garrison-113",
+        "doc_name": "jfk garrison 113",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-113/jfk-garrison-113.pdf"
+      },
+      {
+        "id": "jfk-garrison-114",
+        "doc_name": "jfk garrison 114",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-114/jfk-garrison-114.pdf"
+      },
+      {
+        "id": "jfk-garrison-115",
+        "doc_name": "jfk garrison 115",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-115/jfk-garrison-115.pdf"
+      },
+      {
+        "id": "jfk-garrison-116",
+        "doc_name": "jfk garrison 116",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-116/jfk-garrison-116.pdf"
+      },
+      {
+        "id": "jfk-garrison-119",
+        "doc_name": "jfk garrison 119",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-119/jfk-garrison-119.pdf"
+      },
+      {
+        "id": "jfk-garrison-128",
+        "doc_name": "jfk garrison 128",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-128/jfk-garrison-128.pdf"
+      },
+      {
+        "id": "jfk-garrison-129",
+        "doc_name": "jfk garrison 129",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-129/jfk-garrison-129.pdf"
+      },
+      {
+        "id": "jfk-garrison-130",
+        "doc_name": "jfk garrison 130",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-130/jfk-garrison-130.pdf"
+      },
+      {
+        "id": "jfk-garrison-133",
+        "doc_name": "jfk garrison 133",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-133/jfk-garrison-133.pdf"
+      },
+      {
+        "id": "jfk-garrison-138",
+        "doc_name": "jfk garrison 138",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-138/jfk-garrison-138.pdf"
+      },
+      {
+        "id": "jfk-garrison-140",
+        "doc_name": "jfk garrison 140",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-140/jfk-garrison-140.pdf"
+      },
+      {
+        "id": "jfk-garrison-141",
+        "doc_name": "jfk garrison 141",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-141/jfk-garrison-141.pdf"
+      },
+      {
+        "id": "jfk-garrison-142",
+        "doc_name": "jfk garrison 142",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-142/jfk-garrison-142.pdf"
+      },
+      {
+        "id": "jfk-garrison-143",
+        "doc_name": "jfk garrison 143",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-143/jfk-garrison-143.pdf"
+      },
+      {
+        "id": "jfk-garrison-144",
+        "doc_name": "jfk garrison 144",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-144/jfk-garrison-144.pdf"
+      },
+      {
+        "id": "jfk-garrison-146",
+        "doc_name": "jfk garrison 146",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-146/jfk-garrison-146.pdf"
+      },
+      {
+        "id": "jfk-garrison-149",
+        "doc_name": "jfk garrison 149",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-149/jfk-garrison-149.pdf"
+      },
+      {
+        "id": "jfk-garrison-159",
+        "doc_name": "jfk garrison 159",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-159/jfk-garrison-159.pdf"
+      },
+      {
+        "id": "jfk-garrison-160",
+        "doc_name": "jfk garrison 160",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-160/jfk-garrison-160.pdf"
+      },
+      {
+        "id": "jfk-garrison-162",
+        "doc_name": "jfk garrison 162",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-162/jfk-garrison-162.pdf"
+      },
+      {
+        "id": "jfk-garrison-177",
+        "doc_name": "jfk garrison 177",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-177/jfk-garrison-177.pdf"
+      },
+      {
+        "id": "jfk-garrison-182",
+        "doc_name": "jfk garrison 182",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-182/jfk-garrison-182.pdf"
+      },
+      {
+        "id": "jfk-garrison-183",
+        "doc_name": "jfk garrison 183",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-183/jfk-garrison-183.pdf"
+      },
+      {
+        "id": "jfk-garrison-184",
+        "doc_name": "jfk garrison 184",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-184/jfk-garrison-184.pdf"
+      },
+      {
+        "id": "jfk-garrison-188",
+        "doc_name": "jfk garrison 188",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-188/jfk-garrison-188.pdf"
+      },
+      {
+        "id": "jfk-garrison-190",
+        "doc_name": "jfk garrison 190",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-190/jfk-garrison-190.pdf"
+      },
+      {
+        "id": "jfk-garrison-193",
+        "doc_name": "jfk garrison 193",
+        "source":
+          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-193/jfk-garrison-193.pdf"
+      }
+    ]
+  },
+  {
+    "id": "067",
+    "collection": "JFK 2017 Releases, 2017-11-17",
+    "alt_names": [],
+    "date": "1960-1979",
+    "important": "In Progress",
+    "source": "https://www.archives.gov/research/jfk/2017-release",
+    "description": "",
+    "type": "nara",
     "files": []
   },
 ]
