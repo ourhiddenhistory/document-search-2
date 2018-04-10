@@ -103,6 +103,9 @@ class Listing {
       case 'nara':
         source = 'https://www.archives.gov/files/research/jfk/releases/'+this.docId+'.pdf#page='+this.page;
         break;
+      case 'nara-jg':
+        source = 'https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/'+this.docId+'/'+this.docId+'.pdf#page='+this.page;
+        break;
       default:
         source = source+'#page/n'+this.getPage();
     }
