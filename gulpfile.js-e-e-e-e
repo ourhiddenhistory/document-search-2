@@ -42,7 +42,7 @@ gulp.task('copyImgs', () =>
     .pipe(gulp.dest('dist/img')));
 
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build', 'serve',
+  const jekyll = child.spawn('jekyll', ['serve',
     '--config',
     '_config.dev.yml',
     '--watch',
