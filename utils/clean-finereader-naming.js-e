@@ -5,6 +5,7 @@
  * page scans.
  */
 
+const secrets = require('../_secrets');
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob-fs')({ gitignore: true });
@@ -16,7 +17,7 @@ const DIR_CSV = process.argv[2];
 const DIRS = DIR_CSV.split(',');
 const PROCEED = process.argv[3] || false;
 
-const BASEPATH = '/Users/ourhiddenhistory/Desktop/BCCI/_es';
+const BASEPATH = `${secrets.project_path}/es`;
 
 /**
  * @param {String} file - full filepath
@@ -43,8 +44,14 @@ function fileIsFromOnePageDoc(current, prev, next) {
 
 DIRS.forEach((dir) => {
   const absDir = `${BASEPATH}/${dir}/`;
+  let files = [];
   glob.files = [];
-  const files = glob.readdirSync(`${absDir}*.txt`, { cwd: '/' });
+  try {
+    files = glob.readdirSync(`${absDir}*.txt`, { cwd: '/' });
+  } catch (error) {
+    return;
+  }
+
   files.forEach((file, i) => {
     const currentFilepath = `/${file}`;
     const prevFilepath = files[(i - 1)] || false;
@@ -58,9 +65,9 @@ DIRS.forEach((dir) => {
     if (isOnePage && currentFileparts[1] === '2') {
       // console.log(`${currentFileparts} | ${isOnePage}`);
       const newFilepath = `${absDir}${currentFileparts[0]}_1.txt`;
-      if (!PROCEED){
+      if (!PROCEED) {
         console.log(`${currentFilepath} will be renamed to ${newFilepath}`);
-      }else{
+      } else {
         fs.rename(currentFilepath, newFilepath, (err) => {
           if (err) {
             console.log(err); return;
@@ -69,6 +76,5 @@ DIRS.forEach((dir) => {
         });
       }
     }
-
   });
 });
