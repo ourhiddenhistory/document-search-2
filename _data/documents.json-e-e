@@ -91,7 +91,7 @@
       "Drugs, Law Enforcement and Foreign Policy: Subcommittee on Terrorism, Narcotics, International Operations Committee",
     "alt_names": ["Kerry Committee"],
     "date": "1988-04",
-    "description": "",
+    "description": "The Kerry Committee investigated drug trafficking in the Caribbean including that of the Nicaragua Contras. Gary Webb's 'Dark Alliance' series would later follow the trail that this committee started on.",
     "important": "",
     "files": [
       {
@@ -134,6 +134,7 @@
     "date": "1985",
     "description": "",
     "important": "",
+    "source": "https://nsarchive2.gwu.edu//NSAEBB/NSAEBB2/index.html",
     "files": []
   },
   {
@@ -143,6 +144,7 @@
     "date": "1987",
     "description": "",
     "important": "",
+    "source": "https://example.org/details/IranContraHearings-June",
     "files": []
   },
   {
@@ -152,7 +154,15 @@
     "date": "1991",
     "description": "",
     "important": "",
-    "files": []
+    "source": "https://example.org/stream/InquiryIntoTheSupervisionOfTheBankOfCreditAndCommerceInternational/Inquiry%20into%20the%20Supervision%20of%20the%20Bank%20of%20Credit%20and%20Commerce%20International",
+    "files": [
+      {
+        "id": "001",
+        "doc_name": "Inquiry Into The Supervision Of The Bank of Credit and Commerce International (BCCI)",
+        "source":
+          "https://example.org/stream/InquiryIntoTheSupervisionOfTheBankOfCreditAndCommerceInternational/Inquiry%20into%20the%20Supervision%20of%20the%20Bank%20of%20Credit%20and%20Commerce%20International"
+      }
+    ]
   },
   {
     "id": "007",
@@ -161,6 +171,7 @@
     "date": "1986",
     "description": "",
     "important": "",
+    "source": "https://christicinstitute.org/",
     "files": [
       {
         "id": "001",
@@ -222,9 +233,10 @@
     "id": "008",
     "collection": "Iran-Contra Special Counsel Investigation",
     "alt_names": ["Walsh Investigation"],
-    "date": "1989",
+    "date": "1993",
     "description": "",
     "important": "",
+    "source": "https://example.org/details/WalshReport",
     "files": [
       {
         "id": "001",
@@ -261,6 +273,7 @@
     "date": "1989",
     "description": "",
     "important": "",
+    "source": "https://example.org/details/Iran-Contra",
     "files": [
       {
         "id": "001",
@@ -486,6 +499,7 @@
     "description":
       "These Iran-Contra, Iraqgate, and BCCI materials courtesy of The Weisberg Collection. Hood College, Frederick, MD, USA. URL: <a href='http://jfk.hood.edu/'>http://jfk.hood.edu</a>",
     "important": "",
+    "source": "https://example.org/search.php?query=iran-contra%20weisberg",
     "files": []
   },
   {
@@ -495,14 +509,17 @@
     "date": "1986",
     "description": "",
     "important": "",
+    "source": "https://example.org/details/TowerCommission",
     "files": [
       {
         "id": "001",
-        "doc_name": "President's Special Review Board"
+        "doc_name": "President's Special Review Board",
+        "source": "https://example.org/stream/TowerCommission/President%27s%20Special%20Review%20Board%20%28%22Tower%20Commission%22%29"
       },
       {
         "id": "002",
-        "doc_name": "Tower Board NSC Function Hearing"
+        "doc_name": "Tower Board NSC Function Hearing",
+        "source": "https://example.org/stream/TowerCommission/Tower%20Board%20NSC%20Function%20Hearing#page/n0/mode/1up"
       }
     ]
   },
@@ -928,7 +945,7 @@
     "collection": "Files of Danny Casolaro",
     "alt_names": [],
     "date": "1990",
-    "source": "",
+    "source": "https://example.org/search.php?query=danny%20casolaro",
     "description": "",
     "important":
       "Documents after 'North Carolina Hazardous Waste - Reports' have not been put into the the searchable database yet.",
@@ -1908,7 +1925,7 @@
     "collection": "Watergate Collection",
     "alt_names": [],
     "date": "1973",
-    "source": "",
+    "source": "https://example.org/search.php?query=watergate",
     "description":
       "The source pdfs of the 'Judiciary Committee Hearings' are, unfortunately, very poorly scanned and the character recognition reflects this.",
     "important": "",
@@ -2242,6 +2259,7 @@
     "date": "1975",
     "description": "",
     "important": "",
+    "source": "https://www.intelligence.senate.gov/resources/intelligence-related-commissions",
     "files": [
       {
         "id": "001",
@@ -2343,6 +2361,11 @@
         "id": "016",
         "doc_name": "Rules of Procedure",
         "source": ""
+      },
+      {
+        "id": "017",
+        "doc_name": "Frederick A.O. Schwarz, Jr. Testimony - 'Getting to the Truth Through a Nonpartisan Commission of Inquiry' (2009)",
+        "source": ""
       }
     ]
   },
@@ -2353,6 +2376,7 @@
     "date": "1978",
     "description": "",
     "important": "",
+    "source": "https://example.org/details/HouseSelectCommitteeOnAssassinations",
     "files": [
       {
         "id": "001",
@@ -2868,6 +2892,12 @@
         "doc_name": "Part 6: Committee Proceedings II",
         "source":
           "https://example.org/stream/PikeCommitteeIntelligenceHearings/pike-cmte-6-procedings-2"
+      },
+      {
+        "id": "008",
+        "doc_name": "Investigation into Leak of Report",
+        "source":
+          ""
       }
     ]
   },
@@ -3134,6 +3164,63 @@
         "date": "01-01-1976",
         "source":
           "https://example.org/stream/MKULTRABriefingBookListOfSubprojectsWithBriefDescriptionsJanuary1976/MKULTRA%20Briefing%20Book%20-%20List%20of%20subprojects%20with%20brief%20descriptions%20-%20January%201976"
+      },
+      {
+        "id": "009",
+        "doc_name":
+          "MKULTRA - The CIA's Program of Research in Behavior Modification",
+        "date": "1977",
+        "source":
+          ""
+      },
+      {
+        "id": "010",
+        "doc_name": "What Went Wrong, Bush Torture",
+        "date": "2009",
+        "source":
+          ""
+      },
+      {
+        "id": "011",
+        "doc_name": "Advisory Committee on Human Radiation Experiments",
+        "date": "1995",
+        "source":
+          ""
+      },
+      {
+        "id": "012",
+        "doc_name": "A Short History of Psychological Torture by Alfred W. McCoy",
+        "date": "2009",
+        "source":
+          ""
+      },
+      {
+        "id": "013",
+        "doc_name": "Science in Dachau's Shadow by Alfred W. McCoy",
+        "date": "1995",
+        "source":
+          ""
+      },
+      {
+        "id": "014",
+        "doc_name": "KUBARK (CIA) Interrogation Manual",
+        "date": "1961",
+        "source":
+          ""
+      },
+      {
+        "id": "015",
+        "doc_name": "Isolation Sensory Deprivation and Sensory Overload by Jeffrey S. Kaye",
+        "date": "",
+        "source":
+          ""
+      },
+      {
+        "id": "016",
+        "doc_name": "Psychological Torture as a Cold War Imperative",
+        "date": "",
+        "source":
+          ""
       }
     ]
   },
@@ -3301,7 +3388,7 @@
     "alt_names": [],
     "date": "1960-1979",
     "description": "",
-    "important": "In Progress",
+    "important": "In Progress, 50% complete.",
     "source": "https://www.archives.gov/research/jfk/2017-release",
     "type": "nara",
     "files": []
@@ -7398,6 +7485,66 @@
         "doc_name":
           "Report: Investigation of the My Lai Incident - House Armed Services Committee",
         "source": "https://www.loc.gov/rr/frd/Military_Law/pdf/MyLaiReport.pdf"
+      },
+      {
+        "id": "CIA-RDP80-01601R000300360099-5",
+        "doc_name": "CIA RDP80 01601R000300360099 5",
+        "source": ""
+      },
+      {
+        "id": "ellsbergtalks00dani",
+        "doc_name": "ellsbergtalks00dani",
+        "source": ""
+      },
+      {
+        "id": "ellsbergtrial00mich",
+        "doc_name": "ellsbergtrial00mich",
+        "source": ""
+      },
+      {
+        "id": "ELS003-001",
+        "doc_name": "Ellsberg FBI File - ELS003 001",
+        "source": ""
+      },
+      {
+        "id": "ELS003-010",
+        "doc_name": "Ellsberg FBI File - ELS003 010",
+        "source": ""
+      },
+      {
+        "id": "ELS003-011",
+        "doc_name": "Ellsberg FBI File - ELS003 011",
+        "source": ""
+      },
+      {
+        "id": "ELS003-012",
+        "doc_name": "Ellsberg FBI File - ELS003 012",
+        "source": ""
+      },
+      {
+        "id": "ELS003-013",
+        "doc_name": "Ellsberg FBI File - ELS003 013",
+        "source": ""
+      },
+      {
+        "id": "ELS003-014",
+        "doc_name": "Ellsberg FBI File - ELS003 014",
+        "source": ""
+      },
+      {
+        "id": "ELS003-015",
+        "doc_name": "Ellsberg FBI File - ELS003 015",
+        "source": ""
+      },
+      {
+        "id": "<em>Secrets</em> by Daniel Ellsberg",
+        "doc_name": "secretsmemoirofv01ells",
+        "source": ""
+      },
+      {
+        "id": "telexannouncinge00tele",
+        "doc_name": "telexannouncinge00tele",
+        "source": ""
       }
     ]
   },
@@ -8216,6 +8363,12 @@
         "doc_name": "Hidden History of the Korean War by I.F. Stone",
         "source":
           "http://sttpml.org/wp-content/uploads/2015/08/The-hidden-history-of-the-Korean-War-1950-1951-A-Nonconformist-history-of-our-times-I.-F-Stone.pdf"
+      },
+      {
+        "id": "003",
+        "doc_name": "Depositions of Nineteen Captured U.S. Airmen Their Participation in Germ Warfare in Korea",
+        "source":
+          ""
       }
     ]
   },
@@ -8612,7 +8765,7 @@
       "Multinational Corporations and US Foreign Policy, US Senate Hearings",
     "alt_names": [],
     "date": "1973",
-    "important": "In Progress.",
+    "important": "",
     "description":
       "Incomplete collection, but contains important hearings on ITT, Chile, Lockheed, and more.",
     "source":
@@ -8652,10 +8805,10 @@
     "collection": "Early Government Studies on Intelligence and the CIA",
     "alt_names": [],
     "date": "1947",
-    "important": "In Progress.",
-    "description": "",
+    "important": "",
+    "description": "This group of documents were one folder inside of the larger Richard Helms CIA collection.",
     "source":
-      "https://example.org/details/MultinationalCorporationsAndUSForeignPolicyUSSenateHearings",
+      "https://example.org/details/TheCentralIntelligenceAgency_RichardHelmsDocuments",
     "type": "archive",
     "files": [
       {
@@ -8798,22 +8951,92 @@
   },
   {
     "id": "052",
-    "collection": "George Seldes Books and In Fact Magazines",
+    "collection": "George Seldes Books",
     "alt_names": [],
     "date": "1940",
-    "important": "In Progress.",
-    "description": "",
+    "important": "",
+    "description": "George Seldes was a legendary US journalist whose career spanned from the First World War to much of the cold war.",
     "source":
       "https://example.org/search.php?query=george%20seldes&and[]=mediatype%3A%22texts%22",
     "type": "archive",
-    "files": []
+    "files": [
+      {
+        "id": "001",
+        "doc_name": "Iron Blood And Profits: An Exposure Of The World-wide Munitions Racket",
+        "source":
+          "https://example.org/stream/in.ernet.dli.2015.155767/2015.155767.Iron-Blood-And-Profits-An-Exposure-Of-The-World-wide-Munitions-Racket"
+      },
+      {
+        "id": "002",
+        "doc_name": "Can These Things Be!",
+        "source":
+          "https://example.org/stream/in.ernet.dli.2015.166388/2015.166388.Can-These-Things-Be"
+      },
+      {
+        "id": "003",
+        "doc_name":
+          "One Thousand Americans",
+        "source":
+          "https://example.org/stream/in.ernet.dli.2015.263331/2015.263331.One-Thousand"
+      },
+      {
+        "id": "004",
+        "doc_name": "World Panorama: 1918 - 1933",
+        "source":
+          "https://example.org/stream/in.ernet.dli.2015.510044/2015.510044.World-Panorama"
+      },
+      {
+        "id": "005",
+        "doc_name": "Facts and Fascism",
+        "source":
+          "https://example.org/stream/FactsAndFascism/FactsandFascism_BW"
+      },
+      {
+        "id": "006",
+        "doc_name": "The Facts Are; A Guide to Falsehood and Propaganda in the Press and Radio",
+        "source":
+          "https://example.org/stream/factsareguidetof00seldrich"
+      },
+      {
+        "id": "007",
+        "doc_name":
+          "The Fascist Road to Ruin",
+        "source":
+          "https://example.org/stream/TheFascistRoadToRuin/fascist"
+      },
+      {
+        "id": "008",
+        "doc_name": "Lords Of The Press",
+        "source":
+          "https://example.org/stream/LordsOfThePressGeorgeSeldes1938411pgsPOL.sml/Lords_Of_The_Press-George_Seldes-1938-411pgs-POL.sml"
+      },
+      {
+        "id": "009",
+        "doc_name": "Sawdust Caesar: The Untold History of Mussolini and Fascism",
+        "source":
+          "https://example.org/stream/SawdustCaesarTheUntoldStoryOfMussoliniAndFascism/SawdustCaesar-GeorgeSeldes"
+      },
+      {
+        "id": "010",
+        "doc_name": "The People Don't Know: The American Press and the Cold War",
+        "source":
+          "https://example.org/stream/ThePeopleDontKnow"
+      },
+      {
+        "id": "011",
+        "doc_name":
+          "You Can't Print That!: The Truth Behind the News 1918 to 1928",
+        "source":
+          "https://example.org/stream/B-001-002-045"
+      }
+    ]
   },
   {
     "id": "053",
     "collection": "The JFK Assassination in Ramparts Magazine",
     "alt_names": [],
     "date": "1968",
-    "important": "In Progress.",
+    "important": "",
     "description":
       "Materials courtesy of The Weisberg Collection. Hood College, Frederick, MD, USA. URL: <a href='http://jfk.hood.edu/'>http://jfk.hood.edu</a>.",
     "source":
@@ -9035,108 +9258,108 @@
   {
     "id": "054",
     "collection":
-      "Non-Government Sources on Fascism (Spitfire List Collection)",
+      "Spitfire List Collection (Independent Research on Fascism)",
     "alt_names": [],
     "date": "1954",
-    "important": "In Progress.",
+    "important": "80% Complete.",
     "description":
-      "Courtesy <a href='http://spitfirelist.com/'>spitfilelist.com</a>.",
+      "Courtesy <a href='http://spitfirelist.com/'>spitfilelist.com</a>. For a brief description of each book, visit <a href='http://spitfirelist.com/books/introduction/'>http://spitfirelist.com/books/introduction</a>.",
     "source": "http://spitfirelist.com/category/books/",
     "type": "pdf",
     "files": [
       {
         "id": "001",
-        "doc_name": "ambruster_pt1",
+        "doc_name": "<em>Treason’s Peace</em> (1947) Part 1 by Howard Watson Ambruster",
         "source": "http://spitfirelist.com/books/ambruster_pt1.pdf"
       },
       {
         "id": "002",
-        "doc_name": "ambruster_pt2",
+        "doc_name": "<em>Treason’s Peace</em> (1947) Part 2 by Howard Watson Ambruster",
         "source": "http://spitfirelist.com/books/ambruster_pt2.pdf"
       },
       {
         "id": "003",
-        "doc_name": "borkin_pt1",
+        "doc_name": "<em>Germany’s Master Plan</em> Part 1 (1943) by Borkin and Welsh",
         "source": "http://spitfirelist.com/books/borkin_pt1.pdf"
       },
       {
         "id": "004",
-        "doc_name": "borkin_pt2",
+        "doc_name": "<em>Germany’s Master Plan</em> Part 2 (1943) by Borkin and Welsh",
         "source": "http://spitfirelist.com/books/borkin_pt2.pdf"
       },
       {
         "id": "005",
-        "doc_name": "carlson01",
+        "doc_name": "<em>Cairo to Damascus</em> (1951) Part 1 by John Roy Carlson",
         "source": "http://spitfirelist.com/books/carlson01.pdf"
       },
       {
         "id": "006",
-        "doc_name": "carlson02",
+        "doc_name": "<em>Cairo to Damascus</em> (1951) Part 2 by John Roy Carlson",
         "source": "http://spitfirelist.com/books/carlson02.pdf"
       },
       {
         "id": "007",
-        "doc_name": "chase1a",
+        "doc_name": "<em>Falange</em> (1943) Part 1 by Alan Chase",
         "source": "http://spitfirelist.com/books/chase1a.pdf"
       },
       {
         "id": "008",
-        "doc_name": "chase2a",
+        "doc_name": "<em>Falange</em> (1943) Part 2 by Alan Chase",
         "source": "http://spitfirelist.com/books/chase2a.pdf"
       },
       {
         "id": "009",
-        "doc_name": "gollomb",
+        "doc_name": "<em>Armies of Spies</em> (1939) by Joseph Gollumb",
         "source": "http://spitfirelist.com/books/gollomb.pdf"
       },
       {
         "id": "010",
-        "doc_name": "honorable01",
+        "doc_name": "<em>All Honorable Men</em> (1950) Part 1 by James Stewart Martin",
         "source": "http://spitfirelist.com/books/honorable01.pdf"
       },
       {
         "id": "011",
-        "doc_name": "honorable02",
+        "doc_name": "<em>All Honorable Men</em> (1950) Part 2 by James Stewart Martin",
         "source": "http://spitfirelist.com/books/honorable02.pdf"
       },
       {
         "id": "012",
-        "doc_name": "tetens_pt1",
+        "doc_name": "<em>Germany Plots with the Kremlin</em> (1953) Part 1 by T.H. Tetens",
         "source": "http://spitfirelist.com/books/tetens_pt1.pdf"
       },
       {
         "id": "013",
-        "doc_name": "tetens_pt2",
+        "doc_name": "<em>Germany Plots with the Kremlin</em> (1953) Part 2 by T.H. Tetens",
         "source": "http://spitfirelist.com/books/tetens_pt2.pdf"
       },
       {
         "id": "014",
-        "doc_name": "under_cover1b",
+        "doc_name": "<em>Under Cover</em> (1943) Part 1 by John Roy Carlson",
         "source": "http://spitfirelist.com/books/under_cover1b.pdf"
       },
       {
         "id": "015",
-        "doc_name": "under_cover2b",
+        "doc_name": "<em>Under Cover</em> (1943) Part 2 by John Roy Carlson",
         "source": "http://spitfirelist.com/books/under_cover2b.pdf"
       },
       {
         "id": "016",
-        "doc_name": "undergrnd",
+        "doc_name": "<em>The Nazis Go Underground</em> by Curt Reiss",
         "source": "http://spitfirelist.com/books/undergrnd.pdf"
       },
       {
         "id": "017",
-        "doc_name": "winkler1a",
+        "doc_name": "<em>The Thousand-Year Conspiracy</em> (1943) Part 1 by Paul Winkler",
         "source": "http://spitfirelist.com/books/winkler1a.pdf"
       },
       {
         "id": "018",
-        "doc_name": "winkler1b",
+        "doc_name": "<em>The Thousand-Year Conspiracy</em> (1943) Part 2 by Paul Winkler",
         "source": "http://spitfirelist.com/books/winkler1b.pdf"
       },
       {
         "id": "019",
-        "doc_name": "manning",
+        "doc_name": "<em>Martin Bormann: Nazi in Exile</em> (1981) by Paul Manning",
         "source": "http://spitfirelist.com/manningpdf/manning.pdf"
       }
     ]
@@ -9147,7 +9370,7 @@
     "alt_names": [],
     "date": "1973",
     "important":
-      "In Progress. The provenance of these is unknown. They were downloaded in a large torrent file along with other CIA documents. They should be reviewed before citing.",
+      "In Progress. The origin of these documents is unknown to me. They were downloaded as part of a large <a href='https://en.wikipedia.org/wiki/Torrent_file'>torrent file</a> along with other CIA documents. They should be reviewed before citing.",
     "description": "",
     "source":
       "https://example.org/details/TheCentralIntelligenceAgency_RichardHelmsDocuments",
@@ -11784,353 +12007,12 @@
       "Jim Garrison Investigation of the JFK Assassination: National Archives Collection",
     "alt_names": [],
     "date": "1967",
-    "important": "50% complete.",
+    "important": "",
     "source": "https://catalog.archives.gov/search?q=Jim%20Garrison",
-    "description": "",
+    "description": "These documents are indexed in the database, but because of the complex way NARA creates urls, direct links cannot be provided at this time.",
     "type": "nara-jg",
     "files": [
-      {
-        "id": "jfk-garrison-005",
-        "doc_name": "jfk garrison 005",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-005/jfk-garrison-005.pdf"
-      },
-      {
-        "id": "jfk-garrison-013",
-        "doc_name": "jfk garrison 013",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-013/jfk-garrison-013.pdf"
-      },
-      {
-        "id": "jfk-garrison-015",
-        "doc_name": "jfk garrison 015",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-015/jfk-garrison-015.pdf"
-      },
-      {
-        "id": "jfk-garrison-041",
-        "doc_name": "jfk garrison 041",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-041/jfk-garrison-041.pdf"
-      },
-      {
-        "id": "jfk-garrison-042",
-        "doc_name": "jfk garrison 042",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-042/jfk-garrison-042.pdf"
-      },
-      {
-        "id": "jfk-garrison-043",
-        "doc_name": "jfk garrison 043",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-043/jfk-garrison-043.pdf"
-      },
-      {
-        "id": "jfk-garrison-044",
-        "doc_name": "jfk garrison 044",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-044/jfk-garrison-044.pdf"
-      },
-      {
-        "id": "jfk-garrison-052",
-        "doc_name": "jfk garrison 052",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-052/jfk-garrison-052.pdf"
-      },
-      {
-        "id": "jfk-garrison-053",
-        "doc_name": "jfk garrison 053",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-053/jfk-garrison-053.pdf"
-      },
-      {
-        "id": "jfk-garrison-056",
-        "doc_name": "jfk garrison 056",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-056/jfk-garrison-056.pdf"
-      },
-      {
-        "id": "jfk-garrison-057",
-        "doc_name": "jfk garrison 057",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-057/jfk-garrison-057.pdf"
-      },
-      {
-        "id": "jfk-garrison-058",
-        "doc_name": "jfk garrison 058",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-058/jfk-garrison-058.pdf"
-      },
-      {
-        "id": "jfk-garrison-063",
-        "doc_name": "jfk garrison 063",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-063/jfk-garrison-063.pdf"
-      },
-      {
-        "id": "jfk-garrison-070",
-        "doc_name": "jfk garrison 070",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-070/jfk-garrison-070.pdf"
-      },
-      {
-        "id": "jfk-garrison-076",
-        "doc_name": "jfk garrison 076",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-076/jfk-garrison-076.pdf"
-      },
-      {
-        "id": "jfk-garrison-080",
-        "doc_name": "jfk garrison 080",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-080/jfk-garrison-080.pdf"
-      },
-      {
-        "id": "jfk-garrison-082",
-        "doc_name": "jfk garrison 082",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-082/jfk-garrison-082.pdf"
-      },
-      {
-        "id": "jfk-garrison-088",
-        "doc_name": "jfk garrison 088",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-088/jfk-garrison-088.pdf"
-      },
-      {
-        "id": "jfk-garrison-089",
-        "doc_name": "jfk garrison 089",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-089/jfk-garrison-089.pdf"
-      },
-      {
-        "id": "jfk-garrison-090",
-        "doc_name": "jfk garrison 090",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-090/jfk-garrison-090.pdf"
-      },
-      {
-        "id": "jfk-garrison-094",
-        "doc_name": "jfk garrison 094",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-094/jfk-garrison-094.pdf"
-      },
-      {
-        "id": "jfk-garrison-095",
-        "doc_name": "jfk garrison 095",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-095/jfk-garrison-095.pdf"
-      },
-      {
-        "id": "jfk-garrison-096",
-        "doc_name": "jfk garrison 096",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-096/jfk-garrison-096.pdf"
-      },
-      {
-        "id": "jfk-garrison-098",
-        "doc_name": "jfk garrison 098",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-098/jfk-garrison-098.pdf"
-      },
-      {
-        "id": "jfk-garrison-101",
-        "doc_name": "jfk garrison 101",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-101/jfk-garrison-101.pdf"
-      },
-      {
-        "id": "jfk-garrison-105",
-        "doc_name": "jfk garrison 105",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-105/jfk-garrison-105.pdf"
-      },
-      {
-        "id": "jfk-garrison-107",
-        "doc_name": "jfk garrison 107",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-107/jfk-garrison-107.pdf"
-      },
-      {
-        "id": "jfk-garrison-109",
-        "doc_name": "jfk garrison 109",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-109/jfk-garrison-109.pdf"
-      },
-      {
-        "id": "jfk-garrison-111",
-        "doc_name": "jfk garrison 111",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-111/jfk-garrison-111.pdf"
-      },
-      {
-        "id": "jfk-garrison-112",
-        "doc_name": "jfk garrison 112",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-112/jfk-garrison-112.pdf"
-      },
-      {
-        "id": "jfk-garrison-113",
-        "doc_name": "jfk garrison 113",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-113/jfk-garrison-113.pdf"
-      },
-      {
-        "id": "jfk-garrison-114",
-        "doc_name": "jfk garrison 114",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-114/jfk-garrison-114.pdf"
-      },
-      {
-        "id": "jfk-garrison-115",
-        "doc_name": "jfk garrison 115",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-115/jfk-garrison-115.pdf"
-      },
-      {
-        "id": "jfk-garrison-116",
-        "doc_name": "jfk garrison 116",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-116/jfk-garrison-116.pdf"
-      },
-      {
-        "id": "jfk-garrison-119",
-        "doc_name": "jfk garrison 119",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-119/jfk-garrison-119.pdf"
-      },
-      {
-        "id": "jfk-garrison-128",
-        "doc_name": "jfk garrison 128",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-128/jfk-garrison-128.pdf"
-      },
-      {
-        "id": "jfk-garrison-129",
-        "doc_name": "jfk garrison 129",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-129/jfk-garrison-129.pdf"
-      },
-      {
-        "id": "jfk-garrison-130",
-        "doc_name": "jfk garrison 130",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-130/jfk-garrison-130.pdf"
-      },
-      {
-        "id": "jfk-garrison-133",
-        "doc_name": "jfk garrison 133",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-133/jfk-garrison-133.pdf"
-      },
-      {
-        "id": "jfk-garrison-138",
-        "doc_name": "jfk garrison 138",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-138/jfk-garrison-138.pdf"
-      },
-      {
-        "id": "jfk-garrison-140",
-        "doc_name": "jfk garrison 140",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-140/jfk-garrison-140.pdf"
-      },
-      {
-        "id": "jfk-garrison-141",
-        "doc_name": "jfk garrison 141",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-141/jfk-garrison-141.pdf"
-      },
-      {
-        "id": "jfk-garrison-142",
-        "doc_name": "jfk garrison 142",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-142/jfk-garrison-142.pdf"
-      },
-      {
-        "id": "jfk-garrison-143",
-        "doc_name": "jfk garrison 143",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-143/jfk-garrison-143.pdf"
-      },
-      {
-        "id": "jfk-garrison-144",
-        "doc_name": "jfk garrison 144",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-144/jfk-garrison-144.pdf"
-      },
-      {
-        "id": "jfk-garrison-146",
-        "doc_name": "jfk garrison 146",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-146/jfk-garrison-146.pdf"
-      },
-      {
-        "id": "jfk-garrison-149",
-        "doc_name": "jfk garrison 149",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-149/jfk-garrison-149.pdf"
-      },
-      {
-        "id": "jfk-garrison-159",
-        "doc_name": "jfk garrison 159",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-159/jfk-garrison-159.pdf"
-      },
-      {
-        "id": "jfk-garrison-160",
-        "doc_name": "jfk garrison 160",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-160/jfk-garrison-160.pdf"
-      },
-      {
-        "id": "jfk-garrison-162",
-        "doc_name": "jfk garrison 162",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-162/jfk-garrison-162.pdf"
-      },
-      {
-        "id": "jfk-garrison-177",
-        "doc_name": "jfk garrison 177",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-177/jfk-garrison-177.pdf"
-      },
-      {
-        "id": "jfk-garrison-182",
-        "doc_name": "jfk garrison 182",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-182/jfk-garrison-182.pdf"
-      },
-      {
-        "id": "jfk-garrison-183",
-        "doc_name": "jfk garrison 183",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-183/jfk-garrison-183.pdf"
-      },
-      {
-        "id": "jfk-garrison-184",
-        "doc_name": "jfk garrison 184",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-184/jfk-garrison-184.pdf"
-      },
-      {
-        "id": "jfk-garrison-188",
-        "doc_name": "jfk garrison 188",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-188/jfk-garrison-188.pdf"
-      },
-      {
-        "id": "jfk-garrison-190",
-        "doc_name": "jfk garrison 190",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-190/jfk-garrison-190.pdf"
-      },
-      {
-        "id": "jfk-garrison-193",
-        "doc_name": "jfk garrison 193",
-        "source":
-          "https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/jfk-garrison-193/jfk-garrison-193.pdf"
-      }
+
     ]
   },
   {
@@ -12144,4 +12026,15 @@
     "type": "nara",
     "files": []
   },
+  {
+    "id": "068",
+    "collection": "John Stockwell",
+    "alt_names": [],
+    "date": "1979",
+    "important": "In Progress",
+    "source": "",
+    "description": "",
+    "type": "nara",
+    "files": []
+  }
 ]
