@@ -347,18 +347,14 @@ $('.toolbar-entry__disp-img-lock').on('click', function() {
   let removeClass = (setTo ? 'btn-secondary' : 'btn-info');
   let addClass = (setTo ? 'btn-info' : 'btn-secondary');
   $(this).removeClass(removeClass).addClass(addClass);
+  $('.toolbar-entry__disp-img').removeClass(removeClass).addClass(addClass);
   imgLock = setTo;
-});
-
-$('.toolbar-entry__page-next').on('click', function(){
-  changePage('next');
-});
-
-$('.toolbar-entry__page-prev').on('click', function(){
-  changePage('prev');
+  if(setTo) $('.toolbar-entry__disp-img').trigger('click');
 });
 
 $('.toolbar-entry__disp-img').on('click', function(){
+  $(this).removeClass('btn-secondary').addClass('btn-info');
+  $('.toolbar-entry__disp-txt').removeClass('btn-info').addClass('btn-secondary');
   let img = $('<img class="display-img" />');
   img.attr('src', entryImg);
   $('.entry-panel__content').html(img[0].outerHTML);
@@ -370,7 +366,19 @@ $('.toolbar-entry__disp-img').on('click', function(){
 });
 
 $('.toolbar-entry__disp-txt').on('click', function(){
+  $(this).removeClass('btn-secondary').addClass('btn-info');
+  $('.toolbar-entry__disp-img, .toolbar-entry__disp-img-lock')
+    .removeClass('btn-info').addClass('btn-secondary');
+  imgLock = false;
   displayListingInEntryPanel(currentListing);
+});
+
+$('.toolbar-entry__page-next').on('click', function(){
+  changePage('next');
+});
+
+$('.toolbar-entry__page-prev').on('click', function(){
+  changePage('prev');
 });
 
 function setPdfLink(href){
@@ -412,6 +420,9 @@ function displayListingInEntryPanel(listing) {
       .parent()
       .zoom({ on: 'click' });
   }else{
+    $('.toolbar-entry__disp-txt').removeClass('btn-secondary').addClass('btn-info');
+    $('.toolbar-entry__disp-img, .toolbar-entry__disp-img-lock')
+      .removeClass('btn-info').addClass('btn-secondary');
     $('.entry-panel__content').html(listing.entry);
     let instance = new Mark($('.entry-panel__content')[0]);
     instance.mark(searchTrimmed);
