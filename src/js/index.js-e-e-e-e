@@ -457,7 +457,7 @@ $("#search_btn").on('click', function(e){
     history.pushState({}, null, newUrl);
 
     if(response.hits.total == 0){
-      displayResults(response);
+      $(".results-container").html(`<strong>No results found for: '${search}'.</strong>`);
       return;
     }
     totalPages = Math.ceil(response.hits.total / 100);
