@@ -5,7 +5,7 @@ title: Links
 
 <div class="container">
   <div class="page-container">
-    <h2>Links</h2>
+    <h2>More Archive Websites</h2>
     {% for site in site.data.links %}
       <dt>
         <a href="{{site.href}}" target="_blank">{{site.name}}</a>
