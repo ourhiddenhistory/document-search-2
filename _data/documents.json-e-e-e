@@ -1811,6 +1811,12 @@
         "doc_name": "Complete Back Issues List",
         "source":
           "https://example.org/stream/FullListOfCovertActionInformationBulletinAndCovertActionQuarterlyIssues"
+      },
+      {
+        "id": "023",
+        "doc_name": "Brzil &amp; the CIA",
+        "source":
+          ""
       }
     ]
   },
@@ -7537,12 +7543,32 @@
         "source": ""
       },
       {
-        "id": "<em>Secrets</em> by Daniel Ellsberg",
-        "doc_name": "secretsmemoirofv01ells",
+        "id": "secretsmemoirofv01ells",
+        "doc_name": "<em>Secrets</em> by Daniel Ellsberg",
         "source": ""
       },
       {
         "id": "telexannouncinge00tele",
+        "doc_name": "telexannouncinge00tele",
+        "source": ""
+      },
+      {
+        "id": "2390217001A",
+        "doc_name": "Ellsberg FBI File - ELS003 015",
+        "source": ""
+      },
+      {
+        "id": "390217001B",
+        "doc_name": "secretsmemoirofv01ells",
+        "source": ""
+      },
+      {
+        "id": "390217001C",
+        "doc_name": "telexannouncinge00tele",
+        "source": ""
+      },
+      {
+        "id": "053",
         "doc_name": "telexannouncinge00tele",
         "source": ""
       }
@@ -8418,6 +8444,63 @@
         "doc_name": "Cuban Missile Crisis Meeting Minutes: October 27th, 1962",
         "source":
           "https://example.org/stream/TranscriptOfPresidentialMeetingsDuringCubanMissileCrisis/ELS002-011"
+      },
+      {
+        "id": "005",
+        "doc_name": "Cuban Revolution Reader",
+        "source":
+          ""
+      },
+      {
+        "id": "CastroSpeechJFK2",
+        "doc_name": "Castro Speech JFK (Nov. 27th, 1963)",
+        "source":
+          ""
+      },
+      {
+        "id": "006",
+        "doc_name": "Bay of Pigs Inspector General’s Survey of Cuban Operation",
+        "source": ""
+      },
+      {
+        "id": "007",
+        "doc_name": "Bay of Pigs Official History Volume I Air Operations, March 1960 to April 1961 Part One",
+        "source": ""
+      },
+      {
+        "id": "008",
+        "doc_name": "Bay of Pigs Official History Volume I Air Operations, March 1960 to April 1961 Part Two",
+        "source": ""
+      },
+      {
+        "id": "009",
+        "doc_name": "Bay of Pigs Official History Volume I Air Operations, March 1960 to April 1961Part Three",
+        "source": ""
+      },
+      {
+        "id": "010",
+        "doc_name": "Bay of Pigs Official History Volume II Participation in the Conduct of Foreign Policy Part One",
+        "source": ""
+      },
+      {
+        "id": "011",
+        "doc_name": "Bay of Pigs Official History Volume II Participation in the Conduct of Foreign Policy Part Two",
+        "source": ""
+      },
+      {
+        "id": "012",
+        "doc_name": "Bay of Pigs Official History Volume III Evolution of CIA's Anti Castro Policies, 1951  January 1961",
+        "source": ""
+      },
+      {
+        "id": "013",
+        "doc_name": "Bay of Pigs Official History Volume IV The Taylor Committee Investigation of the Bay of Pigs",
+        "source": ""
+      },
+      {
+        "id": "014",
+        "doc_name": "Eisenhower and Kennedy on the Bay of Pigs",
+        "source": ""
       }
     ]
   },
@@ -9028,6 +9111,546 @@
           "You Can't Print That!: The Truth Behind the News 1918 to 1928",
         "source":
           "https://example.org/stream/B-001-002-045"
+      },
+      {
+        "id": "2.5",
+        "doc_name": "2.5",
+        "source": "http://www.rockcreekfreepress.com/2.5.pdf"
+      },
+      {
+        "id": "2.6",
+        "doc_name": "2.6",
+        "source": "http://www.rockcreekfreepress.com/2.6.pdf"
+      },
+      {
+        "id": "2.7",
+        "doc_name": "2.7",
+        "source": "http://www.rockcreekfreepress.com/2.7.pdf"
+      },
+      {
+        "id": "2.8",
+        "doc_name": "2.8",
+        "source": "http://www.rockcreekfreepress.com/2.8.pdf"
+      },
+      {
+        "id": "2.9",
+        "doc_name": "2.9",
+        "source": "http://www.rockcreekfreepress.com/2.9.pdf"
+      },
+      {
+        "id": "2.10",
+        "doc_name": "2.10",
+        "source": "http://www.rockcreekfreepress.com/2.10.pdf"
+      },
+      {
+        "id": "2.11",
+        "doc_name": "2.11",
+        "source": "http://www.rockcreekfreepress.com/2.11.pdf"
+      },
+      {
+        "id": "2.13",
+        "doc_name": "2.13",
+        "source": "http://www.rockcreekfreepress.com/2.13.pdf"
+      },
+      {
+        "id": "3.01",
+        "doc_name": "3.01",
+        "source": "http://www.rockcreekfreepress.com/3.01.pdf"
+      },
+      {
+        "id": "3.02",
+        "doc_name": "3.02",
+        "source": "http://www.rockcreekfreepress.com/3.02.pdf"
+      },
+      {
+        "id": "3.03",
+        "doc_name": "3.03",
+        "source": "http://www.rockcreekfreepress.com/3.03.pdf"
+      },
+      {
+        "id": "3.04",
+        "doc_name": "3.04",
+        "source": "http://www.rockcreekfreepress.com/3.04.pdf"
+      },
+      {
+        "id": "3.05",
+        "doc_name": "3.05",
+        "source": "http://www.rockcreekfreepress.com/3.05.pdf"
+      },
+      {
+        "id": "3.06",
+        "doc_name": "3.06",
+        "source": "http://www.rockcreekfreepress.com/3.06.pdf"
+      },
+      {
+        "id": "3.07",
+        "doc_name": "3.07",
+        "source": "http://www.rockcreekfreepress.com/3.07.pdf"
+      },
+      {
+        "id": "3.08",
+        "doc_name": "3.08",
+        "source": "http://www.rockcreekfreepress.com/3.08.pdf"
+      },
+      {
+        "id": "3.09",
+        "doc_name": "3.09",
+        "source": "http://www.rockcreekfreepress.com/3.09.pdf"
+      },
+      {
+        "id": "3.10",
+        "doc_name": "3.10",
+        "source": "http://www.rockcreekfreepress.com/3.10.pdf"
+      },
+      {
+        "id": "3.11",
+        "doc_name": "3.11",
+        "source": "http://www.rockcreekfreepress.com/3.11.pdf"
+      },
+      {
+        "id": "3.12",
+        "doc_name": "3.12",
+        "source": "http://www.rockcreekfreepress.com/3.12.pdf"
+      },
+      {
+        "id": "3.13",
+        "doc_name": "3.13",
+        "source": "http://www.rockcreekfreepress.com/3.13.pdf"
+      },
+      {
+        "id": "3.14",
+        "doc_name": "3.14",
+        "source": "http://www.rockcreekfreepress.com/3.14.pdf"
+      },
+      {
+        "id": "3.15",
+        "doc_name": "3.15",
+        "source": "http://www.rockcreekfreepress.com/3.15.pdf"
+      },
+      {
+        "id": "3.16",
+        "doc_name": "3.16",
+        "source": "http://www.rockcreekfreepress.com/3.16.pdf"
+      },
+      {
+        "id": "3.17",
+        "doc_name": "3.17",
+        "source": "http://www.rockcreekfreepress.com/3.17.pdf"
+      },
+      {
+        "id": "3.18",
+        "doc_name": "3.18",
+        "source": "http://www.rockcreekfreepress.com/3.18.pdf"
+      },
+      {
+        "id": "3.19",
+        "doc_name": "3.19",
+        "source": "http://www.rockcreekfreepress.com/3.19.pdf"
+      },
+      {
+        "id": "3.20",
+        "doc_name": "3.20",
+        "source": "http://www.rockcreekfreepress.com/3.20.pdf"
+      },
+      {
+        "id": "3.21",
+        "doc_name": "3.21",
+        "source": "http://www.rockcreekfreepress.com/3.21.pdf"
+      },
+      {
+        "id": "3.22",
+        "doc_name": "3.22",
+        "source": "http://www.rockcreekfreepress.com/3.22.pdf"
+      },
+      {
+        "id": "3.23",
+        "doc_name": "3.23",
+        "source": "http://www.rockcreekfreepress.com/3.23.pdf"
+      },
+      {
+        "id": "3.24",
+        "doc_name": "3.24",
+        "source": "http://www.rockcreekfreepress.com/3.24.pdf"
+      },
+      {
+        "id": "3.25",
+        "doc_name": "3.25",
+        "source": "http://www.rockcreekfreepress.com/3.25.pdf"
+      },
+      {
+        "id": "3.26",
+        "doc_name": "3.26",
+        "source": "http://www.rockcreekfreepress.com/3.26.pdf"
+      },
+      {
+        "id": "4.01",
+        "doc_name": "4.01",
+        "source": "http://www.rockcreekfreepress.com/4.01.pdf"
+      },
+      {
+        "id": "4.02",
+        "doc_name": "4.02",
+        "source": "http://www.rockcreekfreepress.com/4.02.pdf"
+      },
+      {
+        "id": "4.03",
+        "doc_name": "4.03",
+        "source": "http://www.rockcreekfreepress.com/4.03.pdf"
+      },
+      {
+        "id": "4.04",
+        "doc_name": "4.04",
+        "source": "http://www.rockcreekfreepress.com/4.04.pdf"
+      },
+      {
+        "id": "4.05",
+        "doc_name": "4.05",
+        "source": "http://www.rockcreekfreepress.com/4.05.pdf"
+      },
+      {
+        "id": "4.06",
+        "doc_name": "4.06",
+        "source": "http://www.rockcreekfreepress.com/4.06.pdf"
+      },
+      {
+        "id": "4.07",
+        "doc_name": "4.07",
+        "source": "http://www.rockcreekfreepress.com/4.07.pdf"
+      },
+      {
+        "id": "4.08",
+        "doc_name": "4.08",
+        "source": "http://www.rockcreekfreepress.com/4.08.pdf"
+      },
+      {
+        "id": "4.09",
+        "doc_name": "4.09",
+        "source": "http://www.rockcreekfreepress.com/4.09.pdf"
+      },
+      {
+        "id": "4.11",
+        "doc_name": "4.11",
+        "source": "http://www.rockcreekfreepress.com/4.11.pdf"
+      },
+      {
+        "id": "4.12",
+        "doc_name": "4.12",
+        "source": "http://www.rockcreekfreepress.com/4.12.pdf"
+      },
+      {
+        "id": "4.13",
+        "doc_name": "4.13",
+        "source": "http://www.rockcreekfreepress.com/4.13.pdf"
+      },
+      {
+        "id": "4.14",
+        "doc_name": "4.14",
+        "source": "http://www.rockcreekfreepress.com/4.14.pdf"
+      },
+      {
+        "id": "4.15",
+        "doc_name": "4.15",
+        "source": "http://www.rockcreekfreepress.com/4.15.pdf"
+      },
+      {
+        "id": "4.16",
+        "doc_name": "4.16",
+        "source": "http://www.rockcreekfreepress.com/4.16.pdf"
+      },
+      {
+        "id": "4.17",
+        "doc_name": "4.17",
+        "source": "http://www.rockcreekfreepress.com/4.17.pdf"
+      },
+      {
+        "id": "4.18",
+        "doc_name": "4.18",
+        "source": "http://www.rockcreekfreepress.com/4.18.pdf"
+      },
+      {
+        "id": "4.19",
+        "doc_name": "4.19",
+        "source": "http://www.rockcreekfreepress.com/4.19.pdf"
+      },
+      {
+        "id": "4.20",
+        "doc_name": "4.20",
+        "source": "http://www.rockcreekfreepress.com/4.20.pdf"
+      },
+      {
+        "id": "4.21",
+        "doc_name": "4.21",
+        "source": "http://www.rockcreekfreepress.com/4.21.pdf"
+      },
+      {
+        "id": "4.22",
+        "doc_name": "4.22",
+        "source": "http://www.rockcreekfreepress.com/4.22.pdf"
+      },
+      {
+        "id": "4.23",
+        "doc_name": "4.23",
+        "source": "http://www.rockcreekfreepress.com/4.23.pdf"
+      },
+      {
+        "id": "4.24",
+        "doc_name": "4.24",
+        "source": "http://www.rockcreekfreepress.com/4.24.pdf"
+      },
+      {
+        "id": "4.25",
+        "doc_name": "4.25",
+        "source": "http://www.rockcreekfreepress.com/4.25.pdf"
+      },
+      {
+        "id": "4.26",
+        "doc_name": "4.26",
+        "source": "http://www.rockcreekfreepress.com/4.26.pdf"
+      },
+      {
+        "id": "5.01",
+        "doc_name": "5.01",
+        "source": "http://www.rockcreekfreepress.com/5.01.pdf"
+      },
+      {
+        "id": "5.02",
+        "doc_name": "5.02",
+        "source": "http://www.rockcreekfreepress.com/5.02.pdf"
+      },
+      {
+        "id": "5.03",
+        "doc_name": "5.03",
+        "source": "http://www.rockcreekfreepress.com/5.03.pdf"
+      },
+      {
+        "id": "5.04",
+        "doc_name": "5.04",
+        "source": "http://www.rockcreekfreepress.com/5.04.pdf"
+      },
+      {
+        "id": "5.05",
+        "doc_name": "5.05",
+        "source": "http://www.rockcreekfreepress.com/5.05.pdf"
+      },
+      {
+        "id": "5.06",
+        "doc_name": "5.06",
+        "source": "http://www.rockcreekfreepress.com/5.06.pdf"
+      },
+      {
+        "id": "5.07",
+        "doc_name": "5.07",
+        "source": "http://www.rockcreekfreepress.com/5.07.pdf"
+      },
+      {
+        "id": "5.08",
+        "doc_name": "5.08",
+        "source": "http://www.rockcreekfreepress.com/5.08.pdf"
+      },
+      {
+        "id": "5.09",
+        "doc_name": "5.09",
+        "source": "http://www.rockcreekfreepress.com/5.09.pdf"
+      },
+      {
+        "id": "5.10",
+        "doc_name": "5.10",
+        "source": "http://www.rockcreekfreepress.com/5.10.pdf"
+      },
+      {
+        "id": "5.11",
+        "doc_name": "5.11",
+        "source": "http://www.rockcreekfreepress.com/5.11.pdf"
+      },
+      {
+        "id": "5.12",
+        "doc_name": "5.12",
+        "source": "http://www.rockcreekfreepress.com/5.12.pdf"
+      },
+      {
+        "id": "5.13",
+        "doc_name": "5.13",
+        "source": "http://www.rockcreekfreepress.com/5.13.pdf"
+      },
+      {
+        "id": "5.14",
+        "doc_name": "5.14",
+        "source": "http://www.rockcreekfreepress.com/5.14.pdf"
+      },
+      {
+        "id": "5.15",
+        "doc_name": "5.15",
+        "source": "http://www.rockcreekfreepress.com/5.15.pdf"
+      },
+      {
+        "id": "5.16",
+        "doc_name": "5.16",
+        "source": "http://www.rockcreekfreepress.com/5.16.pdf"
+      },
+      {
+        "id": "5.17",
+        "doc_name": "5.17",
+        "source": "http://www.rockcreekfreepress.com/5.17.pdf"
+      },
+      {
+        "id": "5.18",
+        "doc_name": "5.18",
+        "source": "http://www.rockcreekfreepress.com/5.18.pdf"
+      },
+      {
+        "id": "5.19",
+        "doc_name": "5.19",
+        "source": "http://www.rockcreekfreepress.com/5.19.pdf"
+      },
+      {
+        "id": "5.20",
+        "doc_name": "5.20",
+        "source": "http://www.rockcreekfreepress.com/5.20.pdf"
+      },
+      {
+        "id": "5.21",
+        "doc_name": "5.21",
+        "source": "http://www.rockcreekfreepress.com/5.21.pdf"
+      },
+      {
+        "id": "5.22",
+        "doc_name": "5.22",
+        "source": "http://www.rockcreekfreepress.com/5.22.pdf"
+      },
+      {
+        "id": "5.23",
+        "doc_name": "5.23",
+        "source": "http://www.rockcreekfreepress.com/5.23.pdf"
+      },
+      {
+        "id": "5.24",
+        "doc_name": "5.24",
+        "source": "http://www.rockcreekfreepress.com/5.24.pdf"
+      },
+      {
+        "id": "5.25",
+        "doc_name": "5.25",
+        "source": "http://www.rockcreekfreepress.com/5.25.pdf"
+      },
+      {
+        "id": "5.26",
+        "doc_name": "5.26",
+        "source": "http://www.rockcreekfreepress.com/5.26.pdf"
+      },
+      {
+        "id": "InFact1",
+        "doc_name": "InFact1",
+        "source": "http://www.rockcreekfreepress.com/InFact1.pdf"
+      },
+      {
+        "id": "InFactVol2No14",
+        "doc_name": "InFactVol2No14",
+        "source": "http://www.rockcreekfreepress.com/InFactVol2No14.pdf"
+      },
+      {
+        "id": "InFactVol2No15",
+        "doc_name": "InFactVol2No15",
+        "source": "http://www.rockcreekfreepress.com/InFactVol2No15.pdf"
+      },
+      {
+        "id": "InFactVol2No16",
+        "doc_name": "InFactVol2No16",
+        "source": "http://www.rockcreekfreepress.com/InFactVol2No16.pdf"
+      },
+      {
+        "id": "InFactVol9No2",
+        "doc_name": "InFactVol9No2",
+        "source": "http://www.rockcreekfreepress.com/InFactVol9No2.pdf"
+      },
+      {
+        "id": "InFactVolIIndex",
+        "doc_name": "InFactVolIIndex",
+        "source": "http://www.rockcreekfreepress.com/InFactVolIIndex.pdf"
+      },
+      {
+        "id": "InFactVolINo.1",
+        "doc_name": "InFactVolINo.1",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.1.pdf"
+      },
+      {
+        "id": "InFactVolINo.2",
+        "doc_name": "InFactVolINo.2",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.2.pdf"
+      },
+      {
+        "id": "InFactVolINo.3",
+        "doc_name": "InFactVolINo.3",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.3.pdf"
+      },
+      {
+        "id": "InFactVolINo.4",
+        "doc_name": "InFactVolINo.4",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.4.pdf"
+      },
+      {
+        "id": "InFactVolINo.5",
+        "doc_name": "InFactVolINo.5",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.5.pdf"
+      },
+      {
+        "id": "InFactVolINo.6",
+        "doc_name": "InFactVolINo.6",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.6.pdf"
+      },
+      {
+        "id": "InFactVolINo.7",
+        "doc_name": "InFactVolINo.7",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.7.pdf"
+      },
+      {
+        "id": "InFactVolINo.8",
+        "doc_name": "InFactVolINo.8",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.8.pdf"
+      },
+      {
+        "id": "InFactVolINo.9",
+        "doc_name": "InFactVolINo.9",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.9.pdf"
+      },
+      {
+        "id": "InFactVolINo.10",
+        "doc_name": "InFactVolINo.10",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.10.pdf"
+      },
+      {
+        "id": "InFactVolINo.11",
+        "doc_name": "InFactVolINo.11",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.11.pdf"
+      },
+      {
+        "id": "InFactVolINo.12",
+        "doc_name": "InFactVolINo.12",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.12.pdf"
+      },
+      {
+        "id": "InFactVolINo.13",
+        "doc_name": "InFactVolINo.13",
+        "source": "http://www.rockcreekfreepress.com/InFactVolINo.13.pdf"
+      },
+      {
+        "id": "InFactVolume2IssueNumber4no.17",
+        "doc_name": "InFactVolume2IssueNumber4no.17",
+        "source": "http://www.rockcreekfreepress.com/InFactVolume2IssueNumber4no.17.pdf"
+      },
+      {
+        "id": "Vol4Index",
+        "doc_name": "Vol4Index",
+        "source": "http://www.rockcreekfreepress.com/Vol4Index.pdf"
+      },
+      {
+        "id": "Vol5Index",
+        "doc_name": "Vol5Index",
+        "source": "http://www.rockcreekfreepress.com/Vol5Index.pdf"
+      },
+      {
+        "id": "Volume2Index",
+        "doc_name": "Volume2Index",
+        "source": "http://www.rockcreekfreepress.com/Volume2Index.pdf"
       }
     ]
   },
@@ -12035,6 +12658,325 @@
     "source": "",
     "description": "",
     "type": "nara",
-    "files": []
+    "files": [
+      {
+        "id": "001",
+        "doc_name": "In Search of Enemies",
+        "source":
+          ""
+      },
+      {
+        "id": "002",
+        "doc_name":
+          "News Articles",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "id": "069",
+    "collection": "Rock Creek Free Press",
+    "alt_names": [],
+    "date": "",
+    "important": "In Progress",
+    "source": "",
+    "description": "",
+    "type": "nara",
+    "files": [
+      {
+        "id": "BroadsheetNo3",
+        "doc_name": "BroadsheetNo3",
+        "source": "http://www.rockcreekfreepress.com/BroadsheetNo3.pdf"
+      },
+      {
+        "id": "CreekV2No1-Web",
+        "doc_name": "CreekV2No1 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No1-Web.pdf"
+      },
+      {
+        "id": "CreekV2No2--Web",
+        "doc_name": "CreekV2No2  Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No2--Web.pdf"
+      },
+      {
+        "id": "CreekV2No3-Web",
+        "doc_name": "CreekV2No3 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No3-Web.pdf"
+      },
+      {
+        "id": "CreekV2No4-Web",
+        "doc_name": "CreekV2No4 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No4-Web.pdf"
+      },
+      {
+        "id": "CreekV2No5-Web",
+        "doc_name": "CreekV2No5 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No5-Web.pdf"
+      },
+      {
+        "id": "CreekV2No6-Web",
+        "doc_name": "CreekV2No6 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No6-Web.pdf"
+      },
+      {
+        "id": "CreekV2No7-Web",
+        "doc_name": "CreekV2No7 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No7-Web.pdf"
+      },
+      {
+        "id": "CreekV2No8-Web",
+        "doc_name": "CreekV2No8 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No8-Web.pdf"
+      },
+      {
+        "id": "CreekV2No9-Web",
+        "doc_name": "CreekV2No9 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No9-Web.pdf"
+      },
+      {
+        "id": "CreekV2No10-Web",
+        "doc_name": "CreekV2No10 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No10-Web.pdf"
+      },
+      {
+        "id": "CreekV2No11-Web",
+        "doc_name": "CreekV2No11 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No11-Web.pdf"
+      },
+      {
+        "id": "CreekV2No12-Web",
+        "doc_name": "CreekV2No12 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV2No12-Web.pdf"
+      },
+      {
+        "id": "CreekV3No1-Web",
+        "doc_name": "CreekV3No1 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No1-Web.pdf"
+      },
+      {
+        "id": "CreekV3No2-Web",
+        "doc_name": "CreekV3No2 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No2-Web.pdf"
+      },
+      {
+        "id": "CreekV3No3-Web",
+        "doc_name": "CreekV3No3 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No3-Web.pdf"
+      },
+      {
+        "id": "CreekV3No4-Web",
+        "doc_name": "CreekV3No4 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No4-Web.pdf"
+      },
+      {
+        "id": "CreekV3No5-Web",
+        "doc_name": "CreekV3No5 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No5-Web.pdf"
+      },
+      {
+        "id": "CreekV3No6-Web",
+        "doc_name": "CreekV3No6 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No6-Web.pdf"
+      },
+      {
+        "id": "CreekV3No7-Web",
+        "doc_name": "CreekV3No7 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No7-Web.pdf"
+      },
+      {
+        "id": "CreekV3No8-Web",
+        "doc_name": "CreekV3No8 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No8-Web.pdf"
+      },
+      {
+        "id": "CreekV3No9-Web",
+        "doc_name": "CreekV3No9 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No9-Web.pdf"
+      },
+      {
+        "id": "CreekV3No10-Web",
+        "doc_name": "CreekV3No10 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No10-Web.pdf"
+      },
+      {
+        "id": "CreekV3No11-Web",
+        "doc_name": "CreekV3No11 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No11-Web.pdf"
+      },
+      {
+        "id": "CreekV3No12-Web",
+        "doc_name": "CreekV3No12 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV3No12-Web.pdf"
+      },
+      {
+        "id": "CreekV4No1-Web",
+        "doc_name": "CreekV4No1 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No1-Web.pdf"
+      },
+      {
+        "id": "CreekV4No2-Web",
+        "doc_name": "CreekV4No2 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No2-Web.pdf"
+      },
+      {
+        "id": "CreekV4No3-Web",
+        "doc_name": "CreekV4No3 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No3-Web.pdf"
+      },
+      {
+        "id": "CreekV4No4-Web",
+        "doc_name": "CreekV4No4 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No4-Web.pdf"
+      },
+      {
+        "id": "CreekV4No5-Web",
+        "doc_name": "CreekV4No5 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No5-Web.pdf"
+      },
+      {
+        "id": "CreekV4No6-Web",
+        "doc_name": "CreekV4No6 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No6-Web.pdf"
+      },
+      {
+        "id": "CreekV4No7-Web",
+        "doc_name": "CreekV4No7 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No7-Web.pdf"
+      },
+      {
+        "id": "CreekV4No8-Web",
+        "doc_name": "CreekV4No8 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No8-Web.pdf"
+      },
+      {
+        "id": "CreekV4No9-Web",
+        "doc_name": "CreekV4No9 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No9-Web.pdf"
+      },
+      {
+        "id": "CreekV4No10-Web",
+        "doc_name": "CreekV4No10 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No10-Web.pdf"
+      },
+      {
+        "id": "CreekV4No11-Web",
+        "doc_name": "CreekV4No11 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No11-Web.pdf"
+      },
+      {
+        "id": "CreekV4No12-Web",
+        "doc_name": "CreekV4No12 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV4No12-Web.pdf"
+      },
+      {
+        "id": "CreekV5No1-Web",
+        "doc_name": "CreekV5No1 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No1-Web.pdf"
+      },
+      {
+        "id": "CreekV5No2-Web",
+        "doc_name": "CreekV5No2 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No2-Web.pdf"
+      },
+      {
+        "id": "CreekV5No3-Web",
+        "doc_name": "CreekV5No3 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No3-Web.pdf"
+      },
+      {
+        "id": "CreekV5No4-Web",
+        "doc_name": "CreekV5No4 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No4-Web.pdf"
+      },
+      {
+        "id": "CreekV5No5-Web",
+        "doc_name": "CreekV5No5 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No5-Web.pdf"
+      },
+      {
+        "id": "CreekV5No6-Web",
+        "doc_name": "CreekV5No6 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No6-Web.pdf"
+      },
+      {
+        "id": "CreekV5No7-Web",
+        "doc_name": "CreekV5No7 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No7-Web.pdf"
+      },
+      {
+        "id": "CreekV5No8-Web",
+        "doc_name": "CreekV5No8 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No8-Web.pdf"
+      },
+      {
+        "id": "CreekV5No9-Web",
+        "doc_name": "CreekV5No9 Web",
+        "source": "http://www.rockcreekfreepress.com/CreekV5No9-Web.pdf"
+      },
+      {
+        "id": "RCMPJan2007-all",
+        "doc_name": "RCMPJan2007 all",
+        "source": "http://www.rockcreekfreepress.com/RCMPJan2007-all.pdf"
+      },
+      {
+        "id": "RockCreekFreePressNo4",
+        "doc_name": "RockCreekFreePressNo4",
+        "source": "http://www.rockcreekfreepress.com/RockCreekFreePressNo4.pdf"
+      }
+    ]
+  },
+  {
+    "id": "075",
+    "collection": "US Collaboration with Nazis",
+    "alt_names": [],
+    "date": "",
+    "important": "In Progress",
+    "source": "",
+    "description": "",
+    "type": "nara",
+    "files": [
+      {
+        "id": "001",
+        "doc_name": "Old Nazis, the New Right, and the Republican Party by Russ Belant",
+        "source":
+          ""
+      }
+    ]
+  },
+  {
+    "id": "076",
+    "collection": "JFK ",
+    "alt_names": [],
+    "date": "",
+    "important": "In Progress",
+    "source": "",
+    "description": "",
+    "type": "nara",
+    "files": [
+      {
+        "id": "001",
+        "doc_name": "Old Nazis, the New Right, and the Republican Party by Russ Belant",
+        "source":
+          ""
+      }
+    ]
+  },
+  {
+    "id": "077",
+    "collection": "Counterspy",
+    "alt_names": [],
+    "date": "",
+    "important": "In Progress",
+    "source": "",
+    "description": "",
+    "type": "nara",
+    "files": [
+      {
+        "id": "001",
+        "doc_name": "Old Nazis, the New Right, and the Republican Party by Russ Belant",
+        "source":
+          ""
+      }
+    ]
   }
 ]
