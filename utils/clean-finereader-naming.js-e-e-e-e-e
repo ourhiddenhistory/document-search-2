@@ -17,7 +17,7 @@ const DIR_CSV = process.argv[2];
 const DIRS = DIR_CSV.split(',');
 const PROCEED = process.argv[3] || false;
 
-const BASEPATH = `${secrets.project_path}/es`;
+const BASEPATH = `${secrets.project_path}/_es`;
 
 /**
  * @param {String} file - full filepath
@@ -61,9 +61,9 @@ DIRS.forEach((dir) => {
     const nextFileparts = parseFilename(nextFilepath);
 
     const isOnePage = fileIsFromOnePageDoc(currentFileparts, prevFileparts, nextFileparts);
-    // console.log(`${currentFileparts} | ${isOnePage}`);
+    //console.log(`${currentFileparts} | ${isOnePage}`);
     if (isOnePage && currentFileparts[1] === '2') {
-      // console.log(`${currentFileparts} | ${isOnePage}`);
+      //console.log(`${currentFileparts} | ${isOnePage}`);
       const newFilepath = `${absDir}${currentFileparts[0]}_1.txt`;
       if (!PROCEED) {
         console.log(`${currentFilepath} will be renamed to ${newFilepath}`);
@@ -72,7 +72,7 @@ DIRS.forEach((dir) => {
           if (err) {
             console.log(err); return;
           }
-          console.log(`RENAMED TO: ${newFilepath}`);
+          console.log(`${currentFilepath} RENAMED TO: ${newFilepath}`);
         });
       }
     }
