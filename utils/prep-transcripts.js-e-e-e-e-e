@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 var Autolinker = require( 'autolinker' );
 
 process.argv.forEach(function (val, index, array) {
@@ -6,6 +7,10 @@ process.argv.forEach(function (val, index, array) {
 });
 
 // read file
+const inPath = path.dirname(process.argv[2]);
+const inFilename = path.basename(process.argv[2], '.txt');
+const outFullpath = `${inPath}/${inFilename}.html`;
+
 var contents = fs.readFileSync(process.argv[2], 'utf8');
 
 // do stuff
@@ -32,11 +37,11 @@ contents = contents.replace(/(Newsweek)/ig, '<i>Newsweek</i>');
 contents = Autolinker.link(contents);
 
 // write file
-fs.writeFile('x-'+process.argv[2], contents, function(err) {
+fs.writeFile(outFullpath, contents, function(err) {
     if(err) {
-        return console.log(err);
+      return console.log(err);
     }
 
     console.log(contents);
     console.log('-- DONE --');
-}); 
+});

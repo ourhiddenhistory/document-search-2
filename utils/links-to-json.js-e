@@ -38,8 +38,8 @@ lines.forEach((el, i) => {
     //id: String(i + START_CNT).padStart(3, '0'),
     // id: decodeURI(path.basename(el.trim(), '.pdf')), For Nuremburg Trials
     doc_name: decodeURI(path.basename(el.trim(), '.pdf')).replace(/_/g, ' ').replace(/-/g, ' '),
-    source: '',
-    // source: `https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/${el}/${el}.pdf`,
+    // source: '',
+    source: `http://www.rockcreekfreepress.com/${el}.pdf`,
   };
   if (NAMES_INPUT) {
     obj.doc_name = docNames[i]
