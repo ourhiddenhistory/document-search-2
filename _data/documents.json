@@ -12935,12 +12935,6 @@
     "description": "",
     "type": "nara",
     "files": [
-      {
-        "id": "001",
-        "doc_name": "Old Nazis, the New Right, and the Republican Party by Russ Belant",
-        "source":
-          ""
-      }
     ]
   },
   {
@@ -12953,17 +12947,12 @@
     "description": "",
     "type": "nara",
     "files": [
-      {
-        "id": "001",
-        "doc_name": "Old Nazis, the New Right, and the Republican Party by Russ Belant",
-        "source":
-          ""
-      }
+
     ]
   },
   {
     "id": "077",
-    "collection": "Counterspy",
+    "collection": "Counterspy Magazine",
     "alt_names": [],
     "date": "",
     "important": "In Progress",
@@ -12977,6 +12966,18 @@
         "source":
           ""
       }
+    ]
+  },
+  {
+    "id": "078",
+    "collection": "LBJ Library Oral Histories",
+    "alt_names": [],
+    "date": "",
+    "important": "In Progress",
+    "source": "",
+    "description": "",
+    "type": "",
+    "files": [
     ]
   }
 ]
