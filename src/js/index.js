@@ -74,6 +74,8 @@ class Listing {
     let file = {};
     let collection = filterValue(doclist, 'id', this.groupId);
     if(collection && collection.files){
+      if(collection.type)
+        type = collection.type;
       file = filterValue(collection.files, 'id', this.docId);
       if(file && file.type){
         type = file.type;
