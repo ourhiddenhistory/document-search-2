@@ -12960,17 +12960,12 @@
     "description": "",
     "type": "nara",
     "files": [
-      {
-        "id": "001",
-        "doc_name": "Old Nazis, the New Right, and the Republican Party by Russ Belant",
-        "source":
-          ""
-      }
+
     ]
   },
   {
     "id": "078",
-    "collection": "LBJ Library Oral Histories",
+    "collection": "President Lyndon Baines Johnson Library Oral Histories",
     "alt_names": [],
     "date": "",
     "important": "In Progress",
