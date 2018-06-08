@@ -22,6 +22,14 @@ const OUTPUT = `${path.dirname(INPUT)}/${path.basename(INPUT, '.txt')}.json`;
 const fileContents = fs.readFileSync(INPUT, 'utf8');
 const lines = fileContents.split('\n');
 
+var toTitleCase = function (str) {
+	str = str.toLowerCase().split(' ');
+	for (var i = 0; i < str.length; i++) {
+		str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+	}
+	return str.join(' ');
+};
+
 let docNames = [];
 if (NAMES_INPUT) {
   docNames = fs.readFileSync(NAMES_INPUT, 'utf8')
@@ -34,12 +42,14 @@ if (NAMES_INPUT) {
 const storeArr = [];
 lines.forEach((el, i) => {
   const obj = {
-    id: el,
+    //id: el,
     //id: String(i + START_CNT).padStart(3, '0'),
-    // id: decodeURI(path.basename(el.trim(), '.pdf')), For Nuremburg Trials
-    doc_name: decodeURI(path.basename(el.trim(), '.pdf')).replace(/_/g, ' ').replace(/-/g, ' '),
-    // source: '',
-    source: `http://www.rockcreekfreepress.com/${el}.pdf`,
+    id: decodeURI(path.basename(el.trim(), '.pdf').replace(/\.PDF$/, '')), // Remove .pdf
+    doc_name: toTitleCase(decodeURI(path.basename(el.trim(), '.pdf').replace(/\.PDF$/, '')).replace(/_/g, ' ').replace(/-/g, ' ').replace(/(\d+)/g, function (_, num){
+      return ' ' + num + ' ';
+    }).trim()).replace(/\s\s+/g, ' '),
+    source: `${el}`,
+    //source: `http://altgov2.org/wp-content/uploads/${el}`,
   };
   if (NAMES_INPUT) {
     obj.doc_name = docNames[i]
