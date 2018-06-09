@@ -38,9 +38,11 @@ title: Documents List
                     {% assign sorted_docs = col.files | sort:"doc_name" %}
                     {% for file in sorted_docs %}
                       <li>
+                        {% if file.source %}
                         <a href="{{file.source}}" target="_blank">
                           <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                         </a>
+                        {% endif %}
                         {{ file.doc_name }}
                       </li>
                     {% endfor %}
