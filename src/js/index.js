@@ -1,4 +1,3 @@
-
 const client = new $.es.Client({
   hosts: 'https://api.ourhiddenhistory.org',
 });
@@ -263,7 +262,8 @@ var changeUrlWithNewSearch = function(url, searchterm) {
  */
 var changeUrlWithNewDocument = function(url, document) {
   let currentParams = url.split('?')[1] || '';
-  let newUrl = '/doc-search/' + document.join('/') + '?' + currentParams;
+  document.push((isImg ? 'img' : 'txt'));
+  let newUrl = baseurl + '/' + document.join('/') + '?' + currentParams;
   return newUrl;
 }
 
@@ -303,9 +303,10 @@ function changePage(direction) {
  * @param {String} lastPageContent - original page content in case of failure
  * @returns {void}
  */
-function getPage(page, lastPageContent) {
+function getPage(page, lastPageContent, setToImage) {
 
   if (ajaxPage != null) ajaxPage.abort();
+  setToImage = setToImage || false;
 
   ajaxPage = client.search({
     size: 1,
@@ -325,23 +326,26 @@ function getPage(page, lastPageContent) {
     const newUrl = changeUrlWithNewDocument(curPath, [listing.id]);
     history.pushState({}, null, newUrl);
 
-    displayListingInEntryPanel(listing);
+    displayListingInEntryPanel(listing, setToImage);
   }, (err) => {
       console.trace(err.message);
   });
 }
 
 const path = window.location.pathname;
-if (['', '/', 'index.html'].indexOf() !== -1) {
+if (![`${baseurl}`, `${baseurl}/`, `${baseurl}/index.html`].includes(path)) {
   const pathParts = path.split('/');
-  const page = `${pathParts[2]}.txt`;
-  getPage(page, null);
+  let pathPartIndex = (baseurl == '' ? 1 : 2);
+  let setToImage = (pathParts[pathPartIndex+1] === 'img');
+  const page = `${pathParts[pathPartIndex]}.txt`;
+  getPage(page, null, setToImage);
 }
 
 /**
  * Controller
  */
 let listings = [];
+let isImg = false;
 let imgLock = false;
 
 $('.toolbar-entry__disp-img-lock').on('click', function() {
@@ -357,6 +361,7 @@ $('.toolbar-entry__disp-img-lock').on('click', function() {
 $('.toolbar-entry__disp-img').on('click', function(){
   $(this).removeClass('btn-secondary').addClass('btn-info');
   $('.toolbar-entry__disp-txt').removeClass('btn-info').addClass('btn-secondary');
+  isImg = true;
   let img = $('<img class="display-img" />');
   img.attr('src', entryImg);
   $('.entry-panel__content').html(img[0].outerHTML);
@@ -365,13 +370,15 @@ $('.toolbar-entry__disp-img').on('click', function(){
     .css('display', 'block')
     .parent()
     .zoom({ on: 'click' });
+  let newUrl = changeUrlWithNewDocument(window.location.pathname + window.location.search, [currentListing.id]);
+  history.pushState({}, null, newUrl);
 });
 
 $('.toolbar-entry__disp-txt').on('click', function(){
   $(this).removeClass('btn-secondary').addClass('btn-info');
   $('.toolbar-entry__disp-img, .toolbar-entry__disp-img-lock')
     .removeClass('btn-info').addClass('btn-secondary');
-  imgLock = false;
+  isImg = imgLock = false;
   displayListingInEntryPanel(currentListing);
 });
 
@@ -409,10 +416,13 @@ $('.results-container').on('click', '.open-entry-js', function(e){
 
 let entryImg = null;
 let entryIndex = null;
-function displayListingInEntryPanel(listing) {
+function displayListingInEntryPanel(listing, setToImage) {
   let searchTrimmed = $("#search").val().replace(/['"]+/g, '');
   $('.entry-panel__content').closest('.scrolling-pane').scrollTop(0);
-  if(imgLock){
+  if(imgLock || setToImage){
+    $('.toolbar-entry__disp-img').removeClass('btn-secondary').addClass('btn-info');
+    $('.toolbar-entry__disp-txt').removeClass('btn-info').addClass('btn-secondary');
+    isImg = true;
     let img = $('<img class="display-img" />');
     img.attr('src', listing.img);
     $('.entry-panel__content').html(img[0].outerHTML);
@@ -432,6 +442,7 @@ function displayListingInEntryPanel(listing) {
   setPdfLink(listing.sourceHref);
   entryImg = listing.img;
   currentListing = listing;
+  // updateSocialMediaDisplay(listing.img, listing.docname); // won't work dynamically
   // set search param in url
   let newUrl = changeUrlWithNewDocument(window.location.pathname + window.location.search, [listing.id]);
   history.pushState({}, null, newUrl);
@@ -522,6 +533,15 @@ function getResults(searchParam, recordCount, page, callback) {
 /**
  * @return {void}
  */
+function updateSocialMediaDisplay(imgSrc, desc){
+  $("meta[property='og\\:image']").attr("content", imgSrc);
+  $("meta[property='og\\:description']").attr("content", desc);
+}
+
+
+/**
+ * @return {void}
+ */
 function displayResults(response) {
   listings = [];
   const container = [];
@@ -582,6 +602,5 @@ $('[data-toggle="tooltip"]').tooltip();
 
 /**
  * pan/zoom
- *
  */
 $('.entry-panel__content--entry').zoom({ on: 'click' });
