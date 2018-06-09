@@ -7,6 +7,7 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const child = require('child_process');
 const gutil = require('gulp-util');
+const rename = require('gulp-rename');
 
 const scssFiles = 'src/sass/**/*.scss';
 const jsFiles = 'src/js/**/*.js';
@@ -41,6 +42,11 @@ gulp.task('copyImgs', () =>
   gulp.src(['src/img/**/*'])
     .pipe(gulp.dest('dist/img')));
 
+gulp.task('copyHtaccessDev', () =>
+  gulp.src(['.htaccess.dev'])
+    .pipe(rename('.htaccess'))
+    .pipe(gulp.dest('dist')));
+
 gulp.task('jekyll', () => {
   const jekyll = child.spawn('jekyll', ['serve',
     '--config',
@@ -66,5 +72,5 @@ gulp.task('watch', () => {
   gulp.watch(dataFiles, ['jekyll']);
 });
 
-gulp.task('default', ['copy', 'copyImgs', 'css', 'js', 'jekyll', 'watch']);
+gulp.task('default', ['copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'watch']);
 gulp.task('build', ['copy', 'css', 'js']);
