@@ -16,7 +16,7 @@ var contents = fs.readFileSync(process.argv[2], 'utf8');
 // do stuff
 
 // bold speaker names
-contents = contents.replace(/^([a-zA-Z\s]*):\s/mg, '<b>$1:</b> ');
+contents = contents.replace(/^([a-zA-Z\s.]*):\s/mg, '<b>$1:</b> ');
 // trim lines
 lines = contents.split('\n');
 lines.forEach(function (elem, i){

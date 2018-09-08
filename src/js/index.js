@@ -44,11 +44,13 @@ class Listing {
     this.pagePrev = null;
 
     this.docname = this.getDocName(doclist);
+    this.sourceType = this.getSourceType(doclist);
     this.sourceHref = this.getSourceUrl(doclist);
     this.img = this.getImgPath();
     this.txt = this.getTxtPath();
 
     this.entry = hit._source.content;
+    console.log(this);
   }
 
   getGroupId() {
@@ -88,7 +90,10 @@ class Listing {
     let file = {};
     let collection = filterValue(doclist, 'id', this.groupId);
     if(collection && collection.files){
+      if(collection.source)
+        source = true;
       file = filterValue(collection.files, 'id', this.docId);
+      console.log(file)
       if(file && file.source){
         source = file.source;
       }
@@ -101,7 +106,7 @@ class Listing {
       case 'pdf':
         source = source+'#page='+this.page;
         break;
-      case 'nara':
+      case 'nara-jfk':
         source = 'https://www.archives.gov/files/research/jfk/releases/'+this.docId+'.pdf#page='+this.page;
         break;
       case 'nara-jg':
