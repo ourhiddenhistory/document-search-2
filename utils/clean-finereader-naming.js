@@ -61,9 +61,9 @@ DIRS.forEach((dir) => {
     const nextFileparts = parseFilename(nextFilepath);
 
     const isOnePage = fileIsFromOnePageDoc(currentFileparts, prevFileparts, nextFileparts);
-    //console.log(`${currentFileparts} | ${isOnePage}`);
+    // console.log(`${currentFileparts} | ${isOnePage}`);
     if (isOnePage && currentFileparts[1] === '2') {
-      //console.log(`${currentFileparts} | ${isOnePage}`);
+      // console.log(`${currentFileparts} | ${isOnePage}`);
       const newFilepath = `${absDir}${currentFileparts[0]}_1.txt`;
       if (!PROCEED) {
         console.log(`${currentFilepath} will be renamed to ${newFilepath}`);
