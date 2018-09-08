@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
+		"buildDataFile": "node utils/buildDataFile.js",
 		"go": "gulp; bundle exec jekyll serve"
 	},
 	"dependencies": {
@@ -13,6 +14,7 @@
 		"elasticsearch-browser": "^14.2.2",
 		"glob-fs": "^0.1.7",
 		"gulp-rename": "^1.4.0",
+		"gulp-run": "^1.7.1",
 		"npm": "^6.4.1",
 		"pump": "^3.0.0",
 		"requirejs": "^2.3.6",

@@ -8,10 +8,16 @@ const uglify = require('gulp-uglify');
 const child = require('child_process');
 const gutil = require('gulp-util');
 const rename = require('gulp-rename');
+const run = require('gulp-run');
 
 const scssFiles = 'src/sass/**/*.scss';
 const jsFiles = 'src/js/**/*.js';
 const dataFiles = '_data/**/*.json';
+
+// use gulp-run to start a pipeline
+gulp.task('buildDataFile', () => {
+  return run('npm run buildDataFile').exec();
+})
 
 gulp.task('css', () => {
   gulp.src(scssFiles)
@@ -72,5 +78,5 @@ gulp.task('watch', () => {
   gulp.watch(dataFiles, ['jekyll']);
 });
 
-gulp.task('default', ['copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'watch']);
-gulp.task('build', ['copy', 'css', 'js']);
+gulp.task('default', ['buildDataFile', 'copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'watch']);
+gulp.task('build', ['buildDataFile', 'copy', 'css', 'js']);

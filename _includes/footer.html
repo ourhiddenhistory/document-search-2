@@ -31,7 +31,7 @@
   <script src="{{site.baseurl}}/dist/elasticsearch.jquery.js"></script>
   <script src='{{site.baseurl}}/dist/index.js??{{randomNumber}}'></script>
   <script>
-    var docList = {{ site.data.documents | jsonify }}
+    var docList = {{ site.data.DOCS_NOWRITE | jsonify }}
   </script>
 
 
