@@ -1,0 +1,48 @@
+{
+  "id": "038",
+  "shortname": "jfk-independent",
+  "collection": "JFK Assassination: Independent Research",
+  "alt_names": [],
+  "date": "1967",
+  "description": "",
+  "important": "",
+  "source": "https://www.archives.gov/research/jfk/2017-release",
+  "type": "archive",
+  "files": [
+    {
+      "id": "001",
+      "doc_name": "Accessories After the Fact by Sylvia Meagher",
+      "source": "https://archive.org/stream/AccessoriesAfterTheFact/Accessories_After_The_Fact"
+    },
+    {
+      "id": "002",
+      "doc_name": "Cover Up by Gary Shaw",
+      "source": "https://archive.org/stream/CoverUp_201510/Cover_Up"
+    },
+    {
+      "id": "003",
+      "doc_name": "Forgive My Grief, Part 1 by Penn Jones",
+      "source": "https://archive.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_01"
+    },
+    {
+      "id": "004",
+      "doc_name": "Forgive My Grief, Part 2 by Penn Jones",
+      "source": "https://archive.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_02"
+    },
+    {
+      "id": "005",
+      "doc_name": "Forgive My Grief, Part 3 by Penn Jones",
+      "source": "https://archive.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_03"
+    },
+    {
+      "id": "006",
+      "doc_name": "Forgive My Grief, Part 4 by Penn Jones",
+      "source": "https://archive.org/stream/ForgiveMyGriefPennJonesJr/Forgive_My_Grief_04"
+    },
+    {
+      "id": "007",
+      "doc_name": "Six Seconds in Dallas by Josiah Thompson",
+      "source": "https://archive.org/stream/SixSecondsInDallas/Six_Seconds_In_Dallas"
+    }
+  ]
+}

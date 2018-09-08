@@ -1,0 +1,81 @@
+{
+  "id": "021",
+  "shortname": "caib-crest",
+  "collection": "Covert Action Information Bulletin (CIA/CREST Collection)",
+  "alt_names": [],
+  "date": "1979",
+  "source": "https://archive.org/details/Issue27CovertActionInformationBulletinIssue27ReligiousRight",
+  "description": "",
+  "files": [
+    {
+      "id": "001",
+      "doc_name": "July 1978, First Issue",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2001%20CovertAction%20Information%20Bulletin%20July%201978"
+    },
+    {
+      "id": "002",
+      "doc_name": "December 1979-January 1980, CIA and the Media",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2007%20CovertAction%20Information%20Bulletin%20December%201979-January%201980%20CIA%20and%20the%20Media"
+    },
+    {
+      "id": "003",
+      "doc_name": "August-September 1980, CIA Manual on Deep Cover",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2010%20CovertAction%20Information%20Bulletin%20August-September%201980%20CIA%20Manual%20on%20Deep%20Cover"
+    },
+    {
+      "id": "004",
+      "doc_name": "December 1980, NSA Interview",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2011%20CovertAction%20Information%20Bulletin%20December%201980%20NSA%20Interview"
+    },
+    {
+      "id": "005",
+      "doc_name": "April 1981, The New Right and U.S. Intelligence",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2012%20CoverAction%20Information%20Bulletin%20April%201981%20The%20New%20Right%20and%20U.S.%20Intelligence"
+    },
+    {
+      "id": "006",
+      "doc_name": "July-August 1981, The US and Africa",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2013%20CovertAction%20Information%20Bulletin%20July-August%201981%20The%20US%20and%20Africa"
+    },
+    {
+      "id": "007",
+      "doc_name": "October 1981, Complete CAIB Index",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2014-15%20CovertAction%20Information%20Bulletin%20October%201981%20Complete%20CAIB%20Index"
+    },
+    {
+      "id": "008",
+      "doc_name": "March 1982, Seychelles Invasion",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2016%20CovertAction%20Information%20Bulletin%20March%201982%20Seychelles%20Invasion"
+    },
+    {
+      "id": "009",
+      "doc_name": "Summer 1982, US Fakes Data in Chemical War",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2017%20CovertAction%20Information%20Bulletin%20Summer%201982%20US%20Fakes%20Data%20in%20Chemical%20War"
+    },
+    {
+      "id": "010",
+      "doc_name": "Winter 1983, CIA and Religion",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2018%20CovertAction%20Information%20Bulletin%20Winter%201983%20CIA%20and%20Religion"
+    },
+    {
+      "id": "011",
+      "doc_name": "Nazis, Vatican and CIA",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2025%20CovertAction%20Information%20Bulletin%20Nazis%2C%20Vatican%20and%20CIA"
+    },
+    {
+      "id": "012",
+      "doc_name": "Chomsky on the Libya Attack and CAIB Index",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2026%20CovertAction%20Information%20Bulletin%20Chomsky%20on%20the%20Libya%20Attack%20and%20CAIB%20Index"
+    },
+    {
+      "id": "013",
+      "doc_name": "Issue 27, The Religious Right",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2027%20CovertAction%20Information%20Bulletin%20Issue%2027%20Religious%20Right"
+    },
+    {
+      "id": "014",
+      "doc_name": "The CIA and Drugs",
+      "source": "https://archive.org/stream/Issue27CovertActionInformationBulletinIssue27ReligiousRight/Issue%2028%20CovertAction%20Information%20Bulletin%20CIA%20and%20Drugs"
+    }
+  ]
+}

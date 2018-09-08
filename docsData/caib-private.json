@@ -1,0 +1,125 @@
+{
+  "id": "020",
+  "shortname": "caib-private",
+  "collection": "Covert Action Information Bulletin / Covert Action Quarterly (Private Collection)",
+  "alt_names": [],
+  "date": "1979",
+  "source": "",
+  "description": "",
+  "important": "",
+  "files": [
+    {
+      "id": "001",
+      "doc_name": "Issue #20",
+      "source": "https://archive.org/stream/CovertActionInformationBulletinNo20Winter1984/Covert-Action-Information-Bulletin_No-20_Winter-1984"
+    },
+    {
+      "id": "002",
+      "doc_name": "Issue #24",
+      "source": "https://archive.org/stream/CAIB024"
+    },
+    {
+      "id": "003",
+      "doc_name": "Issue #29",
+      "source": "https://archive.org/stream/CovertActionInformationBulletin29/Covert%20Action%20Information%20Bulletin%20%2029"
+    },
+    {
+      "id": "004",
+      "doc_name": "Issue #30",
+      "source": "https://archive.org/stream/CAIB30CovertActionInformationBulletin/CAIB%2030%20covert%20action%20information%20bulletin"
+    },
+    {
+      "id": "005",
+      "doc_name": "Issue #31",
+      "source": "https://archive.org/stream/DomesticSurveillanceCovertActionInformationBulletinNo.31/CAIB%2031"
+    },
+    {
+      "id": "006",
+      "doc_name": "Issue #32",
+      "source": "https://archive.org/stream/10thAnniversaryBestOfCAIB-CovertActionInformationBulletin32/CAIB%2032"
+    },
+    {
+      "id": "007",
+      "doc_name": "Issue #33",
+      "source": "https://archive.org/stream/GeorgeBushTheCompanysMan-CovertActionInformationBulletinNo.33/CAIB%2033"
+    },
+    {
+      "id": "008",
+      "doc_name": "Issue #34",
+      "source": "https://archive.org/stream/CovertActionInformationBulletinNo34Summer1990/Covert-Action-Information-Bulletin_No-34_Summer-1990"
+    },
+    {
+      "id": "009",
+      "doc_name": "Issue #35",
+      "source": "https://archive.org/stream/CovertActionInformationBulletinNo35TheCIAInEasternEurope/CovertActionInformationBulletinNo35-The_CIA_in_Eastern_Europe"
+    },
+    {
+      "id": "010",
+      "doc_name": "Issue #36",
+      "source": "https://archive.org/stream/RacismAndTheNationalSecurityStateCovertActionInformationBulletinNo36/Racism-and-the-National-Security-State_Covert-Action-Information-Bulletin_No-36"
+    },
+    {
+      "id": "011",
+      "doc_name": "Issue #37",
+      "source": "https://archive.org/stream/CovertActionInformationBulletinNo37Summer1991/CovertActionInformationBulletin_No37_Summer1991"
+    },
+    {
+      "id": "012",
+      "doc_name": "Issue #39",
+      "source": "https://archive.org/stream/TheCIAAndTheWebOfSupportingAgenciesCovertActionInformationBulletinNo39/The-CIA-and-the-Web-of-Supporting-Agencies_Covert-Action-Information-Bulletin-No-39"
+    },
+    {
+      "id": "013",
+      "doc_name": "Issue #40",
+      "source": "https://archive.org/stream/TheEffectOfUSPolicyOnIndigenousPeopleCovertActionInformationBulletinNo40/The-Effect-of-US-Policy-on-Indigenous-People_Covert-Action-Information-Bulletin_No-40"
+    },
+    {
+      "id": "014",
+      "doc_name": "Issue #41",
+      "source": "https://archive.org/stream/CovertActionInformationBulletinNo41Summer1992/CovertActionInformationBulletin-No41-Summer_1992"
+    },
+    {
+      "id": "015",
+      "doc_name": "Issue #42",
+      "source": "https://archive.org/stream/CovertActionInformtionBulletinNo42Fall1992/CovertActionInformtionBulletin_No42_Fall1992"
+    },
+    {
+      "id": "016",
+      "doc_name": "Issue #43",
+      "source": "https://archive.org/stream/PoisonWarToxicPolicies-CovertActionQuarterly43/CAIB%2043"
+    },
+    {
+      "id": "017",
+      "doc_name": "Issue #44",
+      "source": "https://archive.org/stream/CovertActionQuarterly44/covert%20action%20quarterly%2044"
+    },
+    {
+      "id": "018",
+      "doc_name": "Issue #46",
+      "source": "https://archive.org/stream/CAQ46/CAQ046"
+    },
+    {
+      "id": "019",
+      "doc_name": "Issue #47",
+      "source": "https://ia800401.us.archive.org/4/items/CovertActionQuarterly47/Covert%20Action%20Quarterly%2047.pdf",
+      "type": "pdf"
+    },
+    {
+      "id": "020",
+      "doc_name": "Issue #48",
+      "source": "https://ia600401.us.archive.org/4/items/CAQ48/Covert%20Action%20Quarterly%2048.pdf",
+      "type": "pdf"
+    },
+    {
+      "id": "021",
+      "doc_name": "Issue #58",
+      "source": "https://ia600403.us.archive.org/8/items/CAQ58/CAQ058.pdf",
+      "type": "pdf"
+    },
+    {
+      "id": "022",
+      "doc_name": "Complete Back Issues List",
+      "source": "https://archive.org/stream/FullListOfCovertActionInformationBulletinAndCovertActionQuarterlyIssues"
+    }
+  ]
+}
