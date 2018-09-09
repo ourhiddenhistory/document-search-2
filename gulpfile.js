@@ -11,13 +11,11 @@ const rename = require('gulp-rename');
 const run = require('gulp-run');
 
 const scssFiles = 'src/sass/**/*.scss';
-const jsFiles = 'src/js/**/*.js';
+const jsFiles = ['src/js/classes/*.js', 'src/js/index.js'];
 const dataFiles = '_data/**/*.json';
 
 // use gulp-run to start a pipeline
-gulp.task('buildDataFile', () => {
-  return run('npm run buildDataFile').exec();
-})
+gulp.task('buildDataFile', () => run('npm run buildDataFile').exec());
 
 gulp.task('css', () => {
   gulp.src(scssFiles)
