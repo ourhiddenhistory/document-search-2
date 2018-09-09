@@ -10,245 +10,6 @@ client.ping({
   }
 });
 
-const filterValue = (obj, key, value) => obj.find(v => v[key] === value);
-
-/**
- * Modules
- */
-String.prototype.lpad = function(padString, length) {
-  var str = this;
-  while (str.length < length)
-    str = padString + str;
-  return str;
-}
-
-function hasOwnProperty(obj, prop) {
-  return Object.prototype.hasOwnProperty.call(obj, prop);
-};
-
-/** Class representing a single elasticsearch hit. */
-class Listing {
-  /**
-   * @param {Object} hit - single elasticsearch hit
-   * @param {Object} doclist - document list
-   */
-  constructor(hit, doclist) {
-    this.file = hit._source.file.filename;
-    this.id = this.file.replace('.txt', '');
-    this.searched = [];
-
-    this.groupId = this.getGroupId();
-    this.docId = this.getDocId();
-    this.page = this.getPage();
-    this.pageNext = null;
-    this.pagePrev = null;
-
-    this.docname = this.getDocName(doclist);
-    this.sourceType = this.getSourceType(doclist);
-    this.sourceHref = this.getSourceUrl(doclist);
-    this.img = this.getImgPath();
-    this.txt = this.getTxtPath();
-
-    this.entry = hit._source.content;
-    console.log(this);
-  }
-
-  getGroupId() {
-    return this.id.slice(0, 3);
-  }
-
-  getDocId() {
-    let regex = new RegExp('(_[0-9]{1,4})$');
-    let doc = this.id.replace(regex, '');
-    doc = doc.slice(4);
-    return doc;
-  }
-
-  getPage() {
-    let groupId = this.getGroupId();
-    let docId = this.getDocId();
-    return this.id.replace(groupId+'-'+docId+'_', '');
-  }
-
-  getSourceType(doclist) {
-    let type = false;
-    let file = {};
-    let collection = filterValue(doclist, 'id', this.groupId);
-    if(collection && collection.files){
-      if(collection.type)
-        type = collection.type;
-      file = filterValue(collection.files, 'id', this.docId);
-      if(file && file.type){
-        type = file.type;
-      }
-    }
-    return type;
-  }
-
-  getSourceUrl(doclist) {
-    let source = false;
-    let file = {};
-    let collection = filterValue(doclist, 'id', this.groupId);
-    if(collection && collection.files){
-      if(collection.source)
-        source = true;
-      file = filterValue(collection.files, 'id', this.docId);
-      console.log(file)
-      if(file && file.source){
-        source = file.source;
-      }
-    }
-    if(source === false) return;
-    switch(this.getSourceType(doclist)) {
-      case 'archive':
-        source = source+'#page/n'+this.page;
-        break;
-      case 'pdf':
-        source = source+'#page='+this.page;
-        break;
-      case 'nara-jfk':
-        source = 'https://www.archives.gov/files/research/jfk/releases/'+this.docId+'.pdf#page='+this.page;
-        break;
-      case 'nara-jg':
-        source = 'https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/'+this.docId+'/'+this.docId+'.pdf#page='+this.page;
-        break;
-      default:
-        source = source+'#page/n'+this.getPage();
-    }
-    return source;
-  }
-
-  getTxtPath() {
-
-  }
-
-  getImgPath() {
-    let page = this.page.padStart(4, 0);
-    let host = 'https://doc-search.nyc3.digitaloceanspaces.com/docs_images/';
-    let src = this.groupId+'/'+this.groupId+'-'+this.docId+'_'+page+'.png';
-    return host+src;
-  }
-
-  getDocName(doclist){
-    let docname = [];
-    let collection = filterValue(doclist, 'id', this.groupId);
-    if(collection && collection.collection){
-      docname.push(collection.collection);
-      if(collection.files){
-        let file = filterValue(collection.files, 'id', this.docId);
-        if(file && file.doc_name){
-          docname.push(file.doc_name);
-        }
-      }
-    }
-    if(!this.docId.match(/^[0-9]{3}$/))
-    docname.push(this.docId);
-    return docname;
-  }
-
-  extractSearch(search) {
-    this.searched = ExtractSentences.extract(this.entry, search);
-  }
-}
-
-/** class to assist in building elastic search queries */
-class GenerateEsQuery {
-  /**
-   * Create a point.
-   * @param {String} stringInput - user search string.
-   * @returns {Object} json representation of search
-   */
-  static generate(stringInput) {
-    const esQuery = {
-      query: {
-        bool: {
-          must: [],
-        },
-      },
-    };
-    const stringParts = stringInput.match(/("[^"]+"|[^"\s]+)/g);
-    stringParts.forEach((str) => {
-      const searchObj = {};
-      const cleanStr = str.replace(/^"([^"]+)"$/, '$1').replace(/\s+/, ' ');
-      if (GenerateEsQuery.isPhrase(cleanStr)) {
-        searchObj.match_phrase = {
-          content: cleanStr,
-        };
-      } else {
-        searchObj.match = {
-          content: cleanStr,
-        };
-      }
-      esQuery.query.bool.must.push(searchObj);
-    });
-    return esQuery;
-  }
-  /**
-   * Check if string is a phrase by looking for a space
-   * @param {String} str - string to check.
-   * @returns {Boolean} is phrase?
-   */
-  static isPhrase(str) {
-    return (str.indexOf(' ') >= 0);
-  }
-}
-
-/**
- * For block of text, extract sentences containing any part
- * of the search phrase and highlight it
- *
- * Sentence Splitter:
- * https://stackoverflow.com/a/34784856/399696
- * - Added allowance for Mr., Mrs., Dr. etc... ([A-Z][a-z]{1,2}\.)
- *
- * RegEx Escape Str:
- * https://stackoverflow.com/a/6969486/399696
- *
- * Highligher:
- * https://markjs.io/
- *
- * Text files:
- * http://www.textfiles.com/etext/AUTHORS/SHAKESPEARE/
- */
-class ExtractSentences {
-  /**
-   * @param {String} text - block of text
-   * @param {String} search - extract sentences containing this text
-   * @return {Array} array of extracted sentences
-   */
-  static extract(text, search) {
-    const abbrRegex = /\b(\w\.\w\.|[A-Z][a-z]{1,2}\.)|([.?!]|\n+)\s+(?=[A-Za-z])/g;
-    const result = text.replace(abbrRegex, (m, g1, g2) => g1 || `${g2}\r`);
-    const textSplit = result.replace(/\n/g, ' ')
-      .split('\r')
-      .map(str => str.trim());
-
-    const searchParts = search.match(/("[^"]+"|[^"\s]+)/g);
-    const cleanedParts = searchParts.map(x => x.replace(/^"([^"]+)"$/, '$1').replace(/\s+/, ' '));
-    const searchFormatted = cleanedParts.join('|');
-    const find = new RegExp(ExtractSentences.escapeRegExp(searchFormatted), 'i');
-    const textFiltered = textSplit.map((el) => {
-      // can use the following to add preceeding and following lines
-      // let pre = (typeof arr[i-1] !== "undefined" ? arr[i-1] : null);
-      // let post = (typeof arr[i+1] !== "undefined" ? arr[i+1] : null);
-      const pre = null;
-      const post = null;
-      const string = [pre, el, post].filter(x => x).join(' ');
-      return (find.test(string) ? string : null);
-    }).filter(e => e);
-
-    return textFiltered;
-  }
-  /**
-   * @param {String} str search string to use as regex
-   * @return {String} str escaped for regex
-   */
-  static escapeRegExp(str) {
-    // /[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g with pipe
-    return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$]/g, '\\$&'); // eslint-disable-line no-useless-escape
-  }
-}
-
 /**
  * changeUrlWithNewSearch
  * @param string full url to adjust
@@ -441,6 +202,7 @@ function displayListingInEntryPanel(listing, setToImage) {
     $('.toolbar-entry__disp-img, .toolbar-entry__disp-img-lock')
       .removeClass('btn-info').addClass('btn-secondary');
     $('.entry-panel__content').html(listing.entry);
+    $('.entry-panel__meta').html(displayMeta(listing));
     let instance = new Mark($('.entry-panel__content')[0]);
     instance.mark(searchTrimmed);
   }
@@ -542,6 +304,26 @@ function updateSocialMediaDisplay(imgSrc, desc){
   $("meta[property='og\\:image']").attr("content", imgSrc);
   $("meta[property='og\\:description']").attr("content", desc);
 }
+
+/**
+ * @return {void}
+ */
+ const displayMeta = function(listing){
+   const html = `
+    <div class="meta">
+      <div class="meta__docname">
+        <strong>${listing.docname[0]}</strong> <i>${listing.docname[1]}</i>
+      </div>
+      <div class="meta__idpage">
+        Id: <strong>${listing.id}</strong> Page: <strong>${listing.page}</strong>
+      </div>
+      <div class="meta__href">
+        <a href="${listing.href}">${listing.sourceType}</a>
+      </div>
+    </div>
+   `
+   return html;
+ }
 
 
 /**
