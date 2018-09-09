@@ -93,6 +93,14 @@ img.display-img {
 /**
  * entry-panel
  */
+ .entry-panel__meta {
+   font-size: 16px;
+   padding: 50px 20px;
+   .meta__docname {
+     font-size: 20px;
+   }
+ }
+
 .entry-panel__content {
   font-family: monospace;
   white-space: pre-wrap;
