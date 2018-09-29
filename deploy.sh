@@ -1,7 +1,7 @@
 #!/bin/#!/usr/bin/env bash
 
 gulp build
-jekyll build
+jekyll build --verbose --trace
 rsync -pruv -e 'ssh -p 2222' \
  --delete-after  \
  --exclude utils \

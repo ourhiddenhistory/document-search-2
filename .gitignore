@@ -5,3 +5,4 @@ _site
 /dist
 _secret.yml
 /utils/hidden
+_data/DOCS_NOWRITE.json

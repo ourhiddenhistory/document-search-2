@@ -65,18 +65,23 @@ class Listing {
       if(collection.source)
         source = true;
       file = filterValue(collection.files, 'id', this.docId);
-      console.log(file)
       if(file && file.source){
         source = file.source;
       }
     }
-    if(source === false) return;
+    console.log(this.getSourceType(doclist))
     switch(this.getSourceType(doclist)) {
       case 'archive':
         source = source+'#page/n'+this.page;
         break;
       case 'pdf':
         source = source+'#page='+this.page;
+        break;
+      case 'custom-rcfp':
+        source = `https://archive.org/stream/RockCreekFreePress/Rock%20Creek%20Free%20Press%20-%20${this.docId}#page/n${this.page}`;
+        break;
+      case 'custom-jfkdpd':
+        source = `https://archive.org/stream/${this.docId}_dpd-jfk/${this.docId}#page/n${this.page}`;
         break;
       case 'nara-jfk':
         source = 'https://www.archives.gov/files/research/jfk/releases/'+this.docId+'.pdf#page='+this.page;
