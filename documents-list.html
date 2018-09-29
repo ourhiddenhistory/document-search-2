@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documents List
+title: "Documents List"
 ---
 <div class="container">
 
@@ -35,7 +35,7 @@ title: Documents List
                 <div class="doclist__fileslist">
                   {% if col.files.size > 0 %}
                     <ul>
-                    {% assign sorted_docs = col.files | sort:"doc_name" %}
+                    
                     {% for file in sorted_docs %}
                       <li>
                         {% if file.source %}
