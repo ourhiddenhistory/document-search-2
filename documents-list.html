@@ -35,8 +35,8 @@ title: "Documents List"
                 <div class="doclist__fileslist">
                   {% if col.files.size > 0 %}
                     <ul>
-                    
-                    {% for file in sorted_docs %}
+
+                    {% for file in col.files %}
                       <li>
                         {% if file.source %}
                         <a href="{{file.source}}" target="_blank">
