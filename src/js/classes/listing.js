@@ -74,6 +74,9 @@ class Listing {
       case 'archive':
         source = source+'#page/n'+this.page;
         break;
+      case 'archive-hw':
+        source = 'https://archive.org/stream/'+source+'#page/n'+this.page;
+        break;
       case 'pdf':
         source = source+'#page='+this.page;
         break;
