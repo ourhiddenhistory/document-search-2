@@ -1,0 +1,58 @@
+{
+  "id": "090",
+  "shortname": "drug-trafficking",
+  "collection": "Drug Trafficking",
+  "alt_names": [],
+  "date": "1980",
+  "description": "",
+  "important": "",
+  "source": "https://archive.org/details/BarrySeal",
+  "type": "archive-b",
+  "files": [
+    {
+      "id": "1349331-0_-_File_1_-_Section_1_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_1_-_Section_1_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_1_-_Section_1_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_1_-_Section_2_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_1_-_Section_2_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_1_-_Section_2_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_1_-_Section_3_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_1_-_Section_3_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_1_-_Section_3_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_1_-_Section_4_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_1_-_Section_4_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_1_-_Section_4_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_1_-_Section_5_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_1_-_Section_5_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_1_-_Section_5_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_1_-_Section_6_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_1_-_Section_6_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_1_-_Section_6_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_1_-_Section_7_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_1_-_Section_7_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_1_-_Section_7_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_2_-_Section_1_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_2_-_Section_1_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_2_-_Section_1_Serial__1.pdf"
+    },
+    {
+      "id": "1349331-0_-_File_2_-_Section_2_Serial__1",
+      "doc_name": "Barry Seal FBI Files, 1349331-0_-_File_2_-_Section_2_Serial__1",
+      "source": "BarrySeal/1349331-0_-_File_2_-_Section_2_Serial__1.pdf"
+    }
+  ]
+}
