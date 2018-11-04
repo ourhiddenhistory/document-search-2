@@ -15,7 +15,7 @@ class Listing {
     this.pageNext = null;
     this.pagePrev = null;
 
-    this.docname = this.getDocName(doclist);
+    this.docname = this.getDocName(doclist) || this.getDocId();
     this.sourceType = this.getSourceType(doclist);
     this.sourceHref = this.getSourceUrl(doclist);
     this.img = this.getImgPath();
@@ -65,14 +65,19 @@ class Listing {
       if(collection.source)
         source = true;
       file = filterValue(collection.files, 'id', this.docId);
+      this.file = file;
       if(file && file.source){
         source = file.source;
       }
     }
+    this.source = source;
     console.log(this.getSourceType(doclist))
     switch(this.getSourceType(doclist)) {
       case 'archive':
         source = source+'#page/n'+this.page;
+        break;
+      case 'archive-b':
+        source = 'https://archive.org/stream/'+source+'#page/n'+this.page;
         break;
       case 'archive-hw':
         source = 'https://archive.org/stream/'+source+'#page/n'+this.page;
@@ -93,7 +98,7 @@ class Listing {
         source = 'https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/'+this.docId+'/'+this.docId+'.pdf#page='+this.page;
         break;
       default:
-        source = source+'#page/n'+this.getPage();
+        source = source+'#page/n'+this.page;
     }
     return source;
   }
@@ -109,6 +114,7 @@ class Listing {
     return host+src;
   }
 
+  // get doc name from collection, file, or else use id
   getDocName(doclist){
     let docname = [];
     let collection = filterValue(doclist, 'id', this.groupId);
