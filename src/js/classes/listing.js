@@ -22,7 +22,6 @@ class Listing {
     this.txt = this.getTxtPath();
 
     this.entry = hit._source.content;
-    console.log(this);
   }
 
   getGroupId() {
@@ -71,19 +70,19 @@ class Listing {
       }
     }
     this.source = source;
-    console.log(this.getSourceType(doclist))
-    switch(this.getSourceType(doclist)) {
+    this.type = this.getSourceType(doclist);
+    switch(this.type) {
       case 'archive':
-        source = source+'#page/n'+this.page;
+        source = `${source}#page/n${this.page}`;
         break;
       case 'archive-b':
-        source = 'https://archive.org/stream/'+source+'#page/n'+this.page;
+        source = `https://archive.org/stream/${source}#page/n${this.page}`;
         break;
-      case 'archive-hw':
-        source = 'https://archive.org/stream/'+source+'#page/n'+this.page;
+      case 'reagan':
+        source = `https://www.reaganlibrary.gov/${source}.pdf#page=${this.page}`;
         break;
       case 'pdf':
-        source = source+'#page='+this.page;
+        source = `${source}#page=${this.page}`;
         break;
       case 'custom-rcfp':
         source = `https://archive.org/stream/RockCreekFreePress/Rock%20Creek%20Free%20Press%20-%20${this.docId}#page/n${this.page}`;
@@ -92,13 +91,20 @@ class Listing {
         source = `https://archive.org/stream/${this.docId}_dpd-jfk/${this.docId}#page/n${this.page}`;
         break;
       case 'nara-jfk':
-        source = 'https://www.archives.gov/files/research/jfk/releases/'+this.docId+'.pdf#page='+this.page;
+        source = `https://www.archives.gov/files/research/jfk/releases/${this.docId}.pdf#page=${this.page}`;
         break;
+        case 'nara-jfk-2018':
+          source = `https://www.archives.gov/files/research/jfk/releases/2018/${this.docId}.pdf#page=${this.page}`;
+          break;
       case 'nara-jg':
-        source = 'https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/'+this.docId+'/'+this.docId+'.pdf#page='+this.page;
+        source = `https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/${this.docId}/${this.docId}.pdf#page=${this.page}`;
+        break;
+      case 'militant':
+        let year = this.docId.match(/.*\-([0-9]{4})\-mil/)[1];
+        source = `https://www.marxists.org/history/etol/newspape/themilitant/${year}/${this.docId}.pdf#page=${this.page}`;
         break;
       default:
-        source = source+'#page/n'+this.page;
+        source = `${source}#page=${this.page}`;
     }
     return source;
   }
