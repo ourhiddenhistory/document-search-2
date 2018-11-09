@@ -33,7 +33,7 @@ title: "Documents List"
                 <div class="doclist__description">{{col.description}}</div>
                 <hr />
                 <div class="doclist__fileslist">
-                  {% if col.files.size > 0 %}
+                  {% if col.hide_files != true and col.files.size > 0 %}
                     <ul>
 
                     {% for file in col.files %}
