@@ -1,0 +1,88 @@
+{
+  "id": "082",
+  "shortname": "intelligence-misc",
+  "collection": "Books on Intelligence, Misc.",
+  "alt_names": [],
+  "date": "2001",
+  "description": "Various sources",
+  "important": "",
+  "source": "",
+  "type": "pdf",
+  "files": [
+    {
+      "id": "001",
+      "doc_name": "'Encyclopedia of Espionage, Intelligence, and Security, Vol. 1'",
+      "source": false
+    },
+    {
+      "id": "002",
+      "doc_name": "'Encyclopedia of Espionage, Intelligence, and Security, Vol. 2'",
+      "source": false
+    },
+    {
+      "id": "003",
+      "doc_name": "'Encyclopedia of Espionage, Intelligence, and Security, Vol. 3'",
+      "source": false
+    },
+    {
+      "id": "004",
+      "doc_name": "'Encyclopedia of the Central Intelligence Agency', by W. Thomas Smith",
+      "source": false
+    },
+    {
+      "id": "005",
+      "doc_name": "'Espionage Cases, 1975-2004', Defense Personnel Security Research Center",
+      "source": false
+    },
+    {
+      "id": "006",
+      "doc_name": "'Fighting to Lose', by John Bryden",
+      "source": false
+    },
+    {
+      "id": "007",
+      "doc_name": "'Historical Dictionary of Air Intelligence', by Glenmore S. Trenear Harvey",
+      "source": false
+    },
+    {
+      "id": "008",
+      "doc_name": "'Historical Dictionary of The Dirty Wars', by David Kohut and Olga Vilella",
+      "source": false
+    },
+    {
+      "id": "009",
+      "doc_name": "'OSS', by R. Harris Smith",
+      "source": false
+    },
+    {
+      "id": "010",
+      "doc_name": "'James Jesus Angleton', by Michael Holzman",
+      "source": false
+    },
+    {
+      "id": "011",
+      "doc_name": "'KGB-CIA: Intelligence and Counterintelligence Operations'",
+      "source": false
+    },
+    {
+      "id": "012",
+      "doc_name": "'Historical Dictionary of International Intelligence' by Nigel West",
+      "source": false
+    },
+    {
+      "id": "013",
+      "doc_name": "'Secret Warriors: Inside the Covert Military Operations of the Reagan Era' by Steven Emerson",
+      "source": false
+    },
+    {
+      "id": "014",
+      "doc_name": "'CIA and the Cult of Intelligence' by Victor Marchetti and John D. Marks",
+      "source": false
+    },
+    {
+      "id": "phillips-nightwatch",
+      "doc_name": "'Nightwatch' by David Atlee Phillips (memoir)",
+      "source": false
+    }
+  ]
+}

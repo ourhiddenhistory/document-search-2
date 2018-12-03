@@ -1,12 +1,12 @@
 {
   "id": "093",
-  "hide": true,  
   "shortname": "reagan-library",
   "collection": "Ronald Reagan",
   "alt_names": [],
   "date": "1984",
-  "description": "Files from the Reagan Library",
+  "description": "Files from the Ronald Reagan Library",
   "important": "",
+  "source": "https://www.reaganlibrary.gov/",
   "type": "reagan",
   "hide_files": true,
   "files": [
