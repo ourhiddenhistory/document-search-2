@@ -47,10 +47,7 @@ lines.forEach((el, i) => {
     //id: String(i + START_CNT).padStart(3, '0'),
     //id: decodeURI(path.basename(el.trim(), '.pdf').replace(/\.PDF$/, '')), // Remove .pdf
 		id: lastPart[lastPart.length-1].replace(/\.PDF$/i, ''),
-		// doc_name: toTitleCase(decodeURI(path.basename(el.trim(), '.pdf').replace(/\.PDF$/, '')).replace(/_/g, ' ').replace(/-/g, ' ').replace(/(\d+)/g, function (_, num){
-    //   return ' ' + num + ' ';
-    // }).trim()).replace(/\s\s+/g, ' '),
-    source: 'DocumentsFromTheUSEspionageDen/'+lastPart[lastPart.length-1],
+    source: encodeURIComponent(el),
     //source: `http://altgov2.org/wp-content/uploads/${el}`,
   };
   if (NAMES_INPUT) {

@@ -81,6 +81,9 @@ class Listing {
       case 'reagan':
         source = `https://www.reaganlibrary.gov/${source}.pdf#page=${this.page}`;
         break;
+      case 'ford':
+        source = `https://www.fordlibrarymuseum.gov/${source}.pdf#page=${this.page}`;
+        break;
       case 'pdf':
         source = `${source}#page=${this.page}`;
         break;
@@ -93,9 +96,9 @@ class Listing {
       case 'nara-jfk':
         source = `https://www.archives.gov/files/research/jfk/releases/${this.docId}.pdf#page=${this.page}`;
         break;
-        case 'nara-jfk-2018':
-          source = `https://www.archives.gov/files/research/jfk/releases/2018/${this.docId}.pdf#page=${this.page}`;
-          break;
+      case 'nara-jfk-2018':
+        source = `https://www.archives.gov/files/research/jfk/releases/2018/${this.docId}.pdf#page=${this.page}`;
+        break;
       case 'nara-jg':
         source = `https://catalog.archives.gov/OpaAPI/media/7564912/content/arcmedia/dc-metro/jfkco/641323/${this.docId}/${this.docId}.pdf#page=${this.page}`;
         break;
