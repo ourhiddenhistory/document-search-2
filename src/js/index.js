@@ -71,14 +71,23 @@ function changePage(direction) {
  */
 function getPage(page, lastPageContent, setToImage) {
 
-  if (ajaxPage != null) ajaxPage.abort();
+  console.log(ajaxPage)
+  if (ajaxPage != null){
+    ajaxPage.abort();
+  }
+
   setToImage = setToImage || false;
 
-  ajaxPage = client.search({
+  console.log('page', page)
+
+  ajaxSearch = client.search({
     size: 1,
     pretty: null,
-    q: `file.filename:${page}`,
+    body: GenerateEsQuery.generatePage(page),
   }).then((response) => {
+
+    console.log(response)
+
     ajaxPage = null;
 
     if(response.hits.hits.length == 0) {
