@@ -8,6 +8,7 @@
   "important": "",
   "source": "https://archive.org/details/OperationSOLO",
   "type": "archive-b",
+  "hide_files": true,
   "files": [
     {
       "id": "SOLO 001",

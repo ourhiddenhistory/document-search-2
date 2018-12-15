@@ -7,6 +7,7 @@
   "description": "Misc. Documents from the National Security Archive Collection",
   "important": "",
   "type": "archive-b",
+  "hide_files": true,
   "files": [
     {
       "id": "1952-05-6316048-RiodeJanerio-Brazil",
