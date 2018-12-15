@@ -84,8 +84,14 @@ class Listing {
       case 'ford':
         source = `https://www.fordlibrarymuseum.gov/${source}.pdf#page=${this.page}`;
         break;
+      case 'intel':
+        source = `https://www.intelligence.senate.gov/${source}.pdf#page=${this.page}`;
+        break;
       case 'pdf':
         source = `${source}#page=${this.page}`;
+        break;
+      case 'pdf-b': // appends pdf ext
+        source = `${source}.pdf#page=${this.page}`;
         break;
       case 'custom-rcfp':
         source = `https://archive.org/stream/RockCreekFreePress/Rock%20Creek%20Free%20Press%20-%20${this.docId}#page/n${this.page}`;
