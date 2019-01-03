@@ -78,15 +78,11 @@ function getPage(page, lastPageContent, setToImage) {
 
   setToImage = setToImage || false;
 
-  console.log('page', page)
-
-  ajaxSearch = client.search({
+  ajaxPage = client.search({
     size: 1,
     pretty: null,
     body: GenerateEsQuery.generatePage(page),
   }).then((response) => {
-
-    console.log(response)
 
     ajaxPage = null;
 
