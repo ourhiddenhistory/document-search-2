@@ -279,44 +279,220 @@
       "source": ""
     },
     {
-      "id": "ellsbergtrial00mich",
-      "doc_name": "ellsbergtrial00mich",
-      "source": ""
+      "id": "ELS000-067",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067"
+    },
+    {
+      "id": "ELS000-067a",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067a"
+    },
+    {
+      "id": "ELS000-067b",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067b"
+    },
+    {
+      "id": "ELS000-067c",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067c"
+    },
+    {
+      "id": "ELS000-067d",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067d"
+    },
+    {
+      "id": "ELS000-067e",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067e"
+    },
+    {
+      "id": "ELS000-067f",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067f"
+    },
+    {
+      "id": "ELS000-067g",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067g"
+    },
+    {
+      "id": "ELS000-067h",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067h"
+    },
+    {
+      "id": "ELS000-067i",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067i"
+    },
+    {
+      "id": "ELS000-067j",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067j"
+    },
+    {
+      "id": "ELS000-067k",
+      "source": "ArticlesAndMaterialsRelatingToNon-proliferationPentagonPapersAndPersonal/ELS000-067k"
+    },
+    {
+      "id": "ELS003-003",
+      "source": "FBIFileAirtelXeroxInvestigation/ELS003-003"
+    },
+    {
+      "id": "ELS003-006",
+      "source": "FBIFileMediaInvestigations/ELS003-006"
     },
     {
       "id": "ELS003-001",
-      "doc_name": "Ellsberg FBI File - ELS003 001",
-      "source": ""
+      "source": "FBIFileOnDanielEllsbergSummaryOfEllsbergPressConference/ELS003-001"
+    },
+    {
+      "id": "ELS003-004",
+      "source": "FBIFilePentagonPapersLeakInvestigation/ELS003-004"
+    },
+    {
+      "id": "ELS003-004",
+      "source": "FBIFilePentagonPapersLeakInvestigation_201711/ELS003-004"
+    },
+    {
+      "id": "ELS003-004",
+      "source": "FBIFilePentagonPapersLeakInvestigation_20171102/ELS003-004"
+    },
+    {
+      "id": "ELS003-005",
+      "source": "FBIFilePentagonPapersLeakInvestigation_20171108/ELS003-005"
     },
     {
       "id": "ELS003-010",
-      "doc_name": "Ellsberg FBI File - ELS003 010",
-      "source": ""
-    },
-    {
-      "id": "ELS003-011",
-      "doc_name": "Ellsberg FBI File - ELS003 011",
-      "source": ""
+      "source": "FBINotebookOnEllsberg/ELS003-010"
     },
     {
       "id": "ELS003-012",
-      "doc_name": "Ellsberg FBI File - ELS003 012",
-      "source": ""
+      "source": "FBINotebookOnEllsberg_201711/ELS003-012"
     },
     {
       "id": "ELS003-013",
-      "doc_name": "Ellsberg FBI File - ELS003 013",
-      "source": ""
+      "source": "FBINotebookOnEllsberg_20171107/ELS003-013"
     },
     {
       "id": "ELS003-014",
-      "doc_name": "Ellsberg FBI File - ELS003 014",
-      "source": ""
+      "source": "FBINotebookOnEllsberg_20171108/ELS003-014"
     },
     {
       "id": "ELS003-015",
-      "doc_name": "Ellsberg FBI File - ELS003 015",
-      "source": ""
+      "source": "FBINotebookOnEllsberg_20171108_0227/ELS003-015"
+    },
+    {
+      "id": "ELS003-007A",
+      "source": "FBINotebookOnEllsberg_20171108_0343/ELS003-007A"
+    },
+    {
+      "id": "ELS003-002",
+      "source": "FBIPressClippingsOfDanielEllsberg/ELS003-002"
+    },
+    {
+      "id": "ELS003-0020001",
+      "source": "FBIPressClippingsOfDanielEllsberg/ELS003-0020001"
+    },
+    {
+      "id": "ELS003-002A",
+      "source": "FBIPressClippingsOfDanielEllsberg/ELS003-002A"
+    },
+    {
+      "id": "ELS003-011",
+      "source": "FBISurveillenceNotesOnEllsbergPressConference/ELS003-011"
+    },
+    {
+      "id": "ELS002-004",
+      "source": "NotesForCPSNAWorkingPaperOn1989CommentaryOnCoerciveDiplomacyInTheLightOfVietnam/ELS002-004"
+    },
+    {
+      "id": "ELS000-024",
+      "source": "PaperOnVietnamDecisionMakingIn1961PentagonPapers/ELS000-024"
+    },
+    {
+      "id": "ELS000-039",
+      "source": "TheVietnamNegotiationsAndTheJointChiefsOfStaffReadinessTest/ELS000-039"
+    },
+    {
+      "id": "ELS000-025",
+      "source": "TranscriptionOfHandwrittenNotesForPaperOnVietnamDecisionMakingIn1961PentagonPapers/ELS000-025"
+    },
+    {
+      "id": "ELS000-025",
+      "source": "TranscriptionOfHandwrittenNotesForPaperOnVietnamDecisionMakingIn1961PentagonPapers_201710/ELS000-025"
+    },
+    {
+      "id": "ELS000-016",
+      "source": "WilliamCorsonOnDanielEllsbergPentagonPapersAndPlumbers/ELS000-016"
+    },
+    {
+      "id": "aretherepentagon00asso",
+      "source": "aretherepentagon00asso/aretherepentagon00asso"
+    },
+    {
+      "id": "candidvietnampho00dani",
+      "source": "candidvietnampho00dani/candidvietnampho00dani"
+    },
+    {
+      "id": "editorscitetimes00jona",
+      "source": "editorscitetimes00jona/editorscitetimes00jona"
+    },
+    {
+      "id": "ellsbergtalkswhy00bobc",
+      "source": "ellsbergtalkswhy00bobc/ellsbergtalkswhy00bobc"
+    },
+    {
+      "id": "fbicopiesofpress00fbi",
+      "source": "fbicopiesofpress00fbi/fbicopiesofpress00fbi"
+    },
+    {
+      "id": "fbiprobehelpsgra00davi",
+      "source": "fbiprobehelpsgra00davi/fbiprobehelpsgra00davi"
+    },
+    {
+      "id": "finalphaseofwari00will",
+      "source": "finalphaseofwari00will/finalphaseofwari00will"
+    },
+    {
+      "id": "howtogetoutofvie00john",
+      "source": "howtogetoutofvie00john/howtogetoutofvie00john"
+    },
+    {
+      "id": "laoscambodiaviet00comm",
+      "source": "laoscambodiaviet00comm/laoscambodiaviet00comm"
+    },
+    {
+      "id": "laoscambodiaviet00comm_0",
+      "source": "laoscambodiaviet00comm_0/laoscambodiaviet00comm_0"
+    },
+    {
+      "id": "laosresearchperi00wash",
+      "source": "laosresearchperi00wash/laosresearchperi00wash"
+    },
+    {
+      "id": "measuringhamlets00john",
+      "source": "measuringhamlets00john/measuringhamlets00john"
+    },
+    {
+      "id": "nfuresearchsecre00rich",
+      "source": "nfuresearchsecre00rich/nfuresearchsecre00rich"
+    },
+    {
+      "id": "pentagonpapersch00newy",
+      "source": "pentagonpapersch00newy/pentagonpapersch00newy"
+    },
+    {
+      "id": "pentagonpapersde00geor",
+      "source": "pentagonpapersde00geor/pentagonpapersde00geor"
+    },
+    {
+      "id": "photographsfromv00dani",
+      "source": "photographsfromv00dani/photographsfromv00dani"
+    },
+    {
+      "id": "photoofellsbergi00unkn",
+      "source": "photoofellsbergi00unkn/photoofellsbergi00unkn"
+    },
+    {
+      "id": "warcrimesvietnam00leon",
+      "source": "warcrimesvietnam00leon/warcrimesvietnam00leon"
+    },
+    {
+      "id": "whatchanceisreas00lesl",
+      "source": "whatchanceisreas00lesl/whatchanceisreas00lesl"
     },
     {
       "id": "secretsmemoirofv01ells",
@@ -330,23 +506,26 @@
     },
     {
       "id": "2390217001A",
-      "doc_name": "Ellsberg FBI File - ELS003 015",
-      "source": ""
+      "doc_name": "US Assistance Programs in Vietnam, Part 1",
+      "type": "pdf",
+      "source": "https://www.vietnam.ttu.edu/star/images/239/2390217001A.pdf"
     },
     {
-      "id": "390217001B",
-      "doc_name": "secretsmemoirofv01ells",
-      "source": ""
+      "id": "2390217001B",
+      "doc_name": "US Assistance Programs in Vietnam, Part 2",
+      "type": "pdf",
+      "source": "https://www.vietnam.ttu.edu/star/images/239/2390217001N.pdf"
     },
     {
-      "id": "390217001C",
-      "doc_name": "telexannouncinge00tele",
-      "source": ""
+      "id": "2390217001C",
+      "doc_name": "US Assistance Programs in Vietnam, Part 3",
+      "type": "pdf",
+      "source": "https://www.vietnam.ttu.edu/star/images/239/2390217001C.pdf"
     },
     {
       "id": "053",
       "doc_name": "telexannouncinge00tele",
-      "source": ""
+      "source": "https://archive.org/details/telexannouncinge00tele"
     }
   ]
 }
