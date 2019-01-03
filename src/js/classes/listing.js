@@ -81,6 +81,9 @@ class Listing {
       case 'reagan':
         source = `https://www.reaganlibrary.gov/${source}.pdf#page=${this.page}`;
         break;
+      case 'carter':
+        source = `https://www.jimmycarterlibrary.gov/${source}.pdf#page=${this.page}`;
+        break;
       case 'ford':
         source = `https://www.fordlibrarymuseum.gov/${source}.pdf#page=${this.page}`;
         break;
