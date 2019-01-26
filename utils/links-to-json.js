@@ -43,12 +43,8 @@ const storeArr = [];
 lines.forEach((el, i) => {
 	const lastPart = el.split('/');
   const obj = {
-    //id: el,
-    //id: String(i + START_CNT).padStart(3, '0'),
-    //id: decodeURI(path.basename(el.trim(), '.pdf').replace(/\.PDF$/, '')), // Remove .pdf
-		id: lastPart[lastPart.length-1].replace(/\.PDF$/i, ''),
-    source: encodeURIComponent(el),
-    //source: `http://altgov2.org/wp-content/uploads/${el}`,
+		id: lastPart[lastPart.length-1],
+		source: `${el}`,
   };
   if (NAMES_INPUT) {
     obj.doc_name = docNames[i]

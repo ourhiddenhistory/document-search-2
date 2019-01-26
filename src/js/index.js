@@ -317,6 +317,9 @@ function updateSocialMediaDisplay(imgSrc, desc){
    const html = `
     <div class="meta">
       <div class="meta__docname">
+        <a href="${listing.source}">${listing.source}</a>
+      </div>
+      <div class="meta__docname">
         <strong>${listing.docname[0]}</strong> <i>${listing.docname[1]}</i>
       </div>
       <div class="meta__idpage">
