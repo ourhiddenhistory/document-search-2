@@ -6,33 +6,34 @@
     "Kerry Committee"
   ],
   "date": "1988-04",
-  "description": "The Kerry Committee investigated drug trafficking in the Caribbean including that of the Nicaragua Contras. Gary Webb's 'Dark Alliance' series would later follow the trail that this committee started on.",
+  "description": "The Kerry Committee investigated drug trafficking in the Caribbean including that of the Nicaragua Contras. The San Jose Mercury News' 'Dark Alliance' series, written by reporter Gary Webb, would follow up on some different threads of this same story.",
   "important": "",
+  "type": "archive-b",
   "files": [
     {
       "id": "001",
       "doc_name": "Hearings Part 1",
-      "source": "https://archive.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%201"
+      "source": "KerryCommitteeHearings/Kerry%20Hearings%20Part%201"
     },
     {
       "id": "002",
       "doc_name": "Hearings Part 2: Panama",
-      "source": "https://archive.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%202%20-%20Panama"
+      "source": "KerryCommitteeHearings/Kerry%20Hearings%20Part%202%20-%20Panama"
     },
     {
       "id": "003",
       "doc_name": "Hearings Part 3: The Cartel, Haiti, and Central America",
-      "source": "https://archive.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%203%20-%20Cartel%2C%20Haiti%20and%20Central%20America"
+      "source": "KerryCommitteeHearings/Kerry%20Hearings%20Part%203%20-%20Cartel%2C%20Haiti%20and%20Central%20America"
     },
     {
       "id": "004",
       "doc_name": "Hearings Part 4: The Cartel, Haiti, and Central America",
-      "source": "https://archive.org/stream/KerryCommitteeHearings/Kerry%20Hearings%20Part%204%20-%20Cartel%2C%20Haiti%20and%20Central%20America"
+      "source": "KerryCommitteeHearings/Kerry%20Hearings%20Part%204%20-%20Cartel%2C%20Haiti%20and%20Central%20America"
     },
     {
       "id": "005",
       "doc_name": "Final Report: Drugs, Law Enforcement and Foreign Policy",
-      "source": "https://archive.org/stream/KerryCommitteeReport/Kerry%20Committee%20Report"
+      "source": "KerryCommitteeReport/Kerry%20Committee%20Report"
     }
   ]
 }
