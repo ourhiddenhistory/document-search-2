@@ -18,10 +18,14 @@ const compare = (a, b) => {
 };
 
 const INPUT = 'docsData/';
-const OUTPUT = '_data/DOCS_NOWRITE.json';
+const OUTPUT_FULL = '_data/DOCS_NOWRITE.json';
+const OUTPUT_REFERENCE = '_data/DOCS_REFERENCE.json';
 const files = glob.readdirSync(`${INPUT}*.json`, { cwd: '.' });
-const data = [];
+let data = [];
 
+
+// Write full file
+data = [];
 files.forEach((el) => {
   const fileContents = fs.readFileSync(el, 'utf8');
   data.push(JSON.parse(fileContents));
@@ -29,4 +33,17 @@ files.forEach((el) => {
 
 data.sort(compare);
 
-fs.writeFileSync(OUTPUT, JSON.stringify(data, null, 2));
+fs.writeFileSync(OUTPUT_FULL, JSON.stringify(data, null, 2));
+
+// Write top level only, for reference
+data = [];
+files.forEach((el) => {
+  const fileContents = fs.readFileSync(el, 'utf8');
+  const collection = JSON.parse(fileContents);
+  delete collection.files;
+  data.push(collection);
+});
+
+data.sort(compare);
+
+fs.writeFileSync(OUTPUT_REFERENCE, JSON.stringify(data, null, 2));
