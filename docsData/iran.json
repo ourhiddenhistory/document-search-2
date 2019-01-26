@@ -1,10 +1,10 @@
 {
   "id": "092",
-  "shortname": "iran-embassy-documents",
-  "collection": "Documents from the US Espionage Den, Iran Embassy - CIA Station 1979",
+  "shortname": "iran",
+  "collection": "Iran",
   "alt_names": [],
   "date": "1979",
-  "description": "",
+  "description": "Documents from the US Espionage Den, Iran Embassy - CIA Station 1979, plus other documents",
   "important": "",
   "source": "https://archive.org/details/DocumentsFromTheUSEspionageDen",
   "type": "archive-b",
@@ -300,6 +300,30 @@
     {
       "id": "Documents from the U.S. Espionage Den v72",
       "source": "DocumentsFromTheUSEspionageDen/Documents from the U.S. Espionage Den v72"
+    },
+    {
+      "id": "IranCIA",
+      "source": "IranCIA/IranCIA"
+    },
+    {
+      "id": "IranDOS1",
+      "source": "IranCIA/IranDOS1"
+    },
+    {
+      "id": "IranDOS2",
+      "source": "IranCIA/IranDOS2"
+    },
+    {
+      "id": "IranDOS3",
+      "source": "IranCIA/IranDOS3"
+    },
+    {
+      "id": "IranDOS4",
+      "source": "IranCIA/IranDOS4"
+    },
+    {
+      "id": "IranMisc",
+      "source": "IranCIA/IranMisc"
     }
   ]
 }
