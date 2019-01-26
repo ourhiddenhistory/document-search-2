@@ -6,3 +6,4 @@ _site
 _secret.yml
 /utils/hidden
 _data/DOCS_NOWRITE.json
+_data/DOCS_REFERENCE.json
