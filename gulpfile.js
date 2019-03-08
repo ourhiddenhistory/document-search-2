@@ -9,6 +9,8 @@ const child = require('child_process');
 const gutil = require('gulp-util');
 const rename = require('gulp-rename');
 const run = require('gulp-run');
+const lunr = require('lunr');
+const fs = require('fs');
 
 const scssFiles = 'src/sass/**/*.scss';
 const jsFiles = ['src/js/classes/*.js', 'src/js/index.js'];
@@ -39,7 +41,7 @@ gulp.task('js', () =>
     .pipe(gulp.dest('dist')));
 
 gulp.task('copy', () =>
-  gulp.src(['node_modules/requirejs/require.js', 'node_modules/elasticsearch-browser/elasticsearch.jquery.js'])
+  gulp.src(['node_modules/requirejs/require.js', 'node_modules/elasticsearch-browser/elasticsearch.jquery.js', 'node_modules/lunr/lunr.js'])
     .pipe(gulp.dest('dist')));
 
 gulp.task('copyImgs', () =>
@@ -70,6 +72,28 @@ gulp.task('jekyll', () => {
   jekyll.stderr.on('data', jekyllLogger);
 });
 
+gulp.task('buildCIABASEindex', function () {
+
+  const raw = fs.readFileSync('CIABASE.json', 'utf8');
+  const documents = JSON.parse(raw);
+
+  const idx = lunr(function () {
+    this.ref('id');
+    this.field('entry');
+    this.field('source');
+    this.metadataWhitelist = ['position']
+    documents.forEach(function (doc) {
+      this.add(doc);
+    }, this);
+  });
+  fs.writeFile('CIABASEindex.json', JSON.stringify(idx), (err) => {
+    if (err) {
+      return console.log(err);
+    }
+    return err;
+  });
+});
+
 gulp.task('watch', () => {
   gulp.watch(scssFiles, ['css', 'jekyll']);
   gulp.watch(jsFiles, ['js', 'jekyll']);
@@ -78,3 +102,4 @@ gulp.task('watch', () => {
 
 gulp.task('default', ['buildDataFile', 'copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'watch']);
 gulp.task('build', ['buildDataFile', 'copy', 'css', 'js']);
+gulp.task('ciabase', ['buildDataFile', 'buildCIABASEindex', 'copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'watch']);
