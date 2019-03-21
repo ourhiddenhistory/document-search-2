@@ -41,7 +41,7 @@ jobs:
           command: sudo gem install jekyll
       - run:
           name: Run Gulp
-          command: gulp
+          command: gulp build
       - run:
           name: Install rsync
           command: sudo apt install rsync
