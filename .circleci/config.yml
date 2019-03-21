@@ -39,6 +39,9 @@ jobs:
           key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
           paths:
               - dist
+      - run:
+          name: Install rsync
+          command: sudo apt install rsync
       - deploy:
           name: Deploy
           command: ./deploy.sh
