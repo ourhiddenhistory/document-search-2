@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# gulp build
-# jekyll build --verbose --trace
+GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+DOMAIN="b-${GIT_BRANCH}.ourhiddenhistory.org"
+
 rsync -acr --stats -e "ssh -p 2222 -o StrictHostKeyChecking=no" \
-   --exclude .git \
-   --exclude utils \
-   --exclude docsData \
-   ./_site/ useful@50.87.146.99:/home2/useful/b.ourhiddenhistory.org/html/doc-search
+   ./_site/ useful@50.87.146.99:/home2/useful/${DOMAIN}/html/doc-search
