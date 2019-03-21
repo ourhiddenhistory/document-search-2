@@ -38,13 +38,13 @@ jobs:
               - dist
       - run:
           name: Install Jekyll
-          command: gem install jekyll build && bundle install
+          command: gem install jekyll && bundle install
       - run:
           name: Run Gulp
           command: gulp build
       - run:
           name: Build site
-          command: bundle exec jekyll
+          command: bundle exec jekyll build
       - run:
           name: Install rsync
           command: sudo apt install rsync
