@@ -13,11 +13,17 @@ jobs:
     docker:
       - image: circleci/php:7.1.20-cli-jessie
     working_directory: ~/project
+    dependencies:
+      post:
+        - bundle exec jekyll build
     steps:
       - checkout
 #      - run:
 #          name: Install PHP dependencies
 #          command: composer install
+      - run:
+          name: Install local dependencies
+          command: npm install
       - deploy:
           name: Deploy
           command: ./deploy.sh
