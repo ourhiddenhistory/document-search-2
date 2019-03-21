@@ -16,6 +16,7 @@
 		"gulp-rename": "^1.4.0",
 		"gulp-run": "^1.7.1",
 		"lunr": "^2.3.5",
+		"natives": "^1.1.6",
 		"npm": "^6.4.1",
 		"pump": "^3.0.0",
 		"requirejs": "^2.3.6",
