@@ -38,7 +38,7 @@ jobs:
               - dist
       - run:
           name: Install Jekyll
-          command: gem install jekyll && bundle install
+          command: gem install jekyll build && bundle install
       - run:
           name: Run Gulp
           command: gulp build
