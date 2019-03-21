@@ -11,7 +11,7 @@ jobs:
 
   deploy-ohh:
     docker:
-      - image: circleci/ruby:2.5-node-browsers-legacy
+      - image: circleci/ruby:2.5-node-browsers
     working_directory: ~/project
     steps:
       - checkout
