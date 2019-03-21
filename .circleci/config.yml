@@ -11,16 +11,34 @@ jobs:
 
   deploy-ohh:
     docker:
-      - image: circleci/php:7.1.20-cli-jessie
+      - image: circleci/ruby:2.5-node-browsers-legacy
     working_directory: ~/project
     dependencies:
       post:
         - bundle exec jekyll build
     steps:
       - checkout
-#      - run:
-#          name: Install PHP dependencies
-#          command: composer install
+      - run:
+          name: Show current branch
+          command: echo ${CIRCLE_BRANCH}
+      # Restore local dependencies from cache
+      - restore_cache:
+          keys:
+              - v1-dependencies-{{ checksum "package.json" }}
+              - v1-dependencies-
+      # Install project dependencies
+      - run:
+          name: Install local dependencies
+          command: npm install
+      # Cache local dependencies if they don't exist
+      - save_cache:
+          key: v1-dependencies-{{ checksum "package.json" }}
+          paths:
+              - node_modules
+      - save_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+              - dist
       - deploy:
           name: Deploy
           command: ./deploy.sh
