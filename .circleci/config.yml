@@ -37,6 +37,9 @@ jobs:
           paths:
               - dist
       - run:
+          name: Install Jekyll
+          command: sudo gem install jekyll
+      - run:
           name: Run Gulp
           command: gulp
       - run:
