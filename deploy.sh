@@ -7,4 +7,4 @@ rsync -acr --stats -e "ssh -p 2222 -o StrictHostKeyChecking=no" \
    --delete-after \
    --exclude utils \
    --exclude docsData \
-   . useful@50.87.146.99:/home2/useful/b.ourhiddenhistory.com/public/doc-search/
+   ./ useful@50.87.146.99:/home2/useful/b.ourhiddenhistory.com
