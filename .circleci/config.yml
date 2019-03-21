@@ -43,6 +43,9 @@ jobs:
           name: Run Gulp
           command: gulp build
       - run:
+          name: Build site
+          command: bundle exec jekyll
+      - run:
           name: Install rsync
           command: sudo apt install rsync
       - deploy:
