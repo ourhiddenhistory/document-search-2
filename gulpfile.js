@@ -16,6 +16,9 @@ const scssFiles = 'src/sass/**/*.scss';
 const jsFiles = ['src/js/classes/*.js', 'src/js/index.js'];
 const dataFiles = '_data/**/*.json';
 
+const SITE_DIR = 'html/doc-search';
+const DIST_DIR = 'html/doc-search/dist';
+
 // use gulp-run to start a pipeline
 gulp.task('buildDataFile', () => run('npm run buildDataFile').exec());
 
@@ -28,7 +31,7 @@ gulp.task('css', () => {
       cascade: false,
     }))
     .pipe(cssnano())
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest(DIST_DIR));
 });
 
 gulp.task('js', () =>
@@ -38,23 +41,27 @@ gulp.task('js', () =>
       presets: ['env'],
     }))
     .pipe(uglify())
-    .pipe(gulp.dest('dist')));
+    .pipe(gulp.dest(DIST_DIR)));
 
 gulp.task('copy', () =>
-  gulp.src(['node_modules/requirejs/require.js', 'node_modules/elasticsearch-browser/elasticsearch.jquery.js', 'node_modules/lunr/lunr.js'])
-    .pipe(gulp.dest('dist')));
+  gulp.src([
+    'node_modules/requirejs/require.js',
+    'node_modules/elasticsearch-browser/elasticsearch.jquery.js',
+    'node_modules/lunr/lunr.js',
+  ]).pipe(gulp.dest(DIST_DIR)));
 
 gulp.task('copyImgs', () =>
   gulp.src(['src/img/**/*'])
-    .pipe(gulp.dest('dist/img')));
+    .pipe(gulp.dest(`${DIST_DIR}/img`)));
 
 gulp.task('copyHtaccessDev', () =>
   gulp.src(['.htaccess.dev'])
     .pipe(rename('.htaccess'))
-    .pipe(gulp.dest('dist')));
+    .pipe(gulp.dest(DIST_DIR)));
 
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['serve',
+  const jekyll = child.spawn('jekyll', [
+    'build',
     '--config',
     '_config.dev.yml',
     '--watch',
@@ -94,12 +101,16 @@ gulp.task('buildCIABASEindex', function () {
   });
 });
 
+gulp.task('copySiteToWebRoot', () =>
+  gulp.src(['_site/*'])
+    .pipe(gulp.dest(`${SITE_DIR}/`)));
+
 gulp.task('watch', () => {
   gulp.watch(scssFiles, ['css', 'jekyll']);
   gulp.watch(jsFiles, ['js', 'jekyll']);
   gulp.watch(dataFiles, ['jekyll']);
 });
 
-gulp.task('default', ['buildDataFile', 'copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'watch']);
+gulp.task('default', ['buildDataFile', 'copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'copySiteToWebRoot', 'watch']);
 gulp.task('build', ['buildDataFile', 'copy', 'css', 'js']);
 gulp.task('ciabase', ['buildDataFile', 'buildCIABASEindex', 'copy', 'copyImgs', 'copyHtaccessDev', 'css', 'js', 'jekyll', 'watch']);
