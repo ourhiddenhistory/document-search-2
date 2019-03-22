@@ -1,7 +1,7 @@
 #!/bin/bash
 
 GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-DOMAIN="b-${GIT_BRANCH}.ourhiddenhistory.org"
+DOMAIN="b.ourhiddenhistory.org"
 
 if [ "${GIT_BRANCH}" == "master" ]
 then
