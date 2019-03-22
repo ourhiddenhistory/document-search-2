@@ -3,7 +3,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-php/ for more details
 # image list: https://hub.docker.com/r/circleci/php/tags/
-#
+# Source: https://medium.freecodecamp.org/our-journey-for-using-circleci-2-0-to-build-and-deploy-an-angular-app-to-aws-s3-8e7ea3f51503
 
 version: 2.0
 
