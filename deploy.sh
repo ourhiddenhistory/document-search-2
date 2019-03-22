@@ -5,7 +5,7 @@ DOMAIN="b.ourhiddenhistory.org"
 
 if [ "${GIT_BRANCH}" == "master" ]
 then
-  DOMAIN="ourhiddenhistory.org"
+  DOMAIN="b.ourhiddenhistory.org"
 fi
 
 ssh useful@50.87.146.99 -p 2222 -o StrictHostKeyChecking=no "mkdir -p /home2/useful/${DOMAIN}/html/doc-search"
