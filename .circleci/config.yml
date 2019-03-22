@@ -3,7 +3,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-php/ for more details
 # image list: https://hub.docker.com/r/circleci/php/tags/
-#
+# Source: https://medium.freecodecamp.org/our-journey-for-using-circleci-2-0-to-build-and-deploy-an-angular-app-to-aws-s3-8e7ea3f51503
 
 version: 2.0
 
@@ -16,8 +16,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Show current branch
-          command: echo ${CIRCLE_BRANCH}
+          name: Install rsync
+          command: sudo apt install rsync
       # Restore local dependencies from cache
       - restore_cache:
           keys:
@@ -39,15 +39,6 @@ jobs:
       - run:
           name: Install Jekyll
           command: gem install jekyll && bundle install
-      - run:
-          name: Run Gulp
-          command: gulp build
-      - run:
-          name: Build site
-          command: bundle exec jekyll build
-      - run:
-          name: Install rsync
-          command: sudo apt install rsync
       - deploy:
           name: Deploy
           command: ./deploy.sh
