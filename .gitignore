@@ -2,7 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 /node_modules
-/dist
+/html
 _secret.yml
 /utils/hidden
 _data/DOCS_NOWRITE.json
